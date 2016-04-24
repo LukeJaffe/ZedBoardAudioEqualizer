@@ -11,11 +11,11 @@
 //#include "fprof.h"
 //#include "kiss_fftr.h"
 
-#define ARRAY_SIZE      (4096)
-#define SCALING_SIZE    (ARRAY_SIZE/2 + 1)
-#define IP_BANDS	    (8)
-#define FSAMPLE		    (48000)
-#define K			    ((float)FSAMPLE/(float)ARRAY_SIZE/2)
+#define INPUT_SIZE      	(4096)
+#define OUTPUT_SIZE    		(INPUT_SIZE/2 + 1)
+#define IP_BANDS	    	(8)
+#define FSAMPLE		    	(16000)
+#define K			((float)FSAMPLE/(float)OUTPUT_SIZE)
 
 /*
 kiss_fft_cpx fft_output[SCALING_SIZE];

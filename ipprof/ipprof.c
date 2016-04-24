@@ -12,38 +12,42 @@
 
 const static float freqs[] =
 {
-    [0]     0.0,
-	[1]  	16.35,
-	[2]		32.70,
-	[3]		65.41,
-	[4]		130.81,
-	[5]		261.63,
-	[6]		523.25,
-	[7]		1046.50,
-	[8]		2093.00,
-	[9]		4186.01,
-    [10]    FSAMPLE,
+	0.0,
+	16.35,
+	32.70,
+	65.41,
+	130.81,
+	261.63,
+	523.25,
+	1046.50,
+	2093.00,
+	4186.01,
+    FSAMPLE,
 };
 
-void avg(int bands[10], kiss_fft_cpx output[SCALING_SIZE]);
+const int num_freqs = sizeof(freqs)/sizeof(float);
+
+void avg(int bands[10], kiss_fft_cpx output[OUTPUT_SIZE]);
 
 int main()
 {
-    printf("K = %f, tot = %f\n", K, freqs[10]/K);
-    int bands[10];
+	printf("num_freqs: %d\n", num_freqs);
+    printf("K = %f, tot = %f\n", K, freqs[num_freqs-1]/K);
+    int bands[num_freqs-1];
     int i, j = 0;
     float k;
-    for (i = 0; i <= 10; i++)
+
+    for (i = 0; i < num_freqs-1; i++)
     {
-        bands[i] = 0;
-        for (k = freqs[i]; k < freqs[i+1] && j < ARRAY_SIZE; k = j*K, j++)
+		bands[i] = 0;
+        for (k = freqs[i]; k < freqs[i+1] && j < OUTPUT_SIZE; k = j*K, j++)
         {
             bands[i]++; 
         }
     } 
 
     int sum = 0;
-    for (i = 0; i < 10; i++)
+    for (i = 0; i < num_freqs-1; i++)
     {
         sum += bands[i];
         printf("band %d: %d\n", i, bands[i]);
@@ -51,22 +55,26 @@ int main()
     printf("tot: %d\n", sum);
 
     // calc ip
-    kiss_fft_cpx output[SCALING_SIZE];
-    kiss_fft_scalar s = sqrt(output[0].r*output[0].r* + output[0].i*output[0].i);
+    //kiss_fft_cpx output[OUTPUT_SIZE];
+    //kiss_fft_scalar s = sqrt(output[0].r*output[0].r* + output[0].i*output[0].i);
 
-    //avg(bands, output);
+    avg(bands, output);
+    return 0;
 }
 
 /*
-void avg(int bands[10], kiss_fft_cpx output[SCALING_SIZE])
+void avg(int bands[num_freqs-1], kiss_fft_cpx output[SCALING_SIZE])
 {
-    float ip[8];
+    float ip, avg[num_freqs-3];
     int i, j;
-    for (i = 1; i < 10; i++)
+    for (i = 1; i < num_freqs-1; i++)
     {
         for (j = bands[i]; j < bands[i+1]; j++)
-            ip[i-1] += output[j]; 
-        ip[i-1] /= (float)(output[j]-output[bands[i]]);
+		{
+			ip = sqrt(output[j].r*output[j].r* + output[j].i*output[j].i);
+            avg[i-1] += ip; 
+		}
+        avg[i-1] /= (float)(output[j]-output[bands[i]]);
     }
 }
 */
