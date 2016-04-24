@@ -6,6 +6,8 @@
  */
 
 #include <stdio.h>
+#include <math.h>
+#include "kiss_fft.h"
 #include "ipprof.h"
 
 const static float freqs[] =
@@ -23,6 +25,8 @@ const static float freqs[] =
     [10]    FSAMPLE,
 };
 
+void avg(int bands[10], kiss_fft_cpx output[SCALING_SIZE]);
+
 int main()
 {
     printf("K = %f, tot = %f\n", K, freqs[10]/K);
@@ -32,8 +36,7 @@ int main()
     for (i = 0; i <= 10; i++)
     {
         bands[i] = 0;
-        printf("%d\n", i);
-        for (k = freqs[i]; k < freqs[i+1]; k = j*K, j++)
+        for (k = freqs[i]; k < freqs[i+1] && j < ARRAY_SIZE; k = j*K, j++)
         {
             bands[i]++; 
         }
@@ -46,7 +49,27 @@ int main()
         printf("band %d: %d\n", i, bands[i]);
     }
     printf("tot: %d\n", sum);
+
+    // calc ip
+    kiss_fft_cpx output[SCALING_SIZE];
+    kiss_fft_scalar s = sqrt(output[0].r*output[0].r* + output[0].i*output[0].i);
+
+    //avg(bands, output);
 }
+
+/*
+void avg(int bands[10], kiss_fft_cpx output[SCALING_SIZE])
+{
+    float ip[8];
+    int i, j;
+    for (i = 1; i < 10; i++)
+    {
+        for (j = bands[i]; j < bands[i+1]; j++)
+            ip[i-1] += output[j]; 
+        ip[i-1] /= (float)(output[j]-output[bands[i]]);
+    }
+}
+*/
 
 /*
 void ipprof_init(ipprof_t* this)
