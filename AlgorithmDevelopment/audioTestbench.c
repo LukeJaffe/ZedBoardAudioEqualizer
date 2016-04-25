@@ -13,6 +13,7 @@
 // ARRAY_SIZE
 
 float * frequencyScalars;
+unsigned int ip[8];
 
 void fullSystemTest()
 {
@@ -81,8 +82,15 @@ void fullSystemTest()
 
     for (i = 0; i < num / ARRAY_SIZE / 2 ; i++)
     {
-        processInput(leftBuf + (i * ARRAY_SIZE), leftOutBuf + (i * ARRAY_SIZE), 0);
-        processInput(rightBuf + (i * ARRAY_SIZE), rightOutBuf + (i * ARRAY_SIZE), 1);
+        processInput(leftBuf + (i * ARRAY_SIZE), leftOutBuf + (i * ARRAY_SIZE), 0, ip);
+        processInput(rightBuf + (i * ARRAY_SIZE), rightOutBuf + (i * ARRAY_SIZE), 1, ip);
+
+        int j;
+        for (j = 0; j < 8; j++)
+        {
+            printf("%d, ", ip[j]);
+        }
+        printf("\n");
         //processInputBandpass(leftBuf + (i * ARRAY_SIZE), leftOutBuf + (i * ARRAY_SIZE), ARRAY_SIZE);
         //processInputBandpass(rightBuf + (i * ARRAY_SIZE), rightOutBuf + (i * ARRAY_SIZE), ARRAY_SIZE);
 
@@ -128,7 +136,7 @@ void configureAllPassTest()
         frequencyScalars[i] = 1.0;
     }
 
-    for (i = 0; i < 15; i++)
+    for (i = 15; i < SCALING_SIZE; i++)
     {
         frequencyScalars[i] = 0.0;
     }

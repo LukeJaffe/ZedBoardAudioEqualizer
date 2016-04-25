@@ -1,5 +1,15 @@
 #include "frequencyScaling.h"
 
+int bandBoundaries[NUM_FREQS][2] = 
+    {{0, 2},
+     {2, 4},
+     {4, 8},
+     {8, 16},
+     {16, 32},
+     {32, 64},
+     {64, 128},
+     {128, SCALING_SIZE}};
+
 // First half of this array is previous sample set
 // Second half of this array is current sample set
 short inputBuffer[NUM_CHANNELS][ARRAY_SIZE * 2];
@@ -50,7 +60,7 @@ void applyWindow(short *input, float *output)
 
 // Applies the FFT-scale-IFFT algorithm to an input array 
 // Also applies window before frequency scaling
-void frequencyScale(float *input, float *output, int len, float *scalars)
+void frequencyScale(float *input, float *output, int len, float *scalars, short calculateIp, unsigned int *ip)
 {
     int i;
 
@@ -78,10 +88,28 @@ void frequencyScale(float *input, float *output, int len, float *scalars)
     {
         output[i] = inputArray[i] / (1.0 * ARRAY_SIZE);
     }
+
+    if (calculateIp == CALCULATE_IP)
+    {
+        int j;
+        for (i = 0; i < NUM_FREQS; i++)
+        {
+            float thisBandIp = 0;
+
+            for (j = bandBoundaries[i][0]; j < bandBoundaries[i][1]; j++)
+            {
+                thisBandIp += sqrt(transformedArray[i].r * 
+                    transformedArray[i].r + transformedArray[i].i * 
+                    transformedArray[i].i) / 10000000 * IP_MAX_HEIGHT;
+            }
+
+            ip[i] = thisBandIp / (bandBoundaries[i][1] - bandBoundaries[i][0]);
+        }
+    }
 }
 
 // Note: this function will have half-buffer phase shift effect
-void processInput(short *input, short *output, short channel)
+void processInput(short *input, short *output, short channel, unsigned int * ip)
 {
     int i;
 
@@ -95,8 +123,9 @@ void processInput(short *input, short *output, short channel)
     applyWindow(inputBuffer[channel] + (ARRAY_SIZE / 2), windowedCrossSampleArray[channel]);
     applyWindow(inputBuffer[channel] + ARRAY_SIZE, windowedInputArray[channel]);
 
-    frequencyScale(windowedCrossSampleArray[channel], frequencyScaledSamples[channel][1], ARRAY_SIZE, frequencyScalars);
-    frequencyScale(windowedInputArray[channel], frequencyScaledSamples[channel][2], ARRAY_SIZE, frequencyScalars);
+    frequencyScale(windowedCrossSampleArray[channel], frequencyScaledSamples[channel][1], ARRAY_SIZE, frequencyScalars, DO_NOT_CALCULATE_IP, ip);
+
+    frequencyScale(windowedInputArray[channel], frequencyScaledSamples[channel][2], ARRAY_SIZE, frequencyScalars, CALCULATE_IP, ip);
 
     // Sum overlaps to produce the output array
     for (i = 0; i < ARRAY_SIZE / 2; i++)
@@ -124,4 +153,5 @@ void processInput(short *input, short *output, short channel)
     }
     printf("\n\n");
     */
+    
 }
