@@ -13,6 +13,9 @@ C_SRCS += \
 ../src/audioSample.c \
 ../src/bufferPool_d.c \
 ../src/chunk_d.c \
+../src/fprof.c \
+../src/frequencyScaling.c \
+../src/ipprof.c \
 ../src/kiss_fft.c \
 ../src/kiss_fftr.c \
 ../src/main.c \
@@ -25,6 +28,9 @@ OBJS += \
 ./src/audioSample.o \
 ./src/bufferPool_d.o \
 ./src/chunk_d.o \
+./src/fprof.o \
+./src/frequencyScaling.o \
+./src/ipprof.o \
 ./src/kiss_fft.o \
 ./src/kiss_fftr.o \
 ./src/main.o \
@@ -37,6 +43,9 @@ C_DEPS += \
 ./src/audioSample.d \
 ./src/bufferPool_d.d \
 ./src/chunk_d.d \
+./src/fprof.d \
+./src/frequencyScaling.d \
+./src/ipprof.d \
 ./src/kiss_fft.d \
 ./src/kiss_fftr.d \
 ./src/main.d \

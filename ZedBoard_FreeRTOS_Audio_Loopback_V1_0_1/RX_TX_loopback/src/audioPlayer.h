@@ -22,8 +22,6 @@
 #include "audioRxTx.h"
 #include "adau1761.h"
 
-#define CHUNK_SIZE 512
-
 /** audioPlayer object **/
 typedef struct {
   audioRxTx_t      	Audio;  /* transmit/recieve object */

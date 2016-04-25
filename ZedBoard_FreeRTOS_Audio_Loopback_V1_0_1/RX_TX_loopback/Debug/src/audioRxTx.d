@@ -47,8 +47,8 @@ src/audioRxTx.o src/audioRxTx.d: ../src/audioRxTx.c ../src/audioRxTx.h \
  ../../freertos_bsp_3_1_1/ps7_cortexa9_0/include/xuartps_hw.h \
  ../../freertos_bsp_3_1_1/ps7_cortexa9_0/include/xiicps.h \
  ../../freertos_bsp_3_1_1/ps7_cortexa9_0/include/xiicps_hw.h \
- ../src/adau1761.h ../src/audioSample.h ../src/test_fft.h \
- ../src/audioPlayer.h ../src/kiss_fftr.h ../src/kiss_fft.h
+ ../src/adau1761.h ../src/audioSample.h ../src/frequencyScaling.h \
+ ../src/kiss_fft.h ../src/kiss_fftr.h ../src/fprof.h ../src/ipprof.h
 
 ../src/audioRxTx.h:
 
@@ -156,10 +156,12 @@ src/audioRxTx.o src/audioRxTx.d: ../src/audioRxTx.c ../src/audioRxTx.h \
 
 ../src/audioSample.h:
 
-../src/test_fft.h:
+../src/frequencyScaling.h:
 
-../src/audioPlayer.h:
+../src/kiss_fft.h:
 
 ../src/kiss_fftr.h:
 
-../src/kiss_fft.h:
+../src/fprof.h:
+
+../src/ipprof.h:

@@ -1,0 +1,144 @@
+#include "frequencyScaling.h"
+#include "fprof.h"
+
+// First half of this array is previous sample set
+// Second half of this array is current sample set
+short inputBuffer[ARRAY_SIZE * 2];
+
+// FFT memory buffer
+size_t fft_mem = MEMNEEDED;
+size_t ifft_mem = MEMNEEDED;
+char fft_buf[MEMNEEDED];
+char ifft_buf[MEMNEEDED];
+
+float windowedCrossSampleArray[ARRAY_SIZE];
+float windowedInputArray[ARRAY_SIZE];
+
+/* Store results of windowed frequency scaling in alternating buffers */
+float frequencyScaledSamples[3][ARRAY_SIZE];
+
+float hanningWindow[ARRAY_SIZE];
+
+float* frequencyScalars;
+
+kiss_fftr_cfg fftr_cfg;
+kiss_fftr_cfg ifftr_cfg;
+
+void configureFft()
+{
+    if ((fftr_cfg = kiss_fftr_alloc(ARRAY_SIZE, 0, fft_buf, &fft_mem)) == NULL)
+    	printf("Not enough memory for fft.\n");
+    if ((ifftr_cfg = kiss_fftr_alloc(ARRAY_SIZE, 1, ifft_buf, &ifft_mem)) == NULL)
+		printf("Not enough memory for ifft.\n");
+    printf("configureFft\n");
+}
+
+void configureScalars(float *input)
+{
+	frequencyScalars = input;
+	printf("configureScalars\n");
+}
+
+void configureWindow()
+{
+    int i;
+    
+    for (i = 0; i < ARRAY_SIZE; i++)
+    {
+        hanningWindow[i] = 0.5 * (1 - cos((2 * PI * i) / (ARRAY_SIZE - 1)));
+    }
+    printf("configureWindow\n");
+}
+
+void applyWindow(short *input, float *output)
+{
+    int i;
+
+    for (i = 0; i < ARRAY_SIZE; i++)
+    {
+        output[i] = input[i] * hanningWindow[i];
+    }
+}
+
+// Applies the FFT-scale-IFFT algorithm to an input array 
+// Also applies window before frequency scaling
+void frequencyScale(float *input, float *output, int len, float *scalars)
+{
+    int i;
+    kiss_fft_scalar inputArray[len];
+    kiss_fft_cpx transformedArray[len / 2 + 1];
+
+    for (i = 0; i < len; i++)
+    {
+        //inputComplex[i].r = input[i];
+        //inputComplex[i].i = 0;
+        inputArray[i] = input[i];
+    }
+
+    kiss_fftr(fftr_cfg, inputArray, transformedArray);
+
+    for (i = 0; i < SCALING_SIZE; i++)
+    {
+        transformedArray[i].r *= scalars[i];
+        transformedArray[i].i *= scalars[i];
+    }
+
+    kiss_fftri(ifftr_cfg, transformedArray, inputArray);
+
+    for (i = 0; i < ARRAY_SIZE; i++)
+    {
+        output[i] = inputArray[i] / (1.0 * ARRAY_SIZE);
+    }
+}
+
+// Note: this function will have half-buffer phase shift effect
+void processInput(short *input, short *output)
+{
+	//printf("processInput\n");
+    int i;
+
+    // Read in the input buffer
+    for (i = 0; i < ARRAY_SIZE; i++)
+    {
+        inputBuffer[ARRAY_SIZE + i] = input[i];
+    }
+
+    // Apply windows to the midpoint buffer and input buffer
+    applyWindow(inputBuffer + (ARRAY_SIZE / 2), windowedCrossSampleArray);
+    applyWindow(inputBuffer + ARRAY_SIZE, windowedInputArray);
+
+    frequencyScale(windowedCrossSampleArray, frequencyScaledSamples[1], ARRAY_SIZE, frequencyScalars);
+    frequencyScale(windowedInputArray, frequencyScaledSamples[2], ARRAY_SIZE, frequencyScalars);
+
+    // Sum overlaps to produce the output array
+    for (i = 0; i < ARRAY_SIZE / 2; i++)
+    {
+        output[i] = frequencyScaledSamples[FSS_PREVIOUS_INPUT][ARRAY_SIZE / 2 + i] + frequencyScaledSamples[FSS_CROSS_INPUT][i];
+    }
+
+    for (i = ARRAY_SIZE / 2; i < ARRAY_SIZE; i++)
+    {
+        // float -> short conversion should be handled automatically
+        output[i] = frequencyScaledSamples[FSS_CROSS_INPUT][i] + frequencyScaledSamples[FSS_THIS_INPUT][i - (ARRAY_SIZE / 2)];
+    }
+
+    // Store input and scaled version of input for use in next iteration
+    for (i = 0; i < ARRAY_SIZE; i++)
+    {
+        inputBuffer[i] = inputBuffer[i + ARRAY_SIZE];
+        frequencyScaledSamples[FSS_PREVIOUS_INPUT][i] = frequencyScaledSamples[FSS_THIS_INPUT][i];
+    }
+}
+
+void fft(short* input, kiss_fft_cpx* output)
+{
+    int i;
+    kiss_fft_scalar inputArray[ARRAY_SIZE];
+    kiss_fft_cpx transformedArray[ARRAY_SIZE / 2 + 1];
+
+    for (i = 0; i < ARRAY_SIZE; i++)
+        inputArray[i] = input[i];
+
+    kiss_fftr(fftr_cfg, inputArray, transformedArray);
+    return transformedArray;
+}

@@ -1,10 +1,18 @@
 #ifndef FPROF_H
 #define FPROF_H
 
+#define CHUNK_BYTES 	(16384)
+#define CHUNK_SAMPLES 	(CHUNK_BYTES/4)
+
+#define ARRAY_SIZE		(CHUNK_SAMPLES)
+#define SCALING_SIZE	(ARRAY_SIZE/2 + 1)
+
 #define NUM_BANDS       (8) // anchor bands
-#define NUM_SUB_BANDS	(4) // bands per anchor
+#define NUM_SUB_BANDS	(ARRAY_SIZE/NUM_BANDS) // bands per anchor
 #define MAX_BAND_VAL    (9)
 #define MIN_BAND_VAL    (0)
+
+float frequency_scalars[SCALING_SIZE];
 
 // frequency profile struct
 typedef struct
@@ -13,73 +21,18 @@ typedef struct
     int selected;
 } fprof_t;
 
-void fprof_init(fprof_t* this)
-{
-    int i;
-    //for (i = 0; i < NUM_BANDS; i++)
-    //  this->bands[i] = 4;
+void fprof_init(fprof_t* this);
 
-    this->bands[0] = 4;
-    this->bands[1] = 3;
-    this->bands[2] = 5;
-    this->bands[3] = 4;
-    this->bands[4] = 6;
-    this->bands[5] = 5;
-    this->bands[6] = 7;
-    this->bands[7] = 6;
+void fprof_incSel(fprof_t* this);
 
-    this->selected = 3;
-}
+void fprof_decSel(fprof_t* this);
 
-void fprof_incSel(fprof_t* this)
-{
-    if (this->selected < NUM_BANDS-1)
-        this->selected++;
-}
+void fprof_incBand(fprof_t* this);
 
-void fprof_decSel(fprof_t* this)
-{
-    if (this->selected > 0)
-        this->selected--;
-}
+void fprof_decBand(fprof_t* this);
 
-void fprof_incBand(fprof_t* this)
-{
-    if (this->bands[this->selected] < MAX_BAND_VAL-1)
-        this->bands[this->selected]++;
-}
+void fprof_getBands(fprof_t* this, char buffer[12]);
 
-void fprof_decBand(fprof_t* this)
-{
-    if (this->bands[this->selected] > MIN_BAND_VAL)
-        this->bands[this->selected]--;
-}
-
-void fprof_getBands(fprof_t* this, char buffer[12])
-{
-    int i;
-    buffer[0] = 'S';
-    buffer[1] = this->selected + '0';
-    for (i = 2; i < 2+NUM_BANDS; i++)
-        buffer[i] = this->bands[i-2] + '0';
-    buffer[NUM_BANDS+2] = 'E';
-    buffer[NUM_BANDS+3] = '\0';
-}
-
-void fprof_getSubBands(fprof_t* this, float bands[NUM_BANDS*NUM_SUB_BANDS])
-{
-	int i, j;
-	float diff, inc, val;
-	for (i = 0; i < NUM_BANDS-1; i++)
-	{
-		diff = (float)(this->bands[i+1] - this->bands[i]);
-		inc = diff/(float)NUM_SUB_BANDS;
-		for (j = 0; j < NUM_SUB_BANDS; j++)
-		{
-			val = ((float)this->bands[i]) + ((float)j)*inc;
-			bands[i*NUM_SUB_BANDS + j] = val;
-		}
-	}
-}
+void fprof_getScalars(fprof_t* this, float scalars[ARRAY_SIZE]);
 
 #endif

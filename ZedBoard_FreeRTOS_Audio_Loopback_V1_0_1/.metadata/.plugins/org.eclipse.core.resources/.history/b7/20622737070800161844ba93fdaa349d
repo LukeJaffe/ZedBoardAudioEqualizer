@@ -1,0 +1,36 @@
+/*
+ * ipprof.h
+ *
+ *  Created on: Apr 21, 2016
+ *      Author: jaffe.lu
+ */
+
+#ifndef IPPROF_H_
+#define IPPROF_H_
+
+#include "fprof.h"
+#include "kiss_fftr.h"
+
+#define IP_BANDS	(8)
+
+float freqs[] =
+{
+	[0]  	16.35,
+	[1]
+
+};
+
+kiss_fft_cpx fft_output[SCALING_SIZE];
+
+typedef struct
+{
+	float freqs[IP_BANDS+1];
+    int bands[IP_BANDS];
+    int selected;
+} ipprof_t;
+
+void ipprof_init(ipprof_t* this);
+
+void ipprof_getBands(ipprof_t* this, kiss_fft_cpx fft_output[SCALING_SIZE]);
+
+#endif /* IPPROF_H_ */

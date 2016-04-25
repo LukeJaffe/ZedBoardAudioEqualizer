@@ -1,2 +1,2 @@
    text	   data	    bss	    dec	    hex	filename
- 124328	1148896	  99244	1372468	 14f134	RX_TX_loopback.elf
+ 126832	1148896	 242140	1517868	 17292c	RX_TX_loopback.elf
