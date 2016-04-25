@@ -25,7 +25,7 @@
 
 
 /* number of chunks to allocate */
-#define CHUNK_NUM 30
+#define CHUNK_NUM 60
 #define VOLUME_CHANGE_STEP (4)
 #define VOLUME_MAX (0x7F)
 #define VOLUME_MIN (0x2F)
@@ -53,7 +53,7 @@ int audioPlayer_init(audioPlayer_t *pThis) {
     printf("[AP]: Init start\r\n");
     
     pThis->volume 		= VOLUME_MIN; /*default volume */
-    pThis->frequency 	= 48000; /* default frequency */
+    pThis->frequency 	= 16384; /* default frequency */
     
     /* Init I2C/I2S/CODEC and AXI Streaming FIFO */
 	Adau1761_Init(&pThis->codec);
@@ -91,7 +91,7 @@ int audioPlayer_start(audioPlayer_t *pThis)
     xTaskCreate( display_task, ( signed char * ) "DISPLAY", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1 , NULL );
 
 	/* Audio Player task creation */
-	xTaskCreate( audioPlayer_task, ( signed char * ) "PLAYER", configMINIMAL_STACK_SIZE<<4, pThis, tskIDLE_PRIORITY + 1 , NULL );
+	xTaskCreate( audioPlayer_task, ( signed char * ) "PLAYER", 5000, pThis, tskIDLE_PRIORITY + 1 , NULL );
 
 	return PASS;
 }

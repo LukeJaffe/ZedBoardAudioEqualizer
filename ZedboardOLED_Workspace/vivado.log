@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Sun Apr 24 14:46:16 2016
+# Process ID: 1000
+# Log file: C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace/vivado.log
+# Journal file: C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedboardOLED_Workspace\test_system.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Lucas' since last save.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_1.0'; using path 'C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_1.0' instead.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.2/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace/test_system.srcs/sources_1/bd/system/hdl/system_wrapper.v]
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace/test_system.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace/test_system.srcs/sources_1/bd/system/ip/system_ZedboardOLED_0_0/system_ZedboardOLED_0_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. c:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace/test_system.srcs/sources_1/bd/system/ip/system_ZedboardOLED_0_0/src/charLib/charLib.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace/test_system.srcs/sources_1/bd/system/ip/system_processing_system7_0_axi_periph_0/system_processing_system7_0_axi_periph_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace/test_system.srcs/sources_1/bd/system/ip/system_rst_processing_system7_0_100M_0/system_rst_processing_system7_0_100M_0.xci
+INFO: [Memdata 28-152] Did  not create MIG processor data. C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace/test_system.srcs/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0.xci

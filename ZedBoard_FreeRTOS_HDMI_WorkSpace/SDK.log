@@ -1,0 +1,6 @@
+14:22:07 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedBoard_FreeRTOS_HDMI_WorkSpace\temp_xsdb_launch_script.tcl
+14:22:08 INFO  : XSDB server has started successfully.
+14:22:49 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedBoard_FreeRTOS_HDMI_WorkSpace\temp_xsdb_launch_script.tcl
+14:22:50 INFO  : XSDB server has started successfully.
+14:23:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:31:40 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

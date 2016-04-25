@@ -1,0 +1,5 @@
+15:07:53 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedboardOLED_Workspace\test_system\test_system.sdk\temp_xsdb_launch_script.tcl
+15:07:54 INFO  : XSDB server has started successfully.
+15:08:54 INFO  : Project 'system_wrapper_hw_platform_0' created. You can now create BSPs and application projects targeting this hardware platform.
+15:27:57 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedboardOLED_Workspace\test_system\test_system.sdk\temp_xsdb_launch_script.tcl
+15:27:59 INFO  : XSDB server has started successfully.

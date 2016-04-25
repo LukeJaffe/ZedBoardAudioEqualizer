@@ -1,6 +1,6 @@
-18:06:21 **** Incremental Build of configuration Debug for project RX_TX_loopback ****
+17:30:06 **** Incremental Build of configuration Debug for project RX_TX_loopback ****
 make all 
 make: Nothing to be done for `all'.
 
-18:06:21 Build Finished (took 170ms)
+17:30:07 Build Finished (took 140ms)
 

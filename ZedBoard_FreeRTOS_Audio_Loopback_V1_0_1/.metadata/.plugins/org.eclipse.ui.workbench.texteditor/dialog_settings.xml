@@ -8,6 +8,7 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="fequency"/>
 			<item value="prof"/>
 			<item value="ipprof"/>
 			<item value="improper"/>
@@ -15,7 +16,6 @@
 			<item value="adau1761_regWrite"/>
 			<item value="adau1761_samplingFreqSet"/>
 			<item value="set"/>
-			<item value="enable"/>
 		</list>
 		<list key="replacehistory">
 			<item value="Adau1761_RegWrite"/>

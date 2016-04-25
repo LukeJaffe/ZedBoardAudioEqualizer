@@ -1,0 +1,2269 @@
+15:37:15 **** Build of project freeRTOS_Audio_Oled_XADC_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/freertos823_xilinx_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/freertos823_xilinx_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"include"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/spips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sysmon_v7_1/src"
+make -C ps7_cortexa9_0/libsrc/sysmon_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/freertos823_xilinx_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/freertos823_xilinx_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Compiling FreeRTOS"
+arm-xilinx-eabi-ar: creating ../../../lib/libfreertos.a
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling spips"
+"Running Make libs in ps7_cortexa9_0/libsrc/sysmon_v7_1/src"
+make -C ps7_cortexa9_0/libsrc/sysmon_v7_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sysmon"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project Audio_reference_proj ****
+
+Nothing to build for project Audio_reference_proj
+
+**** Build of configuration Debug for project OLED_reference_proj ****
+
+Nothing to build for project OLED_reference_proj
+15:42:29 **** Build of project New_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/spips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_3/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sysmon_v7_1/src"
+make -C ps7_cortexa9_0/libsrc/sysmon_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Command canceled
+15:43:15 **** Build of project New_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Command canceled
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+15:45:17 **** Auto Build of configuration Debug for project Audio_reference_proj ****
+make all 
+'Building file: ../src/adau1761.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adau1761.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adau1761.d" -MT"src/adau1761.d" -o "src/adau1761.o" "../src/adau1761.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/adau1761.c:1:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/adau1761.c'
+' '
+'Building file: ../src/audioPlayer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioPlayer.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioPlayer.d" -MT"src/audioPlayer.d" -o "src/audioPlayer.o" "../src/audioPlayer.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/audioPlayer.c: In function 'audioPlayer_init':
+../src/audioPlayer.c:58:2: warning: implicit declaration of function 'Adau1761_Init' [-Wimplicit-function-declaration]
+  Adau1761_Init(&pThis->codec);
+  ^
+In file included from ../src/zedboard_freertos.h:2:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../src/audioPlayer.c: In function 'audioPlayer_start':
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:86:2: note: in expansion of macro 'xTaskCreate'
+  xTaskCreate( audioPlayer_task, ( signed char * ) "HW", configMINIMAL_STACK_SIZE, pThis, tskIDLE_PRIORITY + 1 , NULL );
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../src/audioPlayer.c: In function 'audioPlayer_task':
+../src/audioPlayer.c:99:2: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+  print_message("Hello world",2);
+  ^
+'Finished building: ../src/audioPlayer.c'
+' '
+'Building file: ../src/audioRxTx.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioRxTx.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioRxTx.d" -MT"src/audioRxTx.d" -o "src/audioRxTx.o" "../src/audioRxTx.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/audioRxTx.c:18:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/audioRxTx.c: In function 'audioRxTx_start':
+../src/audioRxTx.c:50:2: warning: implicit declaration of function 'prvGetInterruptControllerInstance' [-Wimplicit-function-declaration]
+  pGic = prvGetInterruptControllerInstance(); // retrieve pointer to initialized instance
+  ^
+../src/audioRxTx.c:50:7: warning: assignment makes pointer from integer without a cast
+  pGic = prvGetInterruptControllerInstance(); // retrieve pointer to initialized instance
+       ^
+'Finished building: ../src/audioRxTx.c'
+' '
+'Building file: ../src/audioSample.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioSample.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioSample.d" -MT"src/audioSample.d" -o "src/audioSample.o" "../src/audioSample.c"
+../src/audioSample.c: In function 'audioSample_init':
+../src/audioSample.c:31:17: warning: assignment from incompatible pointer type
+   pThis->pmem   = snd_samples;
+                 ^
+'Finished building: ../src/audioSample.c'
+' '
+'Building file: ../src/bufferPool_d.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bufferPool_d.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/bufferPool_d.d" -MT"src/bufferPool_d.d" -o "src/bufferPool_d.o" "../src/bufferPool_d.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/bufferPool_d.c:17:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/zedboard_freertos.h:3:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/bufferPool_d.c:17:
+../src/bufferPool_d.c: In function 'bufferPool_d_init':
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:421:109: warning: passing argument 3 of 'xQueueGenericSend' makes integer from pointer without a cast
+ #define xQueueSend( xQueue, pvItemToQueue, xTicksToWait ) xQueueGenericSend( ( xQueue ), ( pvItemToQueue ), ( xTicksToWait ), queueSEND_TO_BACK )
+                                                                                                             ^
+../src/bufferPool_d.c:64:6: note: in expansion of macro 'xQueueSend'
+   if(xQueueSend( pThis->freeList, &pChunk, NULL ) != pdPASS) {
+      ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:592:12: note: expected 'TickType_t' but argument is of type 'void *'
+ BaseType_t xQueueGenericSend( QueueHandle_t xQueue, const void * const pvItemToQueue, TickType_t xTicksToWait, const BaseType_t xCopyPosition ) PRIVILEGED_FUNCTION;
+            ^
+../src/bufferPool_d.c: In function 'bufferPool_d_release_from_ISR':
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:1261:136: warning: passing argument 3 of 'xQueueGenericSendFromISR' makes pointer from integer without a cast
+ #define xQueueSendFromISR( xQueue, pvItemToQueue, pxHigherPriorityTaskWoken ) xQueueGenericSendFromISR( ( xQueue ), ( pvItemToQueue ), ( pxHigherPriorityTaskWoken ), queueSEND_TO_BACK )
+                                                                                                                                        ^
+../src/bufferPool_d.c:161:5: note: in expansion of macro 'xQueueSendFromISR'
+  if(xQueueSendFromISR( pThis->freeList, &pChunk, ( TickType_t ) 10 ) != pdPASS) {
+     ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:1340:12: note: expected 'BaseType_t * const' but argument is of type 'long unsigned int'
+ BaseType_t xQueueGenericSendFromISR( QueueHandle_t xQueue, const void * const pvItemToQueue, BaseType_t * const pxHigherPriorityTaskWoken, const BaseType_t xCopyPosition ) PRIVILEGED_FUNCTION;
+            ^
+'Finished building: ../src/bufferPool_d.c'
+' '
+'Building file: ../src/chunk_d.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chunk_d.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/chunk_d.d" -MT"src/chunk_d.d" -o "src/chunk_d.o" "../src/chunk_d.c"
+'Finished building: ../src/chunk_d.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/main.c:23:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/main.c: In function 'main':
+../src/main.c:51:5: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+     print_message("Surya",0);
+     ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/snd_sample.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snd_sample.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/snd_sample.d" -MT"src/snd_sample.d" -o "src/snd_sample.o" "../src/snd_sample.c"
+'Finished building: ../src/snd_sample.c'
+' '
+'Building target: Audio_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "Audio_reference_proj.elf"  ./src/adau1761.o ./src/audioPlayer.o ./src/audioRxTx.o ./src/audioSample.o ./src/bufferPool_d.o ./src/chunk_d.o ./src/main.o ./src/snd_sample.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+./src/audioPlayer.o: In function `audioPlayer_task':
+D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\Audio_reference_proj\Debug/../src/audioPlayer.c:99: undefined reference to `print_message'
+D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\Audio_reference_proj\Debug/../src/audioPlayer.c:100: undefined reference to `print_message'
+./src/audioRxTx.o: In function `audioRxTx_start':
+D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\Audio_reference_proj\Debug/../src/audioRxTx.c:50: undefined reference to `prvGetInterruptControllerInstance'
+./src/main.o: In function `main':
+D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\Audio_reference_proj\Debug/../src/main.c:51: undefined reference to `print_message'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Audio_reference_proj.elf] ´íÎó 1
+
+**** Build of configuration Debug for project OLED_reference_proj ****
+
+Nothing to build for project OLED_reference_proj
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+15:45:47 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+'Building target: Audio_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "Audio_reference_proj.elf"  ./src/adau1761.o ./src/audioPlayer.o ./src/audioRxTx.o ./src/audioSample.o ./src/bufferPool_d.o ./src/chunk_d.o ./src/main.o ./src/snd_sample.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+./src/audioPlayer.o: In function `audioPlayer_task':
+D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\Audio_reference_proj\Debug/../src/audioPlayer.c:99: undefined reference to `print_message'
+D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\Audio_reference_proj\Debug/../src/audioPlayer.c:100: undefined reference to `print_message'
+./src/audioRxTx.o: In function `audioRxTx_start':
+D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\Audio_reference_proj\Debug/../src/audioRxTx.c:50: undefined reference to `prvGetInterruptControllerInstance'
+./src/main.o: In function `main':
+D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\Audio_reference_proj\Debug/../src/main.c:51: undefined reference to `print_message'
+collect2.exe: error: ld returned 1 exit status
+make: *** [Audio_reference_proj.elf] ´íÎó 1
+15:45:50 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.d" -o "src/oled.o" "../src/oled.c"
+../src/oled.c: In function 'main':
+../src/oled.c:8:1: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+ print_message("Hello",0);
+ ^
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+./src/oled.o: In function `main':
+D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\OLED_reference_proj\Debug/../src/oled.c:8: undefined reference to `print_message'
+D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\OLED_reference_proj\Debug/../src/oled.c:9: undefined reference to `print_message'
+D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\OLED_reference_proj\Debug/../src/oled.c:10: undefined reference to `print_message'
+collect2.exe: error: ld returned 1 exit status
+make: *** [OLED_reference_proj.elf] ´íÎó 1
+15:46:16 **** Auto Build of project freeRTOS_Audio_Oled_XADC_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/freertos823_xilinx_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/freertos823_xilinx_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"include"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/llfifo_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/llfifo_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/spips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sysmon_v7_1/src"
+make -C ps7_cortexa9_0/libsrc/sysmon_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ZedboardOLED_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ZedboardOLED_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/freertos823_xilinx_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/freertos823_xilinx_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Compiling FreeRTOS"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/llfifo_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/llfifo_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling llfifo"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling spips"
+"Running Make libs in ps7_cortexa9_0/libsrc/sysmon_v7_1/src"
+make -C ps7_cortexa9_0/libsrc/sysmon_v7_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sysmon"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ZedboardOLED_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ZedboardOLED_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ZedboardOLED..."
+'Finished building libraries'
+15:47:35 **** Incremental Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75212	   3104	  88956	 167272	  28d68	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+15:47:40 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+'Building file: ../src/adau1761.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adau1761.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adau1761.d" -MT"src/adau1761.d" -o "src/adau1761.o" "../src/adau1761.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/adau1761.c:1:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/adau1761.c'
+' '
+'Building file: ../src/audioPlayer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioPlayer.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioPlayer.d" -MT"src/audioPlayer.d" -o "src/audioPlayer.o" "../src/audioPlayer.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/audioPlayer.c: In function 'audioPlayer_init':
+../src/audioPlayer.c:58:2: warning: implicit declaration of function 'Adau1761_Init' [-Wimplicit-function-declaration]
+  Adau1761_Init(&pThis->codec);
+  ^
+In file included from ../src/zedboard_freertos.h:2:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../src/audioPlayer.c: In function 'audioPlayer_start':
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:86:2: note: in expansion of macro 'xTaskCreate'
+  xTaskCreate( audioPlayer_task, ( signed char * ) "HW", configMINIMAL_STACK_SIZE, pThis, tskIDLE_PRIORITY + 1 , NULL );
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../src/audioPlayer.c: In function 'audioPlayer_task':
+../src/audioPlayer.c:99:2: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+  print_message("Hello world",2);
+  ^
+'Finished building: ../src/audioPlayer.c'
+' '
+'Building file: ../src/audioRxTx.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioRxTx.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioRxTx.d" -MT"src/audioRxTx.d" -o "src/audioRxTx.o" "../src/audioRxTx.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/audioRxTx.c:18:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/audioRxTx.c: In function 'audioRxTx_start':
+../src/audioRxTx.c:50:2: warning: implicit declaration of function 'prvGetInterruptControllerInstance' [-Wimplicit-function-declaration]
+  pGic = prvGetInterruptControllerInstance(); // retrieve pointer to initialized instance
+  ^
+../src/audioRxTx.c:50:7: warning: assignment makes pointer from integer without a cast
+  pGic = prvGetInterruptControllerInstance(); // retrieve pointer to initialized instance
+       ^
+'Finished building: ../src/audioRxTx.c'
+' '
+'Building file: ../src/bufferPool_d.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bufferPool_d.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/bufferPool_d.d" -MT"src/bufferPool_d.d" -o "src/bufferPool_d.o" "../src/bufferPool_d.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/bufferPool_d.c:17:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/zedboard_freertos.h:3:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/bufferPool_d.c:17:
+../src/bufferPool_d.c: In function 'bufferPool_d_init':
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:421:109: warning: passing argument 3 of 'xQueueGenericSend' makes integer from pointer without a cast
+ #define xQueueSend( xQueue, pvItemToQueue, xTicksToWait ) xQueueGenericSend( ( xQueue ), ( pvItemToQueue ), ( xTicksToWait ), queueSEND_TO_BACK )
+                                                                                                             ^
+../src/bufferPool_d.c:64:6: note: in expansion of macro 'xQueueSend'
+   if(xQueueSend( pThis->freeList, &pChunk, NULL ) != pdPASS) {
+      ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:592:12: note: expected 'TickType_t' but argument is of type 'void *'
+ BaseType_t xQueueGenericSend( QueueHandle_t xQueue, const void * const pvItemToQueue, TickType_t xTicksToWait, const BaseType_t xCopyPosition ) PRIVILEGED_FUNCTION;
+            ^
+../src/bufferPool_d.c: In function 'bufferPool_d_release_from_ISR':
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:1261:136: warning: passing argument 3 of 'xQueueGenericSendFromISR' makes pointer from integer without a cast
+ #define xQueueSendFromISR( xQueue, pvItemToQueue, pxHigherPriorityTaskWoken ) xQueueGenericSendFromISR( ( xQueue ), ( pvItemToQueue ), ( pxHigherPriorityTaskWoken ), queueSEND_TO_BACK )
+                                                                                                                                        ^
+../src/bufferPool_d.c:161:5: note: in expansion of macro 'xQueueSendFromISR'
+  if(xQueueSendFromISR( pThis->freeList, &pChunk, ( TickType_t ) 10 ) != pdPASS) {
+     ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:1340:12: note: expected 'BaseType_t * const' but argument is of type 'long unsigned int'
+ BaseType_t xQueueGenericSendFromISR( QueueHandle_t xQueue, const void * const pvItemToQueue, BaseType_t * const pxHigherPriorityTaskWoken, const BaseType_t xCopyPosition ) PRIVILEGED_FUNCTION;
+            ^
+'Finished building: ../src/bufferPool_d.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/main.c:23:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/main.c: In function 'main':
+../src/main.c:51:5: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+     print_message("Surya",0);
+     ^
+'Finished building: ../src/main.c'
+' '
+'Building target: Audio_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "Audio_reference_proj.elf"  ./src/adau1761.o ./src/audioPlayer.o ./src/audioRxTx.o ./src/audioSample.o ./src/bufferPool_d.o ./src/chunk_d.o ./src/main.o ./src/snd_sample.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: Audio_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Audio_reference_proj.elf  |tee "Audio_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 107516	1148900	  89180	1345596	 14883c	Audio_reference_proj.elf
+'Finished building: Audio_reference_proj.elf.size'
+' '
+15:48:14 **** Incremental Build of configuration Debug for project OLED_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+15:48:15 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+15:51:31 **** Incremental Build of configuration Debug for project OLED_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+15:51:32 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+15:52:53 **** Auto Build of configuration Debug for project Audio_reference_proj ****
+make all 
+'Building file: ../src/audioPlayer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioPlayer.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioPlayer.d" -MT"src/audioPlayer.d" -o "src/audioPlayer.o" "../src/audioPlayer.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/audioPlayer.c: In function 'audioPlayer_init':
+../src/audioPlayer.c:58:2: warning: implicit declaration of function 'Adau1761_Init' [-Wimplicit-function-declaration]
+  Adau1761_Init(&pThis->codec);
+  ^
+In file included from ../src/zedboard_freertos.h:2:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../src/audioPlayer.c: In function 'audioPlayer_start':
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:86:2: note: in expansion of macro 'xTaskCreate'
+  xTaskCreate( audioPlayer_task, ( signed char * ) "HW", configMINIMAL_STACK_SIZE, pThis, tskIDLE_PRIORITY + 1 , NULL );
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../src/audioPlayer.c: In function 'audioPlayer_task':
+../src/audioPlayer.c:99:2: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+  print_message("Hello world",2);
+  ^
+'Finished building: ../src/audioPlayer.c'
+' '
+'Building target: Audio_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "Audio_reference_proj.elf"  ./src/adau1761.o ./src/audioPlayer.o ./src/audioRxTx.o ./src/audioSample.o ./src/bufferPool_d.o ./src/chunk_d.o ./src/main.o ./src/snd_sample.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: Audio_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Audio_reference_proj.elf  |tee "Audio_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 107492	1148900	  89180	1345572	 148824	Audio_reference_proj.elf
+'Finished building: Audio_reference_proj.elf.size'
+' '
+15:53:08 **** Auto Build of configuration Debug for project Audio_reference_proj ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/main.c:23:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: Audio_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "Audio_reference_proj.elf"  ./src/adau1761.o ./src/audioPlayer.o ./src/audioRxTx.o ./src/audioSample.o ./src/bufferPool_d.o ./src/chunk_d.o ./src/main.o ./src/snd_sample.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: Audio_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Audio_reference_proj.elf  |tee "Audio_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 107420	1148900	  89180	1345500	 1487dc	Audio_reference_proj.elf
+'Finished building: Audio_reference_proj.elf.size'
+' '
+15:53:32 **** Incremental Build of configuration Debug for project OLED_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+15:53:33 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+15:54:16 **** Auto Build of configuration Debug for project Audio_reference_proj ****
+make all 
+'Building file: ../src/adau1761.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adau1761.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adau1761.d" -MT"src/adau1761.d" -o "src/adau1761.o" "../src/adau1761.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/adau1761.c:1:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/adau1761.c: In function 'Adau1761_Init':
+../src/adau1761.c:29:27: error: 'LINE' undeclared (first use in this function)
+  Adau1761_InSelect(pThis, LINE, 0xFF, 0xFF);
+                           ^
+../src/adau1761.c:29:27: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/adau1761.o] ´íÎó 1
+15:54:20 **** Incremental Build of configuration Debug for project OLED_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+15:54:21 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+'Building file: ../src/adau1761.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adau1761.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adau1761.d" -MT"src/adau1761.d" -o "src/adau1761.o" "../src/adau1761.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/adau1761.c:1:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/adau1761.c: In function 'Adau1761_Init':
+../src/adau1761.c:29:27: error: 'LINE' undeclared (first use in this function)
+  Adau1761_InSelect(pThis, LINE, 0xFF, 0xFF);
+                           ^
+../src/adau1761.c:29:27: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/adau1761.o] ´íÎó 1
+15:54:31 **** Auto Build of configuration Debug for project Audio_reference_proj ****
+make all 
+'Building file: ../src/adau1761.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adau1761.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adau1761.d" -MT"src/adau1761.d" -o "src/adau1761.o" "../src/adau1761.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/adau1761.c:1:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/adau1761.c'
+' '
+'Building target: Audio_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "Audio_reference_proj.elf"  ./src/adau1761.o ./src/audioPlayer.o ./src/audioRxTx.o ./src/audioSample.o ./src/bufferPool_d.o ./src/chunk_d.o ./src/main.o ./src/snd_sample.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: Audio_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Audio_reference_proj.elf  |tee "Audio_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 107420	1148900	  89180	1345500	 1487dc	Audio_reference_proj.elf
+'Finished building: Audio_reference_proj.elf.size'
+' '
+15:54:37 **** Incremental Build of configuration Debug for project OLED_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+15:54:39 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+15:54:55 **** Auto Build of configuration Debug for project Audio_reference_proj ****
+make all 
+'Building file: ../src/adau1761.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adau1761.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adau1761.d" -MT"src/adau1761.d" -o "src/adau1761.o" "../src/adau1761.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/adau1761.c:1:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/adau1761.c'
+' '
+'Building target: Audio_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "Audio_reference_proj.elf"  ./src/adau1761.o ./src/audioPlayer.o ./src/audioRxTx.o ./src/audioSample.o ./src/bufferPool_d.o ./src/chunk_d.o ./src/main.o ./src/snd_sample.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: Audio_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Audio_reference_proj.elf  |tee "Audio_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 107420	1148900	  89180	1345500	 1487dc	Audio_reference_proj.elf
+'Finished building: Audio_reference_proj.elf.size'
+' '
+15:55:18 **** Incremental Build of configuration Debug for project OLED_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+15:55:19 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+13:15:50 **** Build of project freeRTOS_Audio_Oled_XADC_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/freertos823_xilinx_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/freertos823_xilinx_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"include"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/llfifo_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/llfifo_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/spips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sysmon_v7_1/src"
+make -C ps7_cortexa9_0/libsrc/sysmon_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ZedboardOLED_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ZedboardOLED_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/freertos823_xilinx_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/freertos823_xilinx_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Compiling FreeRTOS"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/llfifo_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/llfifo_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling llfifo"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling spips"
+"Running Make libs in ps7_cortexa9_0/libsrc/sysmon_v7_1/src"
+make -C ps7_cortexa9_0/libsrc/sysmon_v7_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sysmon"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ZedboardOLED_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ZedboardOLED_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ZedboardOLED..."
+'Finished building libraries'
+13:16:08 **** Build of configuration Debug for project OLED_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+13:16:09 **** Build of configuration Debug for project Audio_reference_proj ****
+make all 
+'Building file: ../src/adau1761.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adau1761.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adau1761.d" -MT"src/adau1761.o" -o "src/adau1761.o" "../src/adau1761.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/adau1761.c:1:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/adau1761.c'
+' '
+'Building file: ../src/audioPlayer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioPlayer.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioPlayer.d" -MT"src/audioPlayer.o" -o "src/audioPlayer.o" "../src/audioPlayer.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/audioPlayer.c: In function 'audioPlayer_init':
+../src/audioPlayer.c:58:2: warning: implicit declaration of function 'Adau1761_Init' [-Wimplicit-function-declaration]
+  Adau1761_Init(&pThis->codec);
+  ^
+In file included from ../src/zedboard_freertos.h:2:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../src/audioPlayer.c: In function 'audioPlayer_start':
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:86:2: note: in expansion of macro 'xTaskCreate'
+  xTaskCreate( audioPlayer_task, ( signed char * ) "HW", configMINIMAL_STACK_SIZE, pThis, tskIDLE_PRIORITY + 1 , NULL );
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../src/audioPlayer.c: In function 'audioPlayer_task':
+../src/audioPlayer.c:99:2: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+  print_message("Hello world",2);
+  ^
+'Finished building: ../src/audioPlayer.c'
+' '
+'Building file: ../src/audioRxTx.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioRxTx.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioRxTx.d" -MT"src/audioRxTx.o" -o "src/audioRxTx.o" "../src/audioRxTx.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/audioRxTx.c:18:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/audioRxTx.c: In function 'audioRxTx_start':
+../src/audioRxTx.c:50:2: warning: implicit declaration of function 'prvGetInterruptControllerInstance' [-Wimplicit-function-declaration]
+  pGic = prvGetInterruptControllerInstance(); // retrieve pointer to initialized instance
+  ^
+../src/audioRxTx.c:50:7: warning: assignment makes pointer from integer without a cast
+  pGic = prvGetInterruptControllerInstance(); // retrieve pointer to initialized instance
+       ^
+'Finished building: ../src/audioRxTx.c'
+' '
+'Building file: ../src/bufferPool_d.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bufferPool_d.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/bufferPool_d.d" -MT"src/bufferPool_d.o" -o "src/bufferPool_d.o" "../src/bufferPool_d.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/bufferPool_d.c:17:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/zedboard_freertos.h:3:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/bufferPool_d.c:17:
+../src/bufferPool_d.c: In function 'bufferPool_d_init':
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:421:109: warning: passing argument 3 of 'xQueueGenericSend' makes integer from pointer without a cast
+ #define xQueueSend( xQueue, pvItemToQueue, xTicksToWait ) xQueueGenericSend( ( xQueue ), ( pvItemToQueue ), ( xTicksToWait ), queueSEND_TO_BACK )
+                                                                                                             ^
+../src/bufferPool_d.c:64:6: note: in expansion of macro 'xQueueSend'
+   if(xQueueSend( pThis->freeList, &pChunk, NULL ) != pdPASS) {
+      ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:592:12: note: expected 'TickType_t' but argument is of type 'void *'
+ BaseType_t xQueueGenericSend( QueueHandle_t xQueue, const void * const pvItemToQueue, TickType_t xTicksToWait, const BaseType_t xCopyPosition ) PRIVILEGED_FUNCTION;
+            ^
+../src/bufferPool_d.c: In function 'bufferPool_d_release_from_ISR':
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:1261:136: warning: passing argument 3 of 'xQueueGenericSendFromISR' makes pointer from integer without a cast
+ #define xQueueSendFromISR( xQueue, pvItemToQueue, pxHigherPriorityTaskWoken ) xQueueGenericSendFromISR( ( xQueue ), ( pvItemToQueue ), ( pxHigherPriorityTaskWoken ), queueSEND_TO_BACK )
+                                                                                                                                        ^
+../src/bufferPool_d.c:161:5: note: in expansion of macro 'xQueueSendFromISR'
+  if(xQueueSendFromISR( pThis->freeList, &pChunk, ( TickType_t ) 10 ) != pdPASS) {
+     ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:1340:12: note: expected 'BaseType_t * const' but argument is of type 'long unsigned int'
+ BaseType_t xQueueGenericSendFromISR( QueueHandle_t xQueue, const void * const pvItemToQueue, BaseType_t * const pxHigherPriorityTaskWoken, const BaseType_t xCopyPosition ) PRIVILEGED_FUNCTION;
+            ^
+'Finished building: ../src/bufferPool_d.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/main.c:23:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: Audio_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "Audio_reference_proj.elf"  ./src/adau1761.o ./src/audioPlayer.o ./src/audioRxTx.o ./src/audioSample.o ./src/bufferPool_d.o ./src/chunk_d.o ./src/main.o ./src/snd_sample.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: Audio_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Audio_reference_proj.elf  |tee "Audio_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 107420	1148900	  89180	1345500	 1487dc	Audio_reference_proj.elf
+'Finished building: Audio_reference_proj.elf.size'
+' '
+13:16:16 **** Clean-only build of configuration Debug for project OLED_reference_proj ****
+make clean 
+rm -rf  ./src/oled.o  ./src/oled.d  OLED_reference_proj.elf.size  OLED_reference_proj.elf
+' '
+13:16:16 **** Incremental Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+../src/oled.c: In function 'main':
+../src/oled.c:8:1: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+ print_message("Hello",0);
+ ^
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75212	   3104	  88956	 167272	  28d68	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+13:16:17 **** Clean-only build of configuration Debug for project Audio_reference_proj ****
+make clean 
+rm -rf  ./src/adau1761.o ./src/audioPlayer.o ./src/audioRxTx.o ./src/audioSample.o ./src/bufferPool_d.o ./src/chunk_d.o ./src/main.o ./src/snd_sample.o  ./src/adau1761.d ./src/audioPlayer.d ./src/audioRxTx.d ./src/audioSample.d ./src/bufferPool_d.d ./src/chunk_d.d ./src/main.d ./src/snd_sample.d  Audio_reference_proj.elf.size  Audio_reference_proj.elf
+' '
+13:16:17 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+'Building file: ../src/adau1761.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adau1761.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adau1761.d" -MT"src/adau1761.o" -o "src/adau1761.o" "../src/adau1761.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/adau1761.c:1:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/adau1761.c'
+' '
+'Building file: ../src/audioPlayer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioPlayer.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioPlayer.d" -MT"src/audioPlayer.o" -o "src/audioPlayer.o" "../src/audioPlayer.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/audioPlayer.c: In function 'audioPlayer_init':
+../src/audioPlayer.c:58:2: warning: implicit declaration of function 'Adau1761_Init' [-Wimplicit-function-declaration]
+  Adau1761_Init(&pThis->codec);
+  ^
+In file included from ../src/zedboard_freertos.h:2:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../src/audioPlayer.c: In function 'audioPlayer_start':
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:86:2: note: in expansion of macro 'xTaskCreate'
+  xTaskCreate( audioPlayer_task, ( signed char * ) "HW", configMINIMAL_STACK_SIZE, pThis, tskIDLE_PRIORITY + 1 , NULL );
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../src/audioPlayer.c: In function 'audioPlayer_task':
+../src/audioPlayer.c:99:2: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+  print_message("Hello world",2);
+  ^
+'Finished building: ../src/audioPlayer.c'
+' '
+'Building file: ../src/audioRxTx.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioRxTx.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioRxTx.d" -MT"src/audioRxTx.o" -o "src/audioRxTx.o" "../src/audioRxTx.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/audioRxTx.c:18:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/audioRxTx.c: In function 'audioRxTx_start':
+../src/audioRxTx.c:50:2: warning: implicit declaration of function 'prvGetInterruptControllerInstance' [-Wimplicit-function-declaration]
+  pGic = prvGetInterruptControllerInstance(); // retrieve pointer to initialized instance
+  ^
+../src/audioRxTx.c:50:7: warning: assignment makes pointer from integer without a cast
+  pGic = prvGetInterruptControllerInstance(); // retrieve pointer to initialized instance
+       ^
+'Finished building: ../src/audioRxTx.c'
+' '
+'Building file: ../src/audioSample.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioSample.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioSample.d" -MT"src/audioSample.o" -o "src/audioSample.o" "../src/audioSample.c"
+../src/audioSample.c: In function 'audioSample_init':
+../src/audioSample.c:31:17: warning: assignment from incompatible pointer type
+   pThis->pmem   = snd_samples;
+                 ^
+'Finished building: ../src/audioSample.c'
+' '
+'Building file: ../src/bufferPool_d.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bufferPool_d.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/bufferPool_d.d" -MT"src/bufferPool_d.o" -o "src/bufferPool_d.o" "../src/bufferPool_d.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/bufferPool_d.c:17:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/zedboard_freertos.h:3:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/bufferPool_d.c:17:
+../src/bufferPool_d.c: In function 'bufferPool_d_init':
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:421:109: warning: passing argument 3 of 'xQueueGenericSend' makes integer from pointer without a cast
+ #define xQueueSend( xQueue, pvItemToQueue, xTicksToWait ) xQueueGenericSend( ( xQueue ), ( pvItemToQueue ), ( xTicksToWait ), queueSEND_TO_BACK )
+                                                                                                             ^
+../src/bufferPool_d.c:64:6: note: in expansion of macro 'xQueueSend'
+   if(xQueueSend( pThis->freeList, &pChunk, NULL ) != pdPASS) {
+      ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:592:12: note: expected 'TickType_t' but argument is of type 'void *'
+ BaseType_t xQueueGenericSend( QueueHandle_t xQueue, const void * const pvItemToQueue, TickType_t xTicksToWait, const BaseType_t xCopyPosition ) PRIVILEGED_FUNCTION;
+            ^
+../src/bufferPool_d.c: In function 'bufferPool_d_release_from_ISR':
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:1261:136: warning: passing argument 3 of 'xQueueGenericSendFromISR' makes pointer from integer without a cast
+ #define xQueueSendFromISR( xQueue, pvItemToQueue, pxHigherPriorityTaskWoken ) xQueueGenericSendFromISR( ( xQueue ), ( pvItemToQueue ), ( pxHigherPriorityTaskWoken ), queueSEND_TO_BACK )
+                                                                                                                                        ^
+../src/bufferPool_d.c:161:5: note: in expansion of macro 'xQueueSendFromISR'
+  if(xQueueSendFromISR( pThis->freeList, &pChunk, ( TickType_t ) 10 ) != pdPASS) {
+     ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:1340:12: note: expected 'BaseType_t * const' but argument is of type 'long unsigned int'
+ BaseType_t xQueueGenericSendFromISR( QueueHandle_t xQueue, const void * const pvItemToQueue, BaseType_t * const pxHigherPriorityTaskWoken, const BaseType_t xCopyPosition ) PRIVILEGED_FUNCTION;
+            ^
+'Finished building: ../src/bufferPool_d.c'
+' '
+'Building file: ../src/chunk_d.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chunk_d.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/chunk_d.d" -MT"src/chunk_d.o" -o "src/chunk_d.o" "../src/chunk_d.c"
+'Finished building: ../src/chunk_d.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/main.c:23:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/snd_sample.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snd_sample.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/snd_sample.d" -MT"src/snd_sample.o" -o "src/snd_sample.o" "../src/snd_sample.c"
+'Finished building: ../src/snd_sample.c'
+' '
+'Building target: Audio_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "Audio_reference_proj.elf"  ./src/adau1761.o ./src/audioPlayer.o ./src/audioRxTx.o ./src/audioSample.o ./src/bufferPool_d.o ./src/chunk_d.o ./src/main.o ./src/snd_sample.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: Audio_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Audio_reference_proj.elf  |tee "Audio_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 107420	1148900	  89180	1345500	 1487dc	Audio_reference_proj.elf
+'Finished building: Audio_reference_proj.elf.size'
+' '
+13:18:15 **** Incremental Build of configuration Debug for project OLED_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+13:18:16 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+13:20:18 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/OLEDBuffer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/OLEDBuffer.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/OLEDBuffer.d" -MT"src/OLEDBuffer.o" -o "src/OLEDBuffer.o" "../src/OLEDBuffer.c"
+../src/OLEDBuffer.c: In function 'update_OLED':
+../src/OLEDBuffer.c:20:46: error: expected ')' before ';' token
+         Xil_Out8(OLED_BASE+(i), *char_pointer;
+                                              ^
+../src/OLEDBuffer.c:22:5: error: expected ';' before '}' token
+     }
+     ^
+make: *** [src/OLEDBuffer.o] Error 1
+13:20:38 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/OLEDBuffer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/OLEDBuffer.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/OLEDBuffer.d" -MT"src/OLEDBuffer.o" -o "src/OLEDBuffer.o" "../src/OLEDBuffer.c"
+'Finished building: ../src/OLEDBuffer.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77132	   3104	  89468	 169704	  296e8	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:21:06 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+../src/oled.c: In function 'main':
+../src/oled.c:10:1: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+ print_message("Hello",0);
+ ^
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77132	   3104	  89468	 169704	  296e8	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:21:16 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76448	   3100	  89212	 168760	  29338	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:21:54 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76448	   3100	  89212	 168760	  29338	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:21:59 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76448	   3100	  89212	 168760	  29338	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:22:40 **** Incremental Build of configuration Debug for project OLED_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+13:22:40 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+13:23:09 **** Incremental Build of configuration Debug for project OLED_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+13:23:09 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+13:23:18 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76448	   3100	  89212	 168760	  29338	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:23:21 **** Incremental Build of configuration Debug for project OLED_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+13:23:22 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+13:23:47 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/OLEDBuffer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/OLEDBuffer.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/OLEDBuffer.d" -MT"src/OLEDBuffer.o" -o "src/OLEDBuffer.o" "../src/OLEDBuffer.c"
+'Finished building: ../src/OLEDBuffer.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76448	   3100	  89212	 168760	  29338	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:23:49 **** Incremental Build of configuration Debug for project OLED_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+13:23:50 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+13:24:45 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+../src/oled.c: In function 'main':
+../src/oled.c:12:1: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+ print_message("How cool is this",3);
+ ^
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77116	   3104	  89468	 169688	  296d8	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:24:49 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+../src/oled.c: In function 'main':
+../src/oled.c:10:1: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+ print_message("Hello",0);
+ ^
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77100	   3104	  89468	 169672	  296c8	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:24:50 **** Incremental Build of configuration Debug for project OLED_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+13:24:51 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+13:25:11 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76448	   3100	  89212	 168760	  29338	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:38:28 **** Auto Build of project freeRTOS_Audio_Oled_XADC_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/freertos823_xilinx_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/freertos823_xilinx_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"include"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/llfifo_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/llfifo_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/spips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sysmon_v7_1/src"
+make -C ps7_cortexa9_0/libsrc/sysmon_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ZedboardOLED_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ZedboardOLED_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/freertos823_xilinx_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/freertos823_xilinx_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Compiling FreeRTOS"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/llfifo_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/llfifo_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling llfifo"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling spips"
+"Running Make libs in ps7_cortexa9_0/libsrc/sysmon_v7_1/src"
+make -C ps7_cortexa9_0/libsrc/sysmon_v7_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sysmon"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/ZedboardOLED_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ZedboardOLED_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ZedboardOLED..."
+'Finished building libraries'
+13:38:44 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/OLEDBuffer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/OLEDBuffer.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/OLEDBuffer.d" -MT"src/OLEDBuffer.o" -o "src/OLEDBuffer.o" "../src/OLEDBuffer.c"
+'Finished building: ../src/OLEDBuffer.c'
+' '
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76448	   3100	  89212	 168760	  29338	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+
+****  of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+****  of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+13:38:45 **** Auto Build of configuration Debug for project Audio_reference_proj ****
+make all 
+'Building file: ../src/adau1761.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adau1761.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adau1761.d" -MT"src/adau1761.o" -o "src/adau1761.o" "../src/adau1761.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/adau1761.c:1:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/adau1761.c'
+' '
+'Building file: ../src/audioPlayer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioPlayer.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioPlayer.d" -MT"src/audioPlayer.o" -o "src/audioPlayer.o" "../src/audioPlayer.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/audioPlayer.c: In function 'audioPlayer_init':
+../src/audioPlayer.c:58:2: warning: implicit declaration of function 'Adau1761_Init' [-Wimplicit-function-declaration]
+  Adau1761_Init(&pThis->codec);
+  ^
+In file included from ../src/zedboard_freertos.h:2:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../src/audioPlayer.c: In function 'audioPlayer_start':
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:86:2: note: in expansion of macro 'xTaskCreate'
+  xTaskCreate( audioPlayer_task, ( signed char * ) "HW", configMINIMAL_STACK_SIZE, pThis, tskIDLE_PRIORITY + 1 , NULL );
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../src/audioPlayer.c: In function 'audioPlayer_task':
+../src/audioPlayer.c:99:2: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+  print_message("Hello world",2);
+  ^
+'Finished building: ../src/audioPlayer.c'
+' '
+'Building file: ../src/audioRxTx.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioRxTx.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioRxTx.d" -MT"src/audioRxTx.o" -o "src/audioRxTx.o" "../src/audioRxTx.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/audioRxTx.c:18:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/audioRxTx.c: In function 'audioRxTx_start':
+../src/audioRxTx.c:50:2: warning: implicit declaration of function 'prvGetInterruptControllerInstance' [-Wimplicit-function-declaration]
+  pGic = prvGetInterruptControllerInstance(); // retrieve pointer to initialized instance
+  ^
+../src/audioRxTx.c:50:7: warning: assignment makes pointer from integer without a cast
+  pGic = prvGetInterruptControllerInstance(); // retrieve pointer to initialized instance
+       ^
+'Finished building: ../src/audioRxTx.c'
+' '
+'Building file: ../src/bufferPool_d.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bufferPool_d.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/bufferPool_d.d" -MT"src/bufferPool_d.o" -o "src/bufferPool_d.o" "../src/bufferPool_d.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/bufferPool_d.c:17:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/zedboard_freertos.h:3:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/bufferPool_d.c:17:
+../src/bufferPool_d.c: In function 'bufferPool_d_init':
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:421:109: warning: passing argument 3 of 'xQueueGenericSend' makes integer from pointer without a cast
+ #define xQueueSend( xQueue, pvItemToQueue, xTicksToWait ) xQueueGenericSend( ( xQueue ), ( pvItemToQueue ), ( xTicksToWait ), queueSEND_TO_BACK )
+                                                                                                             ^
+../src/bufferPool_d.c:64:6: note: in expansion of macro 'xQueueSend'
+   if(xQueueSend( pThis->freeList, &pChunk, NULL ) != pdPASS) {
+      ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:592:12: note: expected 'TickType_t' but argument is of type 'void *'
+ BaseType_t xQueueGenericSend( QueueHandle_t xQueue, const void * const pvItemToQueue, TickType_t xTicksToWait, const BaseType_t xCopyPosition ) PRIVILEGED_FUNCTION;
+            ^
+../src/bufferPool_d.c: In function 'bufferPool_d_release_from_ISR':
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:1261:136: warning: passing argument 3 of 'xQueueGenericSendFromISR' makes pointer from integer without a cast
+ #define xQueueSendFromISR( xQueue, pvItemToQueue, pxHigherPriorityTaskWoken ) xQueueGenericSendFromISR( ( xQueue ), ( pvItemToQueue ), ( pxHigherPriorityTaskWoken ), queueSEND_TO_BACK )
+                                                                                                                                        ^
+../src/bufferPool_d.c:161:5: note: in expansion of macro 'xQueueSendFromISR'
+  if(xQueueSendFromISR( pThis->freeList, &pChunk, ( TickType_t ) 10 ) != pdPASS) {
+     ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/queue.h:1340:12: note: expected 'BaseType_t * const' but argument is of type 'long unsigned int'
+ BaseType_t xQueueGenericSendFromISR( QueueHandle_t xQueue, const void * const pvItemToQueue, BaseType_t * const pxHigherPriorityTaskWoken, const BaseType_t xCopyPosition ) PRIVILEGED_FUNCTION;
+            ^
+'Finished building: ../src/bufferPool_d.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/main.c:23:
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building target: Audio_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "Audio_reference_proj.elf"  ./src/adau1761.o ./src/audioPlayer.o ./src/audioRxTx.o ./src/audioSample.o ./src/bufferPool_d.o ./src/chunk_d.o ./src/main.o ./src/snd_sample.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: Audio_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size Audio_reference_proj.elf  |tee "Audio_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 107420	1148900	  89180	1345500	 1487dc	Audio_reference_proj.elf
+'Finished building: Audio_reference_proj.elf.size'
+' '
+13:39:19 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+../src/oled.c: In function 'main':
+../src/oled.c:14:1: warning: implicit declaration of function 'clear_OLED' [-Wimplicit-function-declaration]
+ clear_OLED();
+ ^
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77092	   3104	  89468	 169664	  296c0	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:39:31 **** Incremental Build of configuration Debug for project OLED_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+13:39:32 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+13:40:43 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+../src/oled.c: In function 'main':
+../src/oled.c:14:2: warning: implicit declaration of function 'clear_OLED' [-Wimplicit-function-declaration]
+  clear_OLED();
+  ^
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77092	   3104	  89468	 169664	  296c0	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:41:58 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77092	   3104	  89468	 169664	  296c0	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:42:07 **** Incremental Build of configuration Debug for project OLED_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+13:42:08 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+13:42:48 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77100	   3104	  89468	 169672	  296c8	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:42:52 **** Incremental Build of configuration Debug for project OLED_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+13:42:52 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+13:45:16 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/OLEDBuffer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/OLEDBuffer.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/OLEDBuffer.d" -MT"src/OLEDBuffer.o" -o "src/OLEDBuffer.o" "../src/OLEDBuffer.c"
+'Finished building: ../src/OLEDBuffer.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77100	   3104	  89468	 169672	  296c8	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:46:26 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/OLEDBuffer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/OLEDBuffer.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/OLEDBuffer.d" -MT"src/OLEDBuffer.o" -o "src/OLEDBuffer.o" "../src/OLEDBuffer.c"
+'Finished building: ../src/OLEDBuffer.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77100	   3104	  89468	 169672	  296c8	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:46:38 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+../src/oled.c: In function 'main':
+../src/oled.c:16:2: warning: statement with no effect [-Wunused-value]
+  OLEDClearBuffer;
+  ^
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76448	   3100	  89212	 168760	  29338	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:46:51 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76448	   3100	  89212	 168760	  29338	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:46:56 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76448	   3100	  89212	 168760	  29338	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:47:15 **** Incremental Build of configuration Debug for project OLED_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+13:47:16 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+13:50:50 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+../src/oled.c: In function 'main':
+../src/oled.c:11:1: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+ print_message("Hello",0);
+ ^
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77100	   3104	  89468	 169672	  296c8	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:50:58 **** Auto Build of configuration Debug for project OLED_reference_proj ****
+make all 
+'Building file: ../src/oled.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oled.o" -I../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -o "src/oled.o" "../src/oled.c"
+'Finished building: ../src/oled.c'
+' '
+'Building target: OLED_reference_proj.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib -o "OLED_reference_proj.elf"  ./src/OLEDBuffer.o ./src/oled.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: OLED_reference_proj.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size OLED_reference_proj.elf  |tee "OLED_reference_proj.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77100	   3104	  89468	 169672	  296c8	OLED_reference_proj.elf
+'Finished building: OLED_reference_proj.elf.size'
+' '
+13:51:04 **** Incremental Build of configuration Debug for project OLED_reference_proj ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project New_proj_2 ****
+
+Nothing to build for project New_proj_2
+
+**** Build of configuration Debug for project New_proj_1 ****
+
+Nothing to build for project New_proj_1
+13:51:05 **** Incremental Build of configuration Debug for project Audio_reference_proj ****
+make all 
+make: Nothing to be done for `all'.

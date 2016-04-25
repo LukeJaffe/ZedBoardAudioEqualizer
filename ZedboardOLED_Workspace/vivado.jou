@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Sun Apr 24 14:46:16 2016
+# Process ID: 1000
+# Log file: C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace/vivado.log
+# Journal file: C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedboardOLED_Workspace\test_system.xpr}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream

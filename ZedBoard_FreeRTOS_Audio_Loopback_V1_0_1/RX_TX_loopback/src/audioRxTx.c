@@ -226,7 +226,10 @@ void getIP(short proc_input[CHUNK_SAMPLES])
  * @return Zero on success.
  * Negative value on failure.
  */
-short fft_input[CHUNK_SAMPLES];
+chunk_d_t* fft_chunks[FFT_CHUNKS];
+short fft_input[FFT_SAMPLES];
+short proc_output[FFT_SAMPLES];
+int fft_idx = 0;
 
 int audioRxTx_put(audioRxTx_t *pThis, chunk_d_t *pChunk)
 {
@@ -236,37 +239,61 @@ int audioRxTx_put(audioRxTx_t *pThis, chunk_d_t *pChunk)
         return -1;
     }
 
-    int i;
+    //printf("FFT idx: %d\n", fft_idx);
+    int i, j;
     for (i = 0; i < CHUNK_SAMPLES; i++)
-    	fft_input[i] = pChunk->s16_buff[i];
-    //processInput(proc_input, pChunk->s16_buff);
-    fft(fft_input, fft_output);
+    	fft_input[fft_idx*CHUNK_SAMPLES+i] = pChunk->s16_buff[i];
+    fft_chunks[fft_idx] = pChunk;
+    fft_idx++;
+
+    //fft(fft_input, fft_output);
     
     /* ISR/polled execution ? */
-    if ( 0 == pThis->running ) {
-    	unsigned int samplesInChunk = pChunk->bytesUsed/sizeof(unsigned int);
+    if (fft_idx == FFT_CHUNKS)
+    {
+    	fft_idx = 0;
 
-    	/* Do polled transfer - by checking TX VACANCY in the FIFO */
-    	while( samplesInChunk > (*(volatile u32 *) (FIFO_BASE_ADDR + FIFO_TX_VAC)));
+    	processInput(fft_input, proc_output);
 
-    	for(sampleNr=0;sampleNr < samplesInChunk;sampleNr++) {
-        	*(volatile u32 *) (FIFO_BASE_ADDR + FIFO_TX_DATA) = ((unsigned int)pChunk->u16_buff[sampleNr]) << 16;
-        	*(volatile u32 *) (FIFO_BASE_ADDR + FIFO_TX_LENGTH) = 0x1;
-        }
+    	for (i = 0; i < FFT_CHUNKS; i++)
+    		for (j = 0; j < CHUNK_SAMPLES; j++)
+    			fft_chunks[i]->u16_buff[j] = proc_output[i*CHUNK_SAMPLES + j];
 
-        /* chunk data has been copied into the TX FIFO, release chunk to the free list*/
-        bufferPool_d_release((pThis->pBuffP), pChunk);
+		if ( 0 == pThis->running )
+		{
+			for (i = 0; i < FFT_CHUNKS; i++)
+			{
+				unsigned int samplesInChunk = fft_chunks[i]->bytesUsed/sizeof(unsigned int);
 
-        /* Enable TX ISR mode */
-        pThis->running = 1;
-        return 0;
-    }
+				/* Do polled transfer - by checking TX VACANCY in the FIFO */
+				while( samplesInChunk > (*(volatile u32 *) (FIFO_BASE_ADDR + FIFO_TX_VAC)));
 
-    else{
-        /* ISR is already running, add chunk to TX queue and it will be processed in ISR*/
-    	while(xQueueSend( pThis->tx_queue,  &pChunk, ( TickType_t ) 100) != pdPASS) {
-    		printf("TX Queue is full, loop until TX FIFO drains.\n");
-    	}
+				for(sampleNr=0;sampleNr < samplesInChunk;sampleNr++)
+				{
+					*(volatile u32 *) (FIFO_BASE_ADDR + FIFO_TX_DATA) = ((unsigned int)fft_chunks[i]->u16_buff[sampleNr]) << 16;
+					*(volatile u32 *) (FIFO_BASE_ADDR + FIFO_TX_LENGTH) = 0x1;
+				}
+
+				/* chunk data has been copied into the TX FIFO, release chunk to the free list*/
+				bufferPool_d_release((pThis->pBuffP), fft_chunks[i]);
+			}
+
+			/* Enable TX ISR mode */
+			pThis->running = 1;
+			return 0;
+		}
+
+		else
+		{
+			for (i = 0; i < FFT_CHUNKS; i++)
+			{
+				/* ISR is already running, add chunk to TX queue and it will be processed in ISR*/
+				while(xQueueSend( pThis->tx_queue,  &fft_chunks[i], ( TickType_t ) 100) != pdPASS)
+				{
+					printf("TX Queue is full, loop until TX FIFO drains.\n");
+				}
+			}
+		}
     }
     return 0;
 

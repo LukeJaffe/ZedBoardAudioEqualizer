@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Sun Apr 24 15:06:50 2016
+# Process ID: 6988
+# Log file: C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace/test_system/vivado.log
+# Journal file: C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace/test_system\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedboardOLED_Workspace\test_system\test_system.xpr}
+INFO: [Project 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace/test_system'
+INFO: [Project 1-313] Project file moved from 'C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace' since last save.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace/ZedboardOLED_1.0'; using path 'C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_1.0' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace/test_system/test_system.srcs/sources_1/bd/system/hdl/system_wrapper.v]
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.2/data/ip'.
+file copy -force C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace/test_system/test_system.runs/impl_1/system_wrapper.sysdef C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace/test_system/test_system.sdk/system_wrapper.hdf
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 24 15:07:26 2016...

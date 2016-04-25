@@ -1,0 +1,88 @@
+/*
+
+Vivado v2014.2 (64-bit)
+SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+Process ID: 1000
+
+Current time: 	4/24/16 2:46:24 PM
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1600x900
+Screen resolution (DPI): 96
+Available screens: 1
+
+Java version: 	1.7.0_40 64-bit
+Java home: 	C:/Xilinx/Vivado/2014.2/tps/win64/jre
+
+User name: 	Lucas
+User directory: C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Gui allocated memory:	122 mb
+Gui max memory:		3,066 mb
+Engine allocated memory: 496 mb
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: START_PROGRESS_DIALOG
+// co:P (cg:JFrame):  Opening project 'C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedboardOLED_Workspace\test_system.xpr' : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 52 mb (+51750kb) [00:00:04]
+// [Engine Memory]: 418 mb (+287087kb) [00:00:04]
+// [GUI Memory]: 76 mb (+25299kb) [00:00:04]
+// [Engine Memory]: 422 mb (+4136kb) [00:00:04]
+// [GUI Memory]: 84 mb (+9031kb) [00:00:05]
+// [Engine Memory]: 436 mb (+14528kb) [00:00:05]
+// [Engine Memory]: 444 mb (+8241kb) [00:00:05]
+// [Engine Memory]: 446 mb (+1998kb) [00:00:05]
+// [Engine Memory]: 446 mb (+57kb) [00:00:05]
+// [Engine Memory]: 494 mb (+50126kb) [00:00:05]
+// [Engine Memory]: 494 mb (+12kb) [00:00:05]
+// [Engine Memory]: 494 mb (+311kb) [00:00:05]
+// Tcl Message: open_project {C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedboardOLED_Workspace\test_system.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Lucas' since last save. INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_Workspace/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_1.0'; using path 'C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_1.0' instead. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedboardOLED_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2014.2/data/ip'. 
+// TclEventType: STOP_PROGRESS_DIALOG
+// [Engine Memory]: 496 mb (+2404kb) [00:00:06]
+dismissDialog("Opening project 'C:\\Users\\Lucas\\Documents\\GitHub\\ZedBoardAudioEqualizer\\ZedboardOLED_Workspace\\test_system.xpr'"); // co:P (cg:JFrame)
+// [Engine Memory]: 499 mb (+2355kb) [00:00:06]
+// TclEventType: STOP_PROGRESS_DIALOG
+// HMemoryUtils.trashcanNow. Engine heap size: 499 MB. GUI used memory: 30 MB. Current time: 4/24/16 2:46:25 PM
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 501 mb (+2904kb) [00:00:09]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Y:JMenu (JPopupMenu:JComponent, cg:JFrame)
+// [Engine Memory]: 502 mb (+954kb) [00:00:25]
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware"); // ab:JMenuItem (JPopupMenu:JComponent, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// s:ae (cg:JFrame): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, s:ae)
+dismissDialog("Export Hardware"); // s:ae (cg:JFrame)
+// [Engine Memory]: 503 mb (+475kb) [00:00:32]
+// [Engine Memory]: 514 mb (+12218kb) [00:00:50]

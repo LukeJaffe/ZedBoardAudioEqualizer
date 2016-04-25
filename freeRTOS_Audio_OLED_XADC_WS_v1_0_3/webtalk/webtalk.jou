@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# 
+# Start of session at: Mon Apr 11 15:55:57 2016
+# Process ID: 10808
+# Current directory: D:/Download/freeRTOS_Audio_OLED_XADC_WS_v1_0_3/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: D:/Download/freeRTOS_Audio_OLED_XADC_WS_v1_0_3/webtalk/webtalk.log
+# Journal file: D:/Download/freeRTOS_Audio_OLED_XADC_WS_v1_0_3/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

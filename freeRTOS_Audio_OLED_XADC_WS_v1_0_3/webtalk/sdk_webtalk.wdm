@@ -1,0 +1,78 @@
+version = "1.0";
+clients =
+(
+	{ client_name = "project"; 
+		rules = (
+			{
+				context="software_version_and_target_device";
+				xml_map="software_version_and_target_device";
+				html_map="software_version_and_target_device";
+				html_format="UserEnvStyle";
+			},
+			{
+				context="user_environment";
+				xml_map="user_environment";
+				html_map="user_environment";
+				html_format="UserEnvStyle";
+			}
+		);
+     },
+	{ client_name = "sdk"; 
+		rules = (
+			{
+				context="sdk\\\\hardware/1460403383811";
+				xml_map="sdk\\\\hardware/1460403383811";
+				html_map="sdk\\\\hardware/1460403383811";
+				html_format="UnisimStatsStyle";
+			},
+			{
+				context="sdk\\\\bsp/1460403430272";
+				xml_map="sdk\\\\bsp/1460403430272";
+				html_map="sdk\\\\bsp/1460403430272";
+				html_format="UnisimStatsStyle";
+			},
+			{
+				context="sdk\\\\application/1460403434254";
+				xml_map="sdk\\\\application/1460403434254";
+				html_map="sdk\\\\application/1460403434254";
+				html_format="UnisimStatsStyle";
+			},
+			{
+				context="sdk\\\\application/1460403710478";
+				xml_map="sdk\\\\application/1460403710478";
+				html_map="sdk\\\\application/1460403710478";
+				html_format="UnisimStatsStyle";
+			},
+			{
+				context="sdk\\\\application/1460403735108";
+				xml_map="sdk\\\\application/1460403735108";
+				html_map="sdk\\\\application/1460403735108";
+				html_format="UnisimStatsStyle";
+			},
+			{
+				context="sdk\\\\bsp/1460403746987";
+				xml_map="sdk\\\\bsp/1460403746987";
+				html_map="sdk\\\\bsp/1460403746987";
+				html_format="UnisimStatsStyle";
+			},
+			{
+				context="sdk\\\\application/1460403748516";
+				xml_map="sdk\\\\application/1460403748516";
+				html_map="sdk\\\\application/1460403748516";
+				html_format="UnisimStatsStyle";
+			},
+			{
+				context="sdk\\\\application/1460403825548";
+				xml_map="sdk\\\\application/1460403825548";
+				html_map="sdk\\\\application/1460403825548";
+				html_format="UnisimStatsStyle";
+			},
+			{
+				context="sdk\\\\application/1460403846817";
+				xml_map="sdk\\\\application/1460403846817";
+				html_map="sdk\\\\application/1460403846817";
+				html_format="UnisimStatsStyle";
+			}
+		);
+     }
+);

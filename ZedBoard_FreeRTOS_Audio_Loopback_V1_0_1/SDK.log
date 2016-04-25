@@ -489,3 +489,603 @@ java.lang.RuntimeException: Error in Resetting Target
 18:04:17 INFO  : Processor reset is completed for ps7_cortexa9_0
 18:06:22 INFO  : Processor reset is completed for ps7_cortexa9_0
 18:09:11 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:49:15 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1\temp_xsdb_launch_script.tcl
+12:49:18 INFO  : XSDB server has started successfully.
+12:50:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:50:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+12:50:11 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+12:50:46 INFO  : ps7_init is completed.
+12:50:46 INFO  : ps7_post_config is completed.
+12:50:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:50:46 ERROR : No such port: COM4
+12:57:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:57:27 ERROR : Unexpected error while opening JTAG UART: 
+java.lang.RuntimeException: Error while opening JTAG UART server: MDM Uart NOT Present in the System
+Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.startJTAGUARTServer(TM.java:951)
+	at com.xilinx.sdk.debug.core.internal.comm.JTAGUARTStreamsProxy.<init>(JTAGUARTStreamsProxy.java:32)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.createStreamsProxy(RemoteProcess.java:164)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.<init>(RemoteProcess.java:65)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:91)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+12:58:32 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:58:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:58:34 ERROR : Unexpected error while opening JTAG UART: 
+java.lang.RuntimeException: Error while opening JTAG UART server: MDM Uart NOT Present in the System
+Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.startJTAGUARTServer(TM.java:951)
+	at com.xilinx.sdk.debug.core.internal.comm.JTAGUARTStreamsProxy.<init>(JTAGUARTStreamsProxy.java:32)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.createStreamsProxy(RemoteProcess.java:164)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.<init>(RemoteProcess.java:65)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:91)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+13:00:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:00:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+13:00:28 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+13:00:34 INFO  : ps7_init is completed.
+13:00:34 INFO  : ps7_post_config is completed.
+13:00:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:00:35 ERROR : Unexpected error while opening JTAG UART: 
+java.lang.RuntimeException: Error while opening JTAG UART server: MDM Uart NOT Present in the System
+Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.startJTAGUARTServer(TM.java:951)
+	at com.xilinx.sdk.debug.core.internal.comm.JTAGUARTStreamsProxy.<init>(JTAGUARTStreamsProxy.java:32)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.createStreamsProxy(RemoteProcess.java:164)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.<init>(RemoteProcess.java:65)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:91)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+13:04:19 ERROR : Unexpected error while fetching XMD's response: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.read(BufferedReader.java:182)
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess$CommandResultsReader.run(XMDJSONProcess.java:332)
+	at java.lang.Thread.run(Thread.java:745)
+13:04:19 ERROR : Zero sized response read from XMD. This indicates a communication error or a programming error.
+13:04:31 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1\temp_xsdb_launch_script.tcl
+13:04:32 INFO  : XSDB server has started successfully.
+13:05:21 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1\temp_xsdb_launch_script.tcl
+13:05:23 INFO  : XSDB server has started successfully.
+13:05:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:05:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+13:05:31 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+13:05:39 INFO  : ps7_init is completed.
+13:05:39 INFO  : ps7_post_config is completed.
+13:05:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:05:39 ERROR : Unexpected error while opening JTAG UART: 
+java.lang.RuntimeException: Error while opening JTAG UART server: MDM Uart NOT Present in the System
+Could not detect MDM peripheral on hardware. Please check:
+    1. If FPGA is configured correctly
+    2. MDM Core is instantiated in the design
+    3. If the correct FPGA is referred, in case of multiple FPGAs
+    4. If the correct MDM is referred, in case of a multiple MDM system
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.startJTAGUARTServer(TM.java:951)
+	at com.xilinx.sdk.debug.core.internal.comm.JTAGUARTStreamsProxy.<init>(JTAGUARTStreamsProxy.java:32)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.createStreamsProxy(RemoteProcess.java:164)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.<init>(RemoteProcess.java:65)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:91)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+13:06:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:06:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:07:18 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1\temp_xsdb_launch_script.tcl
+13:07:19 INFO  : XSDB server has started successfully.
+13:07:43 WARN  : Unable to obtain port 2350 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+13:07:44 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to claim JTAG Device 1 for debug. Check if it's
+    in use by other client for debug
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:484)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:503)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+13:07:50 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+13:07:50 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 64"
+13:07:50 ERROR : Disconnect target failed.
+13:07:50 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+13:07:50 ERROR : Unable to disconnect from existing targets
+java.lang.RuntimeException: No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:329)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:308)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:212)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:58)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:820)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:955)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:323)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1623)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1542)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:248)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:144)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
+	at java.lang.Thread.run(Thread.java:745)
+13:07:50 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:09:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:09:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:10:58 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+13:10:58 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 64"
+13:10:58 ERROR : Disconnect target failed.
+13:13:02 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+13:13:02 ERROR : Unable to disconnect from existing targets
+java.lang.RuntimeException: No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:329)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:308)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:212)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:58)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:820)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:955)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:323)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1623)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1542)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:248)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:144)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
+	at java.lang.Thread.run(Thread.java:745)
+13:13:02 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:15:19 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1\temp_xsdb_launch_script.tcl
+13:15:20 INFO  : XSDB server has started successfully.
+15:32:20 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1\temp_xsdb_launch_script.tcl
+15:32:21 INFO  : XSDB server has started successfully.
+15:32:56 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1\temp_xsdb_launch_script.tcl
+15:32:57 INFO  : XSDB server has started successfully.
+15:33:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:33:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+15:33:07 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+15:33:43 INFO  : ps7_init is completed.
+15:33:43 INFO  : ps7_post_config is completed.
+15:33:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:34:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:35:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:35:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:35:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:35:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:44:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:44:28 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+15:45:20 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+15:45:20 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 64"
+15:45:20 ERROR : Disconnect target failed.
+15:45:20 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+15:45:26 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+15:45:26 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+15:45:34 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+15:45:34 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+15:45:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:45:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+15:45:44 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+15:45:47 ERROR : Checking FPGA configuration failed..Lost communication with jtag cable. Run "xdisconnect -cable"
+                           and start over again
+
+
+15:45:47 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Lost communication with jtag cable. Run "xdisconnect -cable"
+                           and start over again
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+15:45:47 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+15:45:56 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+15:45:56 ERROR : Unable to disconnect from existing targets
+java.lang.RuntimeException: No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:329)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:308)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:212)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:58)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:820)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:955)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:323)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1623)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1542)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:248)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:144)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
+	at java.lang.Thread.run(Thread.java:745)
+15:45:56 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:46:04 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1\temp_xsdb_launch_script.tcl
+15:46:05 INFO  : XSDB server has started successfully.
+15:46:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:46:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+15:46:15 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+15:46:21 INFO  : ps7_init is completed.
+15:46:21 INFO  : ps7_post_config is completed.
+15:46:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:47:04 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:47:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:47:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:47:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:49:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:49:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:49:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:51:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:07:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:08:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:08:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:09:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:10:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:11:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:11:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:11:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:12:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:12:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:13:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:18:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:22:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:22:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:23:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:23:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:24:28 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:24:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:24:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:25:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:25:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+16:25:11 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+16:25:15 INFO  : ps7_init is completed.
+16:25:15 INFO  : ps7_post_config is completed.
+16:25:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:25:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:25:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:26:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:32:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:32:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:33:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:33:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+16:33:05 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+16:33:10 INFO  : ps7_init is completed.
+16:33:10 INFO  : ps7_post_config is completed.
+16:33:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:33:10 ERROR : No such port: COM4
+16:33:19 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:33:31 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1\temp_xsdb_launch_script.tcl
+16:33:32 INFO  : XSDB server has started successfully.
+16:33:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:33:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+16:33:41 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+16:35:27 INFO  : ps7_init is completed.
+16:35:27 INFO  : ps7_post_config is completed.
+16:35:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:35:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:39:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:40:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:41:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:41:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:47:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:48:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:48:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+16:48:25 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+16:48:28 INFO  : ps7_init is completed.
+16:48:28 INFO  : ps7_post_config is completed.
+16:48:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:49:01 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1089)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+16:49:42 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+16:49:42 ERROR : Timeout occured while waiting to get reply for command "xdisconnect 64"
+16:49:42 ERROR : Disconnect target failed.
+16:49:42 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+16:49:48 ERROR : Disconnect target failed.No Target with ID 64 in the System
+
+
+16:49:48 ERROR : Unable to disconnect from existing targets
+java.lang.RuntimeException: No Target with ID 64 in the System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:329)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:308)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:212)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:58)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:820)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:955)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:323)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1623)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1542)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:248)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:144)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:626)
+	at org.eclipse.osgi.container.Module.stop(Module.java:488)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
+	at java.lang.Thread.run(Thread.java:745)
+16:49:48 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:50:00 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1\temp_xsdb_launch_script.tcl
+16:50:01 INFO  : XSDB server has started successfully.
+16:50:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:50:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+16:50:32 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+16:50:39 INFO  : ps7_init is completed.
+16:50:39 INFO  : ps7_post_config is completed.
+16:50:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:50:39 ERROR : No such port: COM4
+16:51:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:51:43 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:51:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:52:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:52:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+16:52:09 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+16:52:13 INFO  : ps7_init is completed.
+16:52:13 INFO  : ps7_post_config is completed.
+16:52:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:52:13 ERROR : No such port: COM4
+16:52:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:53:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:53:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+16:53:31 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+16:53:34 INFO  : ps7_init is completed.
+16:53:34 INFO  : ps7_post_config is completed.
+16:53:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:53:34 ERROR : No such port: COM4
+16:54:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:54:01 ERROR : No such port: COM4
+16:55:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:55:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:55:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+16:55:59 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+16:56:03 INFO  : ps7_init is completed.
+16:56:03 INFO  : ps7_post_config is completed.
+16:56:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:56:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:56:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:56:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+16:57:01 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+16:57:06 INFO  : ps7_init is completed.
+16:57:06 INFO  : ps7_post_config is completed.
+16:57:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:57:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:57:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+16:57:44 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+16:57:47 INFO  : ps7_init is completed.
+16:57:47 INFO  : ps7_post_config is completed.
+16:57:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:58:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:58:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+16:58:37 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+16:58:40 INFO  : ps7_init is completed.
+16:58:40 INFO  : ps7_post_config is completed.
+16:58:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:58:40 ERROR : No such port: COM4
+17:00:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:00:01 ERROR : No such port: COM4
+17:00:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:00:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+17:00:33 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:01:19 INFO  : ps7_init is completed.
+17:01:19 INFO  : ps7_post_config is completed.
+17:01:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:02:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:02:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:02:52 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:03:07 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1\temp_xsdb_launch_script.tcl
+17:03:08 INFO  : XSDB server has started successfully.
+17:03:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:03:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+17:03:23 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:03:29 INFO  : ps7_init is completed.
+17:03:29 INFO  : ps7_post_config is completed.
+17:03:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:04:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:05:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:05:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+17:05:26 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:05:29 INFO  : ps7_init is completed.
+17:05:30 INFO  : ps7_post_config is completed.
+17:05:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:07:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:07:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:07:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+17:07:41 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:07:45 INFO  : ps7_init is completed.
+17:07:45 INFO  : ps7_post_config is completed.
+17:07:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:09:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:11:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:11:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:12:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:12:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:13:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:13:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:13:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:14:18 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:14:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:14:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:15:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:15:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+17:15:22 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:15:26 INFO  : ps7_init is completed.
+17:15:26 INFO  : ps7_post_config is completed.
+17:15:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:16:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:16:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+17:16:05 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:16:09 INFO  : ps7_init is completed.
+17:16:09 INFO  : ps7_post_config is completed.
+17:16:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:16:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:16:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+17:16:39 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:16:43 INFO  : ps7_init is completed.
+17:16:43 INFO  : ps7_post_config is completed.
+17:16:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:18:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:18:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+17:18:45 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:18:54 INFO  : ps7_init is completed.
+17:18:54 INFO  : ps7_post_config is completed.
+17:18:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:19:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:19:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:19:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+17:19:58 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:20:02 INFO  : ps7_init is completed.
+17:20:02 INFO  : ps7_post_config is completed.
+17:20:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:20:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:20:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
+17:20:46 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/ZedBoard_FreeRTOS_Audio_Loopback_V1_0_1/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:20:51 INFO  : ps7_init is completed.
+17:20:51 INFO  : ps7_post_config is completed.
+17:20:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:26:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:27:27 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:27:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:30:07 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:30:10 INFO  : Processor reset is completed for ps7_cortexa9_0
