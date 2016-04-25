@@ -3,15 +3,16 @@
 
 #define CHUNK_SAMPLES 	(128)
 #define CHUNK_BYTES 	(CHUNK_SAMPLES*4)
-#define FFT_SAMPLES		(2048)
-#define FFT_CHUNKS		(FFT_SAMPLES/CHUNK_SAMPLES)
+#define FFT_SAMPLES		(1024)
+#define FFT_CHUNKS		(FFT_SAMPLES/CHUNK_SAMPLES * 2)
+#define NUM_CHANNELS 	(2)
 
 #define ARRAY_SIZE		(FFT_SAMPLES)
 #define SCALING_SIZE	(ARRAY_SIZE/2 + 1)
 
 #define NUM_BANDS       (8) // anchor bands
 #define NUM_SUB_BANDS	(ARRAY_SIZE/NUM_BANDS) // bands per anchor
-#define MAX_BAND_VAL    (9)
+#define MAX_BAND_VAL    (8)
 #define MIN_BAND_VAL    (0)
 
 float frequency_scalars[SCALING_SIZE];

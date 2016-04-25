@@ -6,28 +6,34 @@
  */
 #include "fprof.h"
 
+#define SAMPLES_PER_BAND	(FFT_SAMPLES/NUM_BANDS)
+
 void fprof_init(fprof_t* this)
 {
-    int i;
+    int i, j;
     //for (i = 0; i < NUM_BANDS; i++)
     //  this->bands[i] = 4;
 
-    this->bands[0] = 4;
-    this->bands[1] = 3;
-    this->bands[2] = 5;
-    this->bands[3] = 4;
-    this->bands[4] = 6;
-    this->bands[5] = 5;
-    this->bands[6] = 7;
-    this->bands[7] = 6;
+    this->bands[0] = 8;
+    this->bands[1] = 8;
+    this->bands[2] = 8;
+    this->bands[3] = 8;
+    this->bands[4] = 8;
+    this->bands[5] = 8;
+    this->bands[6] = 8;
+    this->bands[7] = 8;
 
     this->selected = 3;
 
     // initialize frequency scalars
-    for (i = 0; i < 10; i++)
-    	frequency_scalars[i] = 0.0;
-    for (i = 10; i < SCALING_SIZE; i++)
-    	frequency_scalars[i] = 1.0;
+    //for (i = 0; i < 100; i++)
+    //	frequency_scalars[i] = 1.0;
+    //for (i = 100; i < SCALING_SIZE; i++)
+    //	frequency_scalars[i] = 1.0;
+
+    for (i = 0; i < NUM_BANDS; i++)
+    	for (j = 0; j < SAMPLES_PER_BAND; j++)
+    		frequency_scalars[i*SAMPLES_PER_BAND + j] = (float)this->bands[i]/(float)MAX_BAND_VAL;
 }
 
 void fprof_incSel(fprof_t* this)

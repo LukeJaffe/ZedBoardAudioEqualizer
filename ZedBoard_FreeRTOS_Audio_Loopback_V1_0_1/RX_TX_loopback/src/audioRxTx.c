@@ -227,8 +227,8 @@ void getIP(short proc_input[CHUNK_SAMPLES])
  * Negative value on failure.
  */
 chunk_d_t* fft_chunks[FFT_CHUNKS];
-short fft_input[FFT_SAMPLES];
-short proc_output[FFT_SAMPLES];
+short fft_input[2][FFT_SAMPLES];
+short proc_output[2][FFT_SAMPLES];
 int fft_idx = 0;
 
 int audioRxTx_put(audioRxTx_t *pThis, chunk_d_t *pChunk)
@@ -240,9 +240,14 @@ int audioRxTx_put(audioRxTx_t *pThis, chunk_d_t *pChunk)
     }
 
     //printf("FFT idx: %d\n", fft_idx);
-    int i, j;
-    for (i = 0; i < CHUNK_SAMPLES; i++)
-    	fft_input[fft_idx*CHUNK_SAMPLES+i] = pChunk->s16_buff[i];
+    int i, j, k;
+    for (i = 0; i < CHUNK_SAMPLES / NUM_CHANNELS; i++)
+    {
+    	for (j = 0; j < NUM_CHANNELS; j++)
+    	{
+    		fft_input[j][fft_idx*(CHUNK_SAMPLES/NUM_CHANNELS)+i] = pChunk->s16_buff[(2 * i) + j];
+    	}
+    }
     fft_chunks[fft_idx] = pChunk;
     fft_idx++;
 
@@ -253,11 +258,17 @@ int audioRxTx_put(audioRxTx_t *pThis, chunk_d_t *pChunk)
     {
     	fft_idx = 0;
 
-    	processInput(fft_input, proc_output);
+    	processInput(fft_input[0], proc_output[0], 0);
+    	processInput(fft_input[1], proc_output[1], 1);
+
 
     	for (i = 0; i < FFT_CHUNKS; i++)
-    		for (j = 0; j < CHUNK_SAMPLES; j++)
-    			fft_chunks[i]->u16_buff[j] = proc_output[i*CHUNK_SAMPLES + j];
+    		for (j = 0; j < CHUNK_SAMPLES / NUM_CHANNELS; j++)
+    			for (k = 0; k < NUM_CHANNELS; k++)
+    				fft_chunks[i]->u16_buff[2 * j + k] = proc_output[k][i*(CHUNK_SAMPLES/NUM_CHANNELS) + j];
+
+
+
 
 		if ( 0 == pThis->running )
 		{

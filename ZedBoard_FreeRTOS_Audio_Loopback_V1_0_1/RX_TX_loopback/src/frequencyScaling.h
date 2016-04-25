@@ -4,6 +4,7 @@
 #include "math.h"
 #include "fprof.h"
 
+#define NUM_CHANNELS 2
 #define NUM_FREQS 8
 #define PI 3.1415916
 
@@ -26,10 +27,9 @@
 	//#define MEMNEEDED		(1)
 #endif
 
-void processInput(short *input, short *output);
-void processDummy(short *input, short *output);
+void processInput(short *input, short *output, short channel);
 void frequencyScale(float *input, float *output, int len, float *scalars);
 void configureFft();
-void configureScalars(float *input);
+void configureScalars(float * input);
 void configureWindow();
-void fft(short input[ARRAY_SIZE], kiss_fft_cpx output[SCALING_SIZE]);
+//void fft(short input[ARRAY_SIZE], kiss_fft_cpx output[SCALING_SIZE]);
