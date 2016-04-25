@@ -1,5 +1,5 @@
-src/bufferPool_d.o src/bufferPool_d.o: ../src/bufferPool_d.c \
- ../src/bufferPool_d.h ../src/chunk_d.h ../src/zedboard_freertos.h \
+src/bufferPool_d.d: ../src/bufferPool_d.c ../src/bufferPool_d.h \
+ ../src/chunk_d.h ../src/zedboard_freertos.h \
  ../../freertos_bsp_3_1_1/ps7_cortexa9_0/include/FreeRTOS.h \
  ../../freertos_bsp_3_1_1/ps7_cortexa9_0/include/FreeRTOSConfig.h \
  ../../freertos_bsp_3_1_1/ps7_cortexa9_0/include/xparameters.h \

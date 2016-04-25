@@ -3,9 +3,6 @@
 ################################################################################
 
 # Add inputs and outputs from these tool invocations to the build variables 
-LD_SRCS += \
-../src/lscript.ld 
-
 C_SRCS += \
 ../src/adau1761.c \
 ../src/audioPlayer.c \
@@ -20,6 +17,9 @@ C_SRCS += \
 ../src/kiss_fftr.c \
 ../src/main.c \
 ../src/snd_sample.c 
+
+LD_SRCS += \
+../src/lscript.ld 
 
 OBJS += \
 ./src/adau1761.o \
@@ -56,7 +56,7 @@ C_DEPS += \
 src/%.o: ../src/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: ARM gcc compiler'
-	arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"$@" -I../../freertos_bsp_3_1_1/ps7_cortexa9_0/include -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../freertos_bsp_3_1_1/ps7_cortexa9_0/include -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

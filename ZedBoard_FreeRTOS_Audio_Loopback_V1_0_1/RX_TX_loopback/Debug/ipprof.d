@@ -1,1 +1,1 @@
-ipprof.o ipprof.d: ../ipprof.c
+ipprof.d: ../ipprof.c

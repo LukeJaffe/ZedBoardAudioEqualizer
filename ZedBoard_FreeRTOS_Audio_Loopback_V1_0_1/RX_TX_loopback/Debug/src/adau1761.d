@@ -1,4 +1,4 @@
-src/adau1761.o src/adau1761.o: ../src/adau1761.c ../src/audioRxTx.h \
+src/adau1761.d: ../src/adau1761.c ../src/audioRxTx.h \
  ../src/bufferPool_d.h ../src/chunk_d.h ../src/zedboard_freertos.h \
  ../../freertos_bsp_3_1_1/ps7_cortexa9_0/include/FreeRTOS.h \
  ../../freertos_bsp_3_1_1/ps7_cortexa9_0/include/FreeRTOSConfig.h \

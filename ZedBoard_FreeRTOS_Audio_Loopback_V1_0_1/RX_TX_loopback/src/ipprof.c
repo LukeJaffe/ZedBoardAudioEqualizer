@@ -5,39 +5,41 @@
  *      Author: jaffe.lu
  */
 
+#include <stdio.h>
+#include <math.h>
+#include "kiss_fft.h"
 #include "ipprof.h"
 
-const static float freqs[] =
-{
-	[0]  	16.35,
-	[1]		32.70,
-	[2]		65.41,
-	[3]		130.81,
-	[4]		261.63,
-	[5]		523.25,
-	[6]		1046.50,
-	[7]		2093.00,
-	[8]		4186.01
-};
+#define IP_BANDS	(8)
 
-void ipprof_init(ipprof_t* this)
+void ipprof_get_ip(kiss_fft_cpx output[SCALING_SIZE])
 {
-	int i, j = 0;
-	float k = 0.0;
-	printf("K: %f\n", K);
+	int i, j;
+	float ip;
+	float fbands[IP_BANDS];
 	for (i = 0; i < IP_BANDS; i++)
-	{
-		for (; k < freqs[i]; k += K, j++);
-		this->band_idx[i] = j;
-		printf("band_idx[%d] = %d\n", i, j);
-	}
+		fbands[i] = 1.0;
+
+    for (i = 0; i < num_freqs; i++)
+    {
+    	int j_min = (1<<i) - 1;
+    	int j_max = (1<<(i+1)) - 1;
+    	for (j = j_min; j< j_max && (j < SCALING_SIZE); j++)
+    	{
+			if (i < IP_BANDS)
+			{
+				ip = sqrt(output[j].r*output[j].r* + output[j].i*output[j].i);
+				fbands[i] += ip;
+			}
+			else
+			{
+				fbands[i] += 1.0; //???
+			}
+			fbands[i] /= (float)(j_max - j_min);
+			ipbands[i] = (int)fbands[i];
+    	}
+    }
+
+    printf("Frequencies assigned\n");
 }
 
-void ipprof_getBands(ipprof_t* this, kiss_fft_cpx fft_output[SCALING_SIZE])
-{
-	float fout[SCALING_SIZE-1];
-
-	int i;
-	for (i = 1; i < SCALING_SIZE; i++)
-		fout[i-1] = (float)i*K;
-}

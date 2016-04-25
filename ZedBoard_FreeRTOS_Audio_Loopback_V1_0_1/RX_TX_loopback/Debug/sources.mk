@@ -2,20 +2,20 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-LD_SRCS := 
-OBJ_SRCS := 
-S_SRCS := 
-C_SRCS := 
-S_UPPER_SRCS := 
 O_SRCS := 
-EXECUTABLES := 
+C_SRCS := 
+LD_SRCS := 
+S_UPPER_SRCS := 
+S_SRCS := 
+OBJ_SRCS := 
 OBJS := 
-S_UPPER_DEPS := 
 C_DEPS := 
+EXECUTABLES := 
 ELFSIZE := 
+S_UPPER_DEPS := 
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
-. \
 src \
+. \
 

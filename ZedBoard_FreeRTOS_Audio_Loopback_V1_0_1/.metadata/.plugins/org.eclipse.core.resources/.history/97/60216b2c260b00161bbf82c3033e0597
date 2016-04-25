@@ -1,0 +1,44 @@
+/*
+ * ipprof.c
+ *
+ *  Created on: Apr 21, 2016
+ *      Author: jaffe.lu
+ */
+
+#include <stdio.h>
+#include <math.h>
+#include "kiss_fft.h"
+#include "ipprof.h"
+
+
+
+
+//void avg(int bands[10], kiss_fft_cpx output[OUTPUT_SIZE]);
+#define IP_BANDS	(8)
+
+void ipprof_get_ip(kiss_fft_cpx output[SCALING_SIZE])
+{
+	int i, j;
+	float ip
+	int bands[IP_BANDS];
+
+    for (i = 0; i < num_freqs; i++)
+    {
+    	for (j = (1<<i) - 1; (j < (1<<(i+1)) - 1) && (j < SCALING_SIZE); j++)
+    	{
+			if (i < IP_BANDS)
+			{
+				//frequency_scalars[j] = (float)this->bands[i]/(float)MID_BAND_VAL;
+				ip = sqrt(output[j].r*output[j].r* + output[j].i*output[j].i);
+				bands[i] +=
+			}
+			else
+			{
+				//frequency_scalars[j] = 1.0;
+			}
+    	}
+    }
+
+    printf("Frequencies assigned\n");
+}
+

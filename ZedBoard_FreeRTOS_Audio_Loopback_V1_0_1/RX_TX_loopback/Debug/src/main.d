@@ -1,5 +1,5 @@
-src/main.o src/main.o: ../src/main.c ../src/audioPlayer.h \
- ../src/bufferPool_d.h ../src/chunk_d.h ../src/zedboard_freertos.h \
+src/main.d: ../src/main.c ../src/audioPlayer.h ../src/bufferPool_d.h \
+ ../src/chunk_d.h ../src/zedboard_freertos.h \
  ../../freertos_bsp_3_1_1/ps7_cortexa9_0/include/FreeRTOS.h \
  ../../freertos_bsp_3_1_1/ps7_cortexa9_0/include/FreeRTOSConfig.h \
  ../../freertos_bsp_3_1_1/ps7_cortexa9_0/include/xparameters.h \

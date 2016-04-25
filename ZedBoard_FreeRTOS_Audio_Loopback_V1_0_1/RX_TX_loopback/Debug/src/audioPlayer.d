@@ -1,6 +1,5 @@
-src/audioPlayer.o src/audioPlayer.o: ../src/audioPlayer.c \
- ../src/audioPlayer.h ../src/bufferPool_d.h ../src/chunk_d.h \
- ../src/zedboard_freertos.h \
+src/audioPlayer.d: ../src/audioPlayer.c ../src/audioPlayer.h \
+ ../src/bufferPool_d.h ../src/chunk_d.h ../src/zedboard_freertos.h \
  ../../freertos_bsp_3_1_1/ps7_cortexa9_0/include/FreeRTOS.h \
  ../../freertos_bsp_3_1_1/ps7_cortexa9_0/include/FreeRTOSConfig.h \
  ../../freertos_bsp_3_1_1/ps7_cortexa9_0/include/xparameters.h \
@@ -49,8 +48,7 @@ src/audioPlayer.o src/audioPlayer.o: ../src/audioPlayer.c \
  ../../freertos_bsp_3_1_1/ps7_cortexa9_0/include/xiicps.h \
  ../../freertos_bsp_3_1_1/ps7_cortexa9_0/include/xiicps_hw.h \
  ../src/audioRxTx.h ../src/adau1761.h ../src/audioSample.h \
- ../src/gpio_interrupt.h ../src/ipprof.h ../src/fprof.h \
- ../src/kiss_fftr.h ../src/kiss_fft.h
+ ../src/gpio_interrupt.h ../src/ipprof.h ../src/fprof.h
 
 ../src/audioPlayer.h:
 
@@ -165,7 +163,3 @@ src/audioPlayer.o src/audioPlayer.o: ../src/audioPlayer.c \
 ../src/ipprof.h:
 
 ../src/fprof.h:
-
-../src/kiss_fftr.h:
-
-../src/kiss_fft.h:

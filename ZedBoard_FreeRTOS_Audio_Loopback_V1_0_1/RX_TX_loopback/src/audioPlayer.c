@@ -176,7 +176,8 @@ static void gpio_task( void *pvParameters )
 /* display task */
 void display_task (void *pvParameters)
 {
-	ipprof_init(&ipprof);
+	int i;
+	//ipprof_init(&ipprof);
     fprof_init(&fprof);
 
     char buffer[NUM_BANDS+4];
@@ -184,7 +185,10 @@ void display_task (void *pvParameters)
     {
         fprof_getBands(&fprof, buffer);
         //printf("%s", buffer);
-        vTaskDelay(1);
+        vTaskDelay(500);
+        for (i = 0; i < IP_BANDS; i++)
+        	printf("%d ", ipbands[i]);
+        printf("\n");
     }
 }
 
