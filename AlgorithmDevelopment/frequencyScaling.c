@@ -2,13 +2,13 @@
 
 // First half of this array is previous sample set
 // Second half of this array is current sample set
-short inputBuffer[ARRAY_SIZE * 2];
+short inputBuffer[NUM_CHANNELS][ARRAY_SIZE * 2];
 
-float windowedCrossSampleArray[ARRAY_SIZE];
-float windowedInputArray[ARRAY_SIZE];
+float windowedCrossSampleArray[NUM_CHANNELS][ARRAY_SIZE];
+float windowedInputArray[NUM_CHANNELS][ARRAY_SIZE];
 
 /* Store results of windowed frequency scaling in alternating buffers */
-float frequencyScaledSamples[3][ARRAY_SIZE];
+float frequencyScaledSamples[NUM_CHANNELS][3][ARRAY_SIZE];
 
 float hanningWindow[ARRAY_SIZE];
 
@@ -53,6 +53,7 @@ void applyWindow(short *input, float *output)
 void frequencyScale(float *input, float *output, int len, float *scalars)
 {
     int i;
+
     kiss_fft_scalar inputArray[len];
     kiss_fft_cpx transformedArray[len / 2 + 1];
 
@@ -80,39 +81,47 @@ void frequencyScale(float *input, float *output, int len, float *scalars)
 }
 
 // Note: this function will have half-buffer phase shift effect
-void processInput(short *input, short *output)
+void processInput(short *input, short *output, short channel)
 {
     int i;
 
     // Read in the input buffer
     for (i = 0; i < ARRAY_SIZE; i++)
     {
-        inputBuffer[ARRAY_SIZE + i] = input[i];
+        inputBuffer[channel][ARRAY_SIZE + i] = input[i];
     }
 
     // Apply windows to the midpoint buffer and input buffer
-    applyWindow(inputBuffer + (ARRAY_SIZE / 2), windowedCrossSampleArray);
-    applyWindow(inputBuffer + ARRAY_SIZE, windowedInputArray);
+    applyWindow(inputBuffer[channel] + (ARRAY_SIZE / 2), windowedCrossSampleArray[channel]);
+    applyWindow(inputBuffer[channel] + ARRAY_SIZE, windowedInputArray[channel]);
 
-    frequencyScale(windowedCrossSampleArray, frequencyScaledSamples[1], ARRAY_SIZE, frequencyScalars);
-    frequencyScale(windowedInputArray, frequencyScaledSamples[2], ARRAY_SIZE, frequencyScalars);
+    frequencyScale(windowedCrossSampleArray[channel], frequencyScaledSamples[channel][1], ARRAY_SIZE, frequencyScalars);
+    frequencyScale(windowedInputArray[channel], frequencyScaledSamples[channel][2], ARRAY_SIZE, frequencyScalars);
 
     // Sum overlaps to produce the output array
     for (i = 0; i < ARRAY_SIZE / 2; i++)
     {
-        output[i] = frequencyScaledSamples[FSS_PREVIOUS_INPUT][ARRAY_SIZE / 2 + i] + frequencyScaledSamples[FSS_CROSS_INPUT][i];
+        output[i] = frequencyScaledSamples[channel][FSS_PREVIOUS_INPUT][ARRAY_SIZE / 2 + i] + frequencyScaledSamples[channel][FSS_CROSS_INPUT][i];
     }
 
     for (i = ARRAY_SIZE / 2; i < ARRAY_SIZE; i++)
     {
         // float -> short conversion should be handled automatically
-        output[i] = frequencyScaledSamples[FSS_CROSS_INPUT][i] + frequencyScaledSamples[FSS_THIS_INPUT][i - (ARRAY_SIZE / 2)];
+        output[i] = frequencyScaledSamples[channel][FSS_CROSS_INPUT][i] + frequencyScaledSamples[channel][FSS_THIS_INPUT][i - (ARRAY_SIZE / 2)];
     }
 
     // Store input and scaled version of input for use in next iteration
     for (i = 0; i < ARRAY_SIZE; i++)
     {
-        inputBuffer[i] = inputBuffer[i + ARRAY_SIZE];
-        frequencyScaledSamples[FSS_PREVIOUS_INPUT][i] = frequencyScaledSamples[FSS_THIS_INPUT][i];
+        inputBuffer[channel][i] = inputBuffer[channel][i + ARRAY_SIZE];
+        frequencyScaledSamples[channel][FSS_PREVIOUS_INPUT][i] = frequencyScaledSamples[channel][FSS_THIS_INPUT][i];
     }
+
+    /*
+    for (i = 0; i < ARRAY_SIZE / 2; i++)
+    {
+        printf("%d, %d\n", input[i], output[i + ARRAY_SIZE / 2]);
+    }
+    printf("\n\n");
+    */
 }
