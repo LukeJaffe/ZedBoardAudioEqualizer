@@ -107,7 +107,7 @@ typedef struct struct_zed_hdmi_display_t zed_hdmi_display_t;
 
 
 void zed_hdmi_display_init (void);
-void modify_display_heights(int heights[NUM_BANDS]);
+void modify_display_heights(int heights[NUM_BANDS], int display_mode);
 
 int zed_hdmi_display_clear( zed_hdmi_display_t *pDemo );
 int zed_hdmi_display_cbars( zed_hdmi_display_t *pDemo, Xuint32 offset );

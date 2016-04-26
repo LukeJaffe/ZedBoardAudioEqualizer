@@ -149,7 +149,7 @@ Xuint8 carrier_hdmi_out_config[CARRIER_HDMI_OUT_CONFIG_LEN][3] =
 };
 
 zed_hdmi_display_t display;
-int zed_hdmi_display_audio_freq(zed_hdmi_display_t *pDemo, int heights[NUM_BANDS] );
+int zed_hdmi_display_audio_freq(zed_hdmi_display_t *pDemo, int heights[NUM_BANDS], int display_mode );
 
 
 //int zed_hdmi_display_init( zed_hdmi_display_t *pDemo )
@@ -228,15 +228,15 @@ void zed_hdmi_display_init()
 //   vfb_tx_stop( &(pDemo->vdma_hdmi) );
 //   zed_hdmi_display_cbars( pDemo, (iterations-1) );
    int heights[NUM_BANDS] = {0,4,6,8,10,12,14,16};
-   modify_display_heights(heights);
+   modify_display_heights(heights, 0);
    heights[7] = 0;
-   modify_display_heights(heights);
+   modify_display_heights(heights, 1);
    while (1)
    {
 	   heights[7] = 16;
-	   modify_display_heights(heights);
+	   modify_display_heights(heights, 0);
 	   heights[7] = 0;
-	   modify_display_heights(heights);
+	   modify_display_heights(heights, 1);
 
    }
 //   zed_hdmi_display_audio_freq( pDemo, heights);
@@ -315,18 +315,18 @@ int zed_hdmi_display_cbars( zed_hdmi_display_t *pDemo, Xuint32 offset )
    return 0;
 }
 
-void modify_display_heights(int heights[NUM_BANDS])
+void modify_display_heights(int heights[NUM_BANDS], int display_mode)
 {
-	zed_hdmi_display_audio_freq(&display, heights);
+	zed_hdmi_display_audio_freq(&display, heights, display_mode);
 }
 
-int zed_hdmi_display_audio_freq( zed_hdmi_display_t *pDemo, int heights[NUM_BANDS] )
+int zed_hdmi_display_audio_freq( zed_hdmi_display_t *pDemo, int heights[NUM_BANDS], int display_mode )
 {
 //	   xil_printf( "Generate audio Bars\n\r" );
 	   //vfb_tx_stop( &(pDemo->vdma_hdmi) );
 
-   Xuint32 frame, row, col, pixel;
-   unsigned int col_divider = 10;
+   Xuint32 frame, row, col, pixel, color;
+   unsigned int col_divider = 20;
    unsigned int current_band;
    Xuint32 level_height = pDemo->hdmio_height/NUM_LEVELS;
    Xuint32 band_width = pDemo->hdmio_width/NUM_BANDS;
@@ -339,10 +339,18 @@ int zed_hdmi_display_audio_freq( zed_hdmi_display_t *pDemo, int heights[NUM_BAND
          for ( col = 0; col < pDemo->hdmio_width; col++ )
          {
             current_band = col/band_width;
-            //(NUM_BANDS - 1) -
+
             if (row > level_height*(NUM_LEVELS - heights[current_band]))
             {
-               pixel = WHITE;
+               if (heights[current_band] == 0)
+               {
+                pixel = BLACK;
+               }
+               else
+               {
+                    pixel = (display_mode == (current_band + 1)) ? RED : WHITE;
+               }
+
             }
             else
             {
