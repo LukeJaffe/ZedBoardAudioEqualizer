@@ -1,0 +1,2115 @@
+16:59:57 **** Incremental Build of configuration Debug for project hdmi_reference ****
+make all 
+make: Nothing to be done for `all'.
+17:00:00 **** Incremental Build of configuration Debug for project hdmi_reference ****
+make all 
+make: Nothing to be done for `all'.
+17:00:47 **** Auto Build of configuration Debug for project hdmi_reference ****
+make all 
+'Building file: ../src/zed_hdmi_display.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zed_hdmi_display.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zed_hdmi_display.d" -MT"src/zed_hdmi_display.o" -o "src/zed_hdmi_display.o" "../src/zed_hdmi_display.c"
+../src/zed_hdmi_display.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_hdmi_display.c:53:0:
+../src/zed_hdmi_display.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_iic.h:49:0,
+                 from ../src/zed_hdmi_display.h:57,
+                 from ../src/zed_hdmi_display.c:53:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/zed_hdmi_display.h:62:0,
+                 from ../src/zed_hdmi_display.c:53:
+../src/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_hdmi_display.h:63:0,
+                 from ../src/zed_hdmi_display.c:53:
+../src/video_generator.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_init':
+../src/zed_hdmi_display.c:179:7: warning: 'return' with a value, in function returning void
+       return -1;
+       ^
+../src/zed_hdmi_display.c:183:14: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+       Xuint8 num_bytes;
+              ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_cbars':
+../src/zed_hdmi_display.c:313:4: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
+    Xil_DCacheFlush();
+    ^
+../src/zed_hdmi_display.c:298:12: warning: unused variable 'cbar' [-Wunused-variable]
+    Xuint32 cbar, pixel;
+            ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_clear':
+../src/zed_hdmi_display.c:293:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/zed_hdmi_display.c'
+' '
+'Building target: hdmi_reference.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/lib -o "hdmi_reference.elf"  ./src/helloworld.o ./src/platform.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/zed_hdmi_display.o ./src/zed_iic_axi.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: hdmi_reference.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hdmi_reference.elf  |tee "hdmi_reference.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 108472	   3752	  91664	 203888	  31c70	hdmi_reference.elf
+'Finished building: hdmi_reference.elf.size'
+' '
+17:00:57 **** Incremental Build of configuration Debug for project hdmi_reference ****
+make all 
+make: Nothing to be done for `all'.
+17:01:28 **** Incremental Build of configuration Debug for project hdmi_reference ****
+make all 
+make: Nothing to be done for `all'.
+17:02:38 **** Auto Build of configuration Debug for project hdmi_reference ****
+make all 
+'Building file: ../src/zed_hdmi_display.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zed_hdmi_display.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zed_hdmi_display.d" -MT"src/zed_hdmi_display.o" -o "src/zed_hdmi_display.o" "../src/zed_hdmi_display.c"
+../src/zed_hdmi_display.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_hdmi_display.c:53:0:
+../src/zed_hdmi_display.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_iic.h:49:0,
+                 from ../src/zed_hdmi_display.h:57,
+                 from ../src/zed_hdmi_display.c:53:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/zed_hdmi_display.h:62:0,
+                 from ../src/zed_hdmi_display.c:53:
+../src/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_hdmi_display.h:63:0,
+                 from ../src/zed_hdmi_display.c:53:
+../src/video_generator.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_init':
+../src/zed_hdmi_display.c:179:7: warning: 'return' with a value, in function returning void
+       return -1;
+       ^
+../src/zed_hdmi_display.c:183:14: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+       Xuint8 num_bytes;
+              ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_cbars':
+../src/zed_hdmi_display.c:313:4: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
+    Xil_DCacheFlush();
+    ^
+../src/zed_hdmi_display.c:298:12: warning: unused variable 'cbar' [-Wunused-variable]
+    Xuint32 cbar, pixel;
+            ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_clear':
+../src/zed_hdmi_display.c:293:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/zed_hdmi_display.c'
+' '
+'Building target: hdmi_reference.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/lib -o "hdmi_reference.elf"  ./src/helloworld.o ./src/platform.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/zed_hdmi_display.o ./src/zed_iic_axi.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: hdmi_reference.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hdmi_reference.elf  |tee "hdmi_reference.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 108472	   3752	  91664	 203888	  31c70	hdmi_reference.elf
+'Finished building: hdmi_reference.elf.size'
+' '
+17:02:53 **** Incremental Build of configuration Debug for project hdmi_reference ****
+make all 
+make: Nothing to be done for `all'.
+17:08:40 **** Incremental Build of configuration Debug for project hdmi_reference ****
+make all 
+make: Nothing to be done for `all'.
+17:10:28 **** Auto Build of configuration Debug for project hdmi_reference ****
+make all 
+'Building file: ../src/zed_hdmi_display.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zed_hdmi_display.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zed_hdmi_display.d" -MT"src/zed_hdmi_display.o" -o "src/zed_hdmi_display.o" "../src/zed_hdmi_display.c"
+../src/zed_hdmi_display.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_hdmi_display.c:53:0:
+../src/zed_hdmi_display.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_iic.h:49:0,
+                 from ../src/zed_hdmi_display.h:57,
+                 from ../src/zed_hdmi_display.c:53:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/zed_hdmi_display.h:62:0,
+                 from ../src/zed_hdmi_display.c:53:
+../src/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_hdmi_display.h:63:0,
+                 from ../src/zed_hdmi_display.c:53:
+../src/video_generator.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_init':
+../src/zed_hdmi_display.c:179:7: warning: 'return' with a value, in function returning void
+       return -1;
+       ^
+../src/zed_hdmi_display.c:183:14: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+       Xuint8 num_bytes;
+              ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_cbars':
+../src/zed_hdmi_display.c:313:4: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
+    Xil_DCacheFlush();
+    ^
+../src/zed_hdmi_display.c:298:12: warning: unused variable 'cbar' [-Wunused-variable]
+    Xuint32 cbar, pixel;
+            ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_audio_freq':
+../src/zed_hdmi_display.c:369:14: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+       Xuint8 num_bytes;
+              ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_clear':
+../src/zed_hdmi_display.c:293:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/zed_hdmi_display.c'
+' '
+'Building target: hdmi_reference.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/lib -o "hdmi_reference.elf"  ./src/helloworld.o ./src/platform.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/zed_hdmi_display.o ./src/zed_iic_axi.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: hdmi_reference.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hdmi_reference.elf  |tee "hdmi_reference.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 108704	   3752	  91664	 204120	  31d58	hdmi_reference.elf
+'Finished building: hdmi_reference.elf.size'
+' '
+17:10:33 **** Incremental Build of configuration Debug for project hdmi_reference ****
+make all 
+make: Nothing to be done for `all'.
+17:10:48 **** Auto Build of configuration Debug for project hdmi_reference ****
+make all 
+'Building file: ../src/zed_hdmi_display.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zed_hdmi_display.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zed_hdmi_display.d" -MT"src/zed_hdmi_display.o" -o "src/zed_hdmi_display.o" "../src/zed_hdmi_display.c"
+../src/zed_hdmi_display.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_hdmi_display.c:53:0:
+../src/zed_hdmi_display.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_iic.h:49:0,
+                 from ../src/zed_hdmi_display.h:57,
+                 from ../src/zed_hdmi_display.c:53:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/zed_hdmi_display.h:62:0,
+                 from ../src/zed_hdmi_display.c:53:
+../src/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_hdmi_display.h:63:0,
+                 from ../src/zed_hdmi_display.c:53:
+../src/video_generator.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_init':
+../src/zed_hdmi_display.c:179:7: warning: 'return' with a value, in function returning void
+       return -1;
+       ^
+../src/zed_hdmi_display.c:183:14: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+       Xuint8 num_bytes;
+              ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_cbars':
+../src/zed_hdmi_display.c:313:4: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
+    Xil_DCacheFlush();
+    ^
+../src/zed_hdmi_display.c:298:12: warning: unused variable 'cbar' [-Wunused-variable]
+    Xuint32 cbar, pixel;
+            ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_audio_freq':
+../src/zed_hdmi_display.c:369:14: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+       Xuint8 num_bytes;
+              ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_clear':
+../src/zed_hdmi_display.c:293:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/zed_hdmi_display.c'
+' '
+'Building target: hdmi_reference.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/lib -o "hdmi_reference.elf"  ./src/helloworld.o ./src/platform.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/zed_hdmi_display.o ./src/zed_iic_axi.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: hdmi_reference.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hdmi_reference.elf  |tee "hdmi_reference.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 108704	   3752	  91664	 204120	  31d58	hdmi_reference.elf
+'Finished building: hdmi_reference.elf.size'
+' '
+17:10:49 **** Incremental Build of configuration Debug for project hdmi_reference ****
+make all 
+make: Nothing to be done for `all'.
+17:10:58 **** Auto Build of configuration Debug for project hdmi_reference ****
+make all 
+'Building file: ../src/zed_hdmi_display.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zed_hdmi_display.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zed_hdmi_display.d" -MT"src/zed_hdmi_display.o" -o "src/zed_hdmi_display.o" "../src/zed_hdmi_display.c"
+../src/zed_hdmi_display.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_hdmi_display.c:53:0:
+../src/zed_hdmi_display.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_iic.h:49:0,
+                 from ../src/zed_hdmi_display.h:57,
+                 from ../src/zed_hdmi_display.c:53:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/zed_hdmi_display.h:62:0,
+                 from ../src/zed_hdmi_display.c:53:
+../src/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_hdmi_display.h:63:0,
+                 from ../src/zed_hdmi_display.c:53:
+../src/video_generator.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_init':
+../src/zed_hdmi_display.c:179:7: warning: 'return' with a value, in function returning void
+       return -1;
+       ^
+../src/zed_hdmi_display.c:183:14: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+       Xuint8 num_bytes;
+              ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_cbars':
+../src/zed_hdmi_display.c:313:4: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
+    Xil_DCacheFlush();
+    ^
+../src/zed_hdmi_display.c:298:12: warning: unused variable 'cbar' [-Wunused-variable]
+    Xuint32 cbar, pixel;
+            ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_audio_freq':
+../src/zed_hdmi_display.c:369:14: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+       Xuint8 num_bytes;
+              ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_clear':
+../src/zed_hdmi_display.c:293:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/zed_hdmi_display.c'
+' '
+'Building target: hdmi_reference.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/lib -o "hdmi_reference.elf"  ./src/helloworld.o ./src/platform.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/zed_hdmi_display.o ./src/zed_iic_axi.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: hdmi_reference.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hdmi_reference.elf  |tee "hdmi_reference.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 108704	   3752	  91664	 204120	  31d58	hdmi_reference.elf
+'Finished building: hdmi_reference.elf.size'
+' '
+17:11:14 **** Auto Build of configuration Debug for project hdmi_reference ****
+make all 
+'Building file: ../src/zed_hdmi_display.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zed_hdmi_display.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zed_hdmi_display.d" -MT"src/zed_hdmi_display.o" -o "src/zed_hdmi_display.o" "../src/zed_hdmi_display.c"
+../src/zed_hdmi_display.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_hdmi_display.c:53:0:
+../src/zed_hdmi_display.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_iic.h:49:0,
+                 from ../src/zed_hdmi_display.h:57,
+                 from ../src/zed_hdmi_display.c:53:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/zed_hdmi_display.h:62:0,
+                 from ../src/zed_hdmi_display.c:53:
+../src/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_hdmi_display.h:63:0,
+                 from ../src/zed_hdmi_display.c:53:
+../src/video_generator.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_init':
+../src/zed_hdmi_display.c:179:7: warning: 'return' with a value, in function returning void
+       return -1;
+       ^
+../src/zed_hdmi_display.c:183:14: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+       Xuint8 num_bytes;
+              ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_cbars':
+../src/zed_hdmi_display.c:313:4: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
+    Xil_DCacheFlush();
+    ^
+../src/zed_hdmi_display.c:298:12: warning: unused variable 'cbar' [-Wunused-variable]
+    Xuint32 cbar, pixel;
+            ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_audio_freq':
+../src/zed_hdmi_display.c:369:14: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+       Xuint8 num_bytes;
+              ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_clear':
+../src/zed_hdmi_display.c:293:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/zed_hdmi_display.c'
+' '
+'Building target: hdmi_reference.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/lib -o "hdmi_reference.elf"  ./src/helloworld.o ./src/platform.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/zed_hdmi_display.o ./src/zed_iic_axi.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: hdmi_reference.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hdmi_reference.elf  |tee "hdmi_reference.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 108704	   3752	  91664	 204120	  31d58	hdmi_reference.elf
+'Finished building: hdmi_reference.elf.size'
+' '
+17:11:16 **** Incremental Build of configuration Debug for project hdmi_reference ****
+make all 
+make: Nothing to be done for `all'.
+17:12:18 **** Incremental Build of configuration Debug for project hdmi_reference ****
+make all 
+make: Nothing to be done for `all'.
+17:14:31 **** Build of configuration Debug for project audio_hdmi ****
+make all 
+'Building target: audio_hdmi.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/lib -o "audio_hdmi.elf"  ./src/helloworld.o ./src/platform.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/zed_hdmi_display.o ./src/zed_iic_axi.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: audio_hdmi.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size audio_hdmi.elf  |tee "audio_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 108704	   3752	  91664	 204120	  31d58	audio_hdmi.elf
+'Finished building: audio_hdmi.elf.size'
+' '
+17:15:07 **** Clean-only build of configuration Debug for project audio_hdmi ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/zed_hdmi_display.o ./src/zed_iic_axi.o  ./src/helloworld.d ./src/platform.d ./src/video_frame_buffer.d ./src/video_generator.d ./src/video_resolution.d ./src/zed_hdmi_display.d ./src/zed_iic_axi.d  audio_hdmi.elf.size  audio_hdmi.elf
+' '
+17:15:07 **** Auto Build of configuration Debug for project audio_hdmi ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from ../src/helloworld.c:37:0:
+../src/zed_hdmi_display.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_iic.h:49:0,
+                 from ../src/zed_hdmi_display.h:57,
+                 from ../src/helloworld.c:37:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/zed_hdmi_display.h:62:0,
+                 from ../src/helloworld.c:37:
+../src/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_hdmi_display.h:63:0,
+                 from ../src/helloworld.c:37:
+../src/video_generator.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zedboard_freertos.h:2:0,
+                 from ../src/helloworld.c:39:
+../src/helloworld.c: In function 'main':
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:345:118: warning: passing argument 1 of 'xTaskGenericCreate' from incompatible pointer type
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                      ^
+../src/helloworld.c:57:5: note: in expansion of macro 'xTaskCreate'
+     xTaskCreate( zed_hdmi_display_init, ( signed char * ) "HW", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1 , NULL );
+     ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'TaskFunction_t' but argument is of type 'void (*)(void)'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/helloworld.c:57:5: note: in expansion of macro 'xTaskCreate'
+     xTaskCreate( zed_hdmi_display_init, ( signed char * ) "HW", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1 , NULL );
+     ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/video_frame_buffer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video_frame_buffer.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video_frame_buffer.d" -MT"src/video_frame_buffer.o" -o "src/video_frame_buffer.o" "../src/video_frame_buffer.c"
+In file included from ../src/video_frame_buffer.c:54:0:
+../src/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video_resolution.h:51:0,
+                 from ../src/video_frame_buffer.c:54:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/video_frame_buffer.c: In function 'vfb_rx_init':
+../src/video_frame_buffer.c:92:4: warning: implicit declaration of function 'vfb_rx_setup' [-Wimplicit-function-declaration]
+    Status = vfb_rx_setup(pAxiVdma,pWriteCfg,uVideoResolution,uStorageResolution,uMemAddr,uNumFrames);
+    ^
+../src/video_frame_buffer.c:102:4: warning: implicit declaration of function 'vfb_rx_start' [-Wimplicit-function-declaration]
+    Status = vfb_rx_start(pAxiVdma);
+    ^
+../src/video_frame_buffer.c:89:8: warning: unused variable 'uDMACR' [-Wunused-variable]
+    u32 uDMACR;
+        ^
+../src/video_frame_buffer.c:88:8: warning: unused variable 'uBaseAddr' [-Wunused-variable]
+    u32 uBaseAddr;
+        ^
+../src/video_frame_buffer.c:87:26: warning: unused variable 'FrameCfg' [-Wunused-variable]
+    XAxiVdma_FrameCounter FrameCfg;
+                          ^
+../src/video_frame_buffer.c: In function 'vfb_tx_init':
+../src/video_frame_buffer.c:119:4: warning: implicit declaration of function 'vfb_tx_setup' [-Wimplicit-function-declaration]
+    Status = vfb_tx_setup(pAxiVdma,pReadCfg,uVideoResolution,uStorageResolution,uMemAddr,uNumFrames);
+    ^
+../src/video_frame_buffer.c:129:4: warning: implicit declaration of function 'vfb_tx_start' [-Wimplicit-function-declaration]
+    Status = vfb_tx_start(pAxiVdma);
+    ^
+../src/video_frame_buffer.c:116:8: warning: unused variable 'uDMACR' [-Wunused-variable]
+    u32 uDMACR;
+        ^
+../src/video_frame_buffer.c:115:8: warning: unused variable 'uBaseAddr' [-Wunused-variable]
+    u32 uBaseAddr;
+        ^
+../src/video_frame_buffer.c:114:26: warning: unused variable 'FrameCfg' [-Wunused-variable]
+    XAxiVdma_FrameCounter FrameCfg;
+                          ^
+../src/video_frame_buffer.c: In function 'vfb_rx_init':
+../src/video_frame_buffer.c:109:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/video_frame_buffer.c: In function 'vfb_tx_init':
+../src/video_frame_buffer.c:147:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/video_frame_buffer.c'
+' '
+'Building file: ../src/video_generator.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video_generator.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video_generator.d" -MT"src/video_generator.o" -o "src/video_generator.o" "../src/video_generator.c"
+../src/video_generator.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video_generator.c:47:0:
+../src/video_generator.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video_generator.c:48:0:
+../src/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video_resolution.h:51:0,
+                 from ../src/video_generator.c:48:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/video_generator.c'
+' '
+'Building file: ../src/video_resolution.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video_resolution.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video_resolution.d" -MT"src/video_resolution.o" -o "src/video_resolution.o" "../src/video_resolution.c"
+../src/video_resolution.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video_resolution.c:49:0:
+../src/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video_resolution.h:51:0,
+                 from ../src/video_resolution.c:49:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/video_resolution.c'
+' '
+'Building file: ../src/zed_hdmi_display.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zed_hdmi_display.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zed_hdmi_display.d" -MT"src/zed_hdmi_display.o" -o "src/zed_hdmi_display.o" "../src/zed_hdmi_display.c"
+../src/zed_hdmi_display.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_hdmi_display.c:53:0:
+../src/zed_hdmi_display.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_iic.h:49:0,
+                 from ../src/zed_hdmi_display.h:57,
+                 from ../src/zed_hdmi_display.c:53:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/zed_hdmi_display.h:62:0,
+                 from ../src/zed_hdmi_display.c:53:
+../src/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_hdmi_display.h:63:0,
+                 from ../src/zed_hdmi_display.c:53:
+../src/video_generator.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_init':
+../src/zed_hdmi_display.c:179:7: warning: 'return' with a value, in function returning void
+       return -1;
+       ^
+../src/zed_hdmi_display.c:183:14: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+       Xuint8 num_bytes;
+              ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_cbars':
+../src/zed_hdmi_display.c:313:4: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
+    Xil_DCacheFlush();
+    ^
+../src/zed_hdmi_display.c:298:12: warning: unused variable 'cbar' [-Wunused-variable]
+    Xuint32 cbar, pixel;
+            ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_audio_freq':
+../src/zed_hdmi_display.c:369:14: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+       Xuint8 num_bytes;
+              ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_clear':
+../src/zed_hdmi_display.c:293:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/zed_hdmi_display.c'
+' '
+'Building file: ../src/zed_iic_axi.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zed_iic_axi.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zed_iic_axi.d" -MT"src/zed_iic_axi.o" -o "src/zed_iic_axi.o" "../src/zed_iic_axi.c"
+In file included from ../src/zed_iic.h:49:0,
+                 from ../src/zed_iic_axi.c:53:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/zed_iic_axi.c'
+' '
+'Building target: audio_hdmi.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/lib -o "audio_hdmi.elf"  ./src/helloworld.o ./src/platform.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/zed_hdmi_display.o ./src/zed_iic_axi.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: audio_hdmi.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size audio_hdmi.elf  |tee "audio_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 108704	   3752	  91664	 204120	  31d58	audio_hdmi.elf
+'Finished building: audio_hdmi.elf.size'
+' '
+17:15:11 **** Clean-only build of configuration Debug for project audio_hdmi ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/zed_hdmi_display.o ./src/zed_iic_axi.o  ./src/helloworld.d ./src/platform.d ./src/video_frame_buffer.d ./src/video_generator.d ./src/video_resolution.d ./src/zed_hdmi_display.d ./src/zed_iic_axi.d  audio_hdmi.elf.size  audio_hdmi.elf
+' '
+17:15:11 **** Auto Build of configuration Debug for project audio_hdmi ****
+make all 
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/video_frame_buffer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video_frame_buffer.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video_frame_buffer.d" -MT"src/video_frame_buffer.o" -o "src/video_frame_buffer.o" "../src/video_frame_buffer.c"
+In file included from ../src/video_frame_buffer.c:54:0:
+../src/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video_resolution.h:51:0,
+                 from ../src/video_frame_buffer.c:54:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/video_frame_buffer.c: In function 'vfb_rx_init':
+../src/video_frame_buffer.c:92:4: warning: implicit declaration of function 'vfb_rx_setup' [-Wimplicit-function-declaration]
+    Status = vfb_rx_setup(pAxiVdma,pWriteCfg,uVideoResolution,uStorageResolution,uMemAddr,uNumFrames);
+    ^
+../src/video_frame_buffer.c:102:4: warning: implicit declaration of function 'vfb_rx_start' [-Wimplicit-function-declaration]
+    Status = vfb_rx_start(pAxiVdma);
+    ^
+../src/video_frame_buffer.c:89:8: warning: unused variable 'uDMACR' [-Wunused-variable]
+    u32 uDMACR;
+        ^
+../src/video_frame_buffer.c:88:8: warning: unused variable 'uBaseAddr' [-Wunused-variable]
+    u32 uBaseAddr;
+        ^
+../src/video_frame_buffer.c:87:26: warning: unused variable 'FrameCfg' [-Wunused-variable]
+    XAxiVdma_FrameCounter FrameCfg;
+                          ^
+../src/video_frame_buffer.c: In function 'vfb_tx_init':
+../src/video_frame_buffer.c:119:4: warning: implicit declaration of function 'vfb_tx_setup' [-Wimplicit-function-declaration]
+    Status = vfb_tx_setup(pAxiVdma,pReadCfg,uVideoResolution,uStorageResolution,uMemAddr,uNumFrames);
+    ^
+../src/video_frame_buffer.c:129:4: warning: implicit declaration of function 'vfb_tx_start' [-Wimplicit-function-declaration]
+    Status = vfb_tx_start(pAxiVdma);
+    ^
+../src/video_frame_buffer.c:116:8: warning: unused variable 'uDMACR' [-Wunused-variable]
+    u32 uDMACR;
+        ^
+../src/video_frame_buffer.c:115:8: warning: unused variable 'uBaseAddr' [-Wunused-variable]
+    u32 uBaseAddr;
+        ^
+../src/video_frame_buffer.c:114:26: warning: unused variable 'FrameCfg' [-Wunused-variable]
+    XAxiVdma_FrameCounter FrameCfg;
+                          ^
+../src/video_frame_buffer.c: In function 'vfb_rx_init':
+../src/video_frame_buffer.c:109:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/video_frame_buffer.c: In function 'vfb_tx_init':
+../src/video_frame_buffer.c:147:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/video_frame_buffer.c'
+' '
+'Building file: ../src/video_generator.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video_generator.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video_generator.d" -MT"src/video_generator.o" -o "src/video_generator.o" "../src/video_generator.c"
+../src/video_generator.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video_generator.c:47:0:
+../src/video_generator.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video_generator.c:48:0:
+../src/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video_resolution.h:51:0,
+                 from ../src/video_generator.c:48:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/video_generator.c'
+' '
+'Building file: ../src/video_resolution.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video_resolution.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video_resolution.d" -MT"src/video_resolution.o" -o "src/video_resolution.o" "../src/video_resolution.c"
+../src/video_resolution.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video_resolution.c:49:0:
+../src/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video_resolution.h:51:0,
+                 from ../src/video_resolution.c:49:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/video_resolution.c'
+' '
+'Building file: ../src/zed_hdmi_display.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zed_hdmi_display.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zed_hdmi_display.d" -MT"src/zed_hdmi_display.o" -o "src/zed_hdmi_display.o" "../src/zed_hdmi_display.c"
+../src/zed_hdmi_display.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_hdmi_display.c:53:0:
+../src/zed_hdmi_display.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_iic.h:49:0,
+                 from ../src/zed_hdmi_display.h:57,
+                 from ../src/zed_hdmi_display.c:53:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/zed_hdmi_display.h:62:0,
+                 from ../src/zed_hdmi_display.c:53:
+../src/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_hdmi_display.h:63:0,
+                 from ../src/zed_hdmi_display.c:53:
+../src/video_generator.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_init':
+../src/zed_hdmi_display.c:179:7: warning: 'return' with a value, in function returning void
+       return -1;
+       ^
+../src/zed_hdmi_display.c:183:14: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+       Xuint8 num_bytes;
+              ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_cbars':
+../src/zed_hdmi_display.c:313:4: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
+    Xil_DCacheFlush();
+    ^
+../src/zed_hdmi_display.c:298:12: warning: unused variable 'cbar' [-Wunused-variable]
+    Xuint32 cbar, pixel;
+            ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_audio_freq':
+../src/zed_hdmi_display.c:369:14: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+       Xuint8 num_bytes;
+              ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_clear':
+../src/zed_hdmi_display.c:293:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/zed_hdmi_display.c'
+' '
+'Building file: ../src/zed_iic_axi.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zed_iic_axi.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zed_iic_axi.d" -MT"src/zed_iic_axi.o" -o "src/zed_iic_axi.o" "../src/zed_iic_axi.c"
+In file included from ../src/zed_iic.h:49:0,
+                 from ../src/zed_iic_axi.c:53:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/zed_iic_axi.c'
+' '
+'Building target: audio_hdmi.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/lib -o "audio_hdmi.elf"  ./src/platform.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/zed_hdmi_display.o ./src/zed_iic_axi.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\freeRTOS_Integrated_WS_v_4_0_3\freeRTOS_Integrated_WS_v_1_0_2_bsp\ps7_cortexa9_0\libsrc\standalone_v5_3\src/xil-crt0.S:133: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [audio_hdmi.elf] Error 1
+17:16:40 **** Auto Build of configuration Debug for project audio_hdmi ****
+make all 
+'Building file: ../src/adau1761.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adau1761.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adau1761.d" -MT"src/adau1761.o" -o "src/adau1761.o" "../src/adau1761.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/adau1761.c:1:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/audioRxTx.h:21:0,
+                 from ../src/adau1761.c:1:
+../src/adau1761.h:9:2: error: unknown type name 'XLlFifo'
+  XLlFifo ToI2S; // structure for FIFO to I2S
+  ^
+make: *** [src/adau1761.o] Error 1
+17:16:56 **** Auto Build of configuration Debug for project audio_hdmi ****
+make all 
+'Building file: ../src/adau1761.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adau1761.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adau1761.d" -MT"src/adau1761.o" -o "src/adau1761.o" "../src/adau1761.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/adau1761.c:1:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/audioRxTx.h:21:0,
+                 from ../src/adau1761.c:1:
+../src/adau1761.h:9:2: error: unknown type name 'XLlFifo'
+  XLlFifo ToI2S; // structure for FIFO to I2S
+  ^
+make: *** [src/adau1761.o] Error 1
+17:18:58 **** Auto Build of configuration Debug for project audio_hdmi ****
+make all 
+'Building file: ../src/adau1761.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adau1761.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adau1761.d" -MT"src/adau1761.o" -o "src/adau1761.o" "../src/adau1761.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/adau1761.c:1:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/adau1761.c'
+' '
+'Building file: ../src/audioPlayer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioPlayer.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioPlayer.d" -MT"src/audioPlayer.o" -o "src/audioPlayer.o" "../src/audioPlayer.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/audioPlayer.c:22:0:
+../src/gpio_interrupt.h: In function 'gpio_init':
+../src/gpio_interrupt.h:161:5: warning: implicit declaration of function 'prvGetInterruptControllerInstance' [-Wimplicit-function-declaration]
+     pGIC = prvGetInterruptControllerInstance();
+     ^
+../src/gpio_interrupt.h:161:10: warning: assignment makes pointer from integer without a cast
+     pGIC = prvGetInterruptControllerInstance();
+          ^
+../src/audioPlayer.c: In function 'audioPlayer_init':
+../src/audioPlayer.c:59:2: warning: implicit declaration of function 'Adau1761_Init' [-Wimplicit-function-declaration]
+  Adau1761_Init(&pThis->codec);
+  ^
+In file included from ../src/zedboard_freertos.h:2:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../src/audioPlayer.c: In function 'audioPlayer_start':
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:88:5: note: in expansion of macro 'xTaskCreate'
+     xTaskCreate( gpio_task, ( signed char * ) "GPIO", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1 , NULL );
+     ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:91:5: note: in expansion of macro 'xTaskCreate'
+     xTaskCreate( display_task, ( signed char * ) "DISPLAY", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1 , NULL );
+     ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:94:2: note: in expansion of macro 'xTaskCreate'
+  xTaskCreate( audioPlayer_task, ( signed char * ) "PLAYER", 5000, pThis, tskIDLE_PRIORITY + 1 , NULL );
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../src/audioPlayer.c: In function 'display_task':
+../src/audioPlayer.c:179:14: warning: passing argument 1 of 'ipprof_init' from incompatible pointer type
+  ipprof_init(&ipprof);
+              ^
+In file included from ../src/audioPlayer.c:23:0:
+../src/ipprof.h:27:6: note: expected 'struct ipprof_t *' but argument is of type 'struct fprof_t *'
+ void ipprof_init(ipprof_t* this);
+      ^
+'Finished building: ../src/audioPlayer.c'
+' '
+'Building file: ../src/audioRxTx.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioRxTx.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioRxTx.d" -MT"src/audioRxTx.o" -o "src/audioRxTx.o" "../src/audioRxTx.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/audioRxTx.c:18:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/audioRxTx.c:21:0:
+../src/frequencyScaling.h:7:0: warning: "NUM_CHANNELS" redefined
+ #define NUM_CHANNELS 2
+ ^
+In file included from ../src/frequencyScaling.h:5:0,
+                 from ../src/audioRxTx.c:21:
+../src/fprof.h:8:0: note: this is the location of the previous definition
+ #define NUM_CHANNELS  (2)
+ ^
+../src/audioRxTx.c: In function 'audioRxTx_start':
+../src/audioRxTx.c:62:2: warning: implicit declaration of function 'prvGetInterruptControllerInstance' [-Wimplicit-function-declaration]
+  pGic = prvGetInterruptControllerInstance(); // retrieve pointer to initialized instance
+  ^
+../src/audioRxTx.c:62:7: warning: assignment makes pointer from integer without a cast
+  pGic = prvGetInterruptControllerInstance(); // retrieve pointer to initialized instance
+       ^
+'Finished building: ../src/audioRxTx.c'
+' '
+'Building file: ../src/audioSample.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioSample.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioSample.d" -MT"src/audioSample.o" -o "src/audioSample.o" "../src/audioSample.c"
+../src/audioSample.c: In function 'audioSample_init':
+../src/audioSample.c:31:17: warning: assignment from incompatible pointer type
+   pThis->pmem   = snd_samples;
+                 ^
+'Finished building: ../src/audioSample.c'
+' '
+'Building file: ../src/bufferPool_d.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bufferPool_d.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/bufferPool_d.d" -MT"src/bufferPool_d.o" -o "src/bufferPool_d.o" "../src/bufferPool_d.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/bufferPool_d.c:17:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/zedboard_freertos.h:3:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/bufferPool_d.c:17:
+../src/bufferPool_d.c: In function 'bufferPool_d_init':
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/queue.h:421:109: warning: passing argument 3 of 'xQueueGenericSend' makes integer from pointer without a cast
+ #define xQueueSend( xQueue, pvItemToQueue, xTicksToWait ) xQueueGenericSend( ( xQueue ), ( pvItemToQueue ), ( xTicksToWait ), queueSEND_TO_BACK )
+                                                                                                             ^
+../src/bufferPool_d.c:64:6: note: in expansion of macro 'xQueueSend'
+   if(xQueueSend( pThis->freeList, &pChunk, NULL ) != pdPASS) {
+      ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/queue.h:592:12: note: expected 'TickType_t' but argument is of type 'void *'
+ BaseType_t xQueueGenericSend( QueueHandle_t xQueue, const void * const pvItemToQueue, TickType_t xTicksToWait, const BaseType_t xCopyPosition ) PRIVILEGED_FUNCTION;
+            ^
+../src/bufferPool_d.c: In function 'bufferPool_d_release_from_ISR':
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/queue.h:1261:136: warning: passing argument 3 of 'xQueueGenericSendFromISR' makes pointer from integer without a cast
+ #define xQueueSendFromISR( xQueue, pvItemToQueue, pxHigherPriorityTaskWoken ) xQueueGenericSendFromISR( ( xQueue ), ( pvItemToQueue ), ( pxHigherPriorityTaskWoken ), queueSEND_TO_BACK )
+                                                                                                                                        ^
+../src/bufferPool_d.c:161:5: note: in expansion of macro 'xQueueSendFromISR'
+  if(xQueueSendFromISR( pThis->freeList, &pChunk, ( TickType_t ) 10 ) != pdPASS) {
+     ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/queue.h:1340:12: note: expected 'BaseType_t * const' but argument is of type 'long unsigned int'
+ BaseType_t xQueueGenericSendFromISR( QueueHandle_t xQueue, const void * const pvItemToQueue, BaseType_t * const pxHigherPriorityTaskWoken, const BaseType_t xCopyPosition ) PRIVILEGED_FUNCTION;
+            ^
+'Finished building: ../src/bufferPool_d.c'
+' '
+'Building file: ../src/chunk_d.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chunk_d.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/chunk_d.d" -MT"src/chunk_d.o" -o "src/chunk_d.o" "../src/chunk_d.c"
+'Finished building: ../src/chunk_d.c'
+' '
+'Building file: ../src/fprof.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/fprof.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fprof.d" -MT"src/fprof.o" -o "src/fprof.o" "../src/fprof.c"
+'Finished building: ../src/fprof.c'
+' '
+'Building file: ../src/frequencyScaling.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/frequencyScaling.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/frequencyScaling.d" -MT"src/frequencyScaling.o" -o "src/frequencyScaling.o" "../src/frequencyScaling.c"
+In file included from ../src/frequencyScaling.c:1:0:
+../src/frequencyScaling.h:7:0: warning: "NUM_CHANNELS" redefined
+ #define NUM_CHANNELS 2
+ ^
+In file included from ../src/frequencyScaling.h:5:0,
+                 from ../src/frequencyScaling.c:1:
+../src/fprof.h:8:0: note: this is the location of the previous definition
+ #define NUM_CHANNELS  (2)
+ ^
+'Finished building: ../src/frequencyScaling.c'
+' '
+'Building file: ../src/ipprof.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ipprof.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ipprof.d" -MT"src/ipprof.o" -o "src/ipprof.o" "../src/ipprof.c"
+../src/ipprof.c: In function 'ipprof_getBands':
+../src/ipprof.c:38:8: warning: variable 'fout' set but not used [-Wunused-but-set-variable]
+  float fout[SCALING_SIZE-1];
+        ^
+'Finished building: ../src/ipprof.c'
+' '
+'Building file: ../src/kiss_fft.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kiss_fft.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/kiss_fft.d" -MT"src/kiss_fft.o" -o "src/kiss_fft.o" "../src/kiss_fft.c"
+'Finished building: ../src/kiss_fft.c'
+' '
+'Building file: ../src/kiss_fftr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kiss_fftr.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/kiss_fftr.d" -MT"src/kiss_fftr.o" -o "src/kiss_fftr.o" "../src/kiss_fftr.c"
+'Finished building: ../src/kiss_fftr.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/main.c:23:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/snd_sample.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snd_sample.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/snd_sample.d" -MT"src/snd_sample.o" -o "src/snd_sample.o" "../src/snd_sample.c"
+'Finished building: ../src/snd_sample.c'
+' '
+'Building target: audio_hdmi.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/lib -o "audio_hdmi.elf"  ./src/adau1761.o ./src/audioPlayer.o ./src/audioRxTx.o ./src/audioSample.o ./src/bufferPool_d.o ./src/chunk_d.o ./src/fprof.o ./src/frequencyScaling.o ./src/ipprof.o ./src/kiss_fft.o ./src/kiss_fftr.o ./src/main.o ./src/platform.o ./src/snd_sample.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/zed_hdmi_display.o ./src/zed_iic_axi.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+./src/frequencyScaling.o: In function `configureWindow':
+C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\freeRTOS_Integrated_WS_v_4_0_3\audio_hdmi\Debug/../src/frequencyScaling.c:48: undefined reference to `cos'
+./src/kiss_fft.o: In function `kf_factor':
+C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\freeRTOS_Integrated_WS_v_4_0_3\audio_hdmi\Debug/../src/kiss_fft.c:313: undefined reference to `sqrt'
+C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\freeRTOS_Integrated_WS_v_4_0_3\audio_hdmi\Debug/../src/kiss_fft.c:313: undefined reference to `floor'
+./src/kiss_fft.o: In function `kiss_fft_alloc':
+C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\freeRTOS_Integrated_WS_v_4_0_3\audio_hdmi\Debug/../src/kiss_fft.c:363: undefined reference to `cos'
+C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\freeRTOS_Integrated_WS_v_4_0_3\audio_hdmi\Debug/../src/kiss_fft.c:363: undefined reference to `sin'
+./src/kiss_fftr.o: In function `kiss_fftr_alloc':
+C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\freeRTOS_Integrated_WS_v_4_0_3\audio_hdmi\Debug/../src/kiss_fftr.c:63: undefined reference to `cos'
+C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\freeRTOS_Integrated_WS_v_4_0_3\audio_hdmi\Debug/../src/kiss_fftr.c:63: undefined reference to `sin'
+collect2.exe: error: ld returned 1 exit status
+make: *** [audio_hdmi.elf] Error 1
+17:19:43 **** Clean-only build of configuration Debug for project audio_hdmi ****
+make clean 
+rm -rf  ./src/adau1761.o ./src/audioPlayer.o ./src/audioRxTx.o ./src/audioSample.o ./src/bufferPool_d.o ./src/chunk_d.o ./src/fprof.o ./src/frequencyScaling.o ./src/ipprof.o ./src/kiss_fft.o ./src/kiss_fftr.o ./src/main.o ./src/platform.o ./src/snd_sample.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/zed_hdmi_display.o ./src/zed_iic_axi.o  ./src/adau1761.d ./src/audioPlayer.d ./src/audioRxTx.d ./src/audioSample.d ./src/bufferPool_d.d ./src/chunk_d.d ./src/fprof.d ./src/frequencyScaling.d ./src/ipprof.d ./src/kiss_fft.d ./src/kiss_fftr.d ./src/main.d ./src/platform.d ./src/snd_sample.d ./src/video_frame_buffer.d ./src/video_generator.d ./src/video_resolution.d ./src/zed_hdmi_display.d ./src/zed_iic_axi.d  audio_hdmi.elf.size  audio_hdmi.elf
+' '
+17:19:43 **** Auto Build of configuration Debug for project audio_hdmi ****
+make all 
+'Building file: ../src/adau1761.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adau1761.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adau1761.d" -MT"src/adau1761.o" -o "src/adau1761.o" "../src/adau1761.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/adau1761.c:1:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/adau1761.c'
+' '
+'Building file: ../src/audioPlayer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioPlayer.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioPlayer.d" -MT"src/audioPlayer.o" -o "src/audioPlayer.o" "../src/audioPlayer.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/audioPlayer.c:22:0:
+../src/gpio_interrupt.h: In function 'gpio_init':
+../src/gpio_interrupt.h:161:5: warning: implicit declaration of function 'prvGetInterruptControllerInstance' [-Wimplicit-function-declaration]
+     pGIC = prvGetInterruptControllerInstance();
+     ^
+../src/gpio_interrupt.h:161:10: warning: assignment makes pointer from integer without a cast
+     pGIC = prvGetInterruptControllerInstance();
+          ^
+../src/audioPlayer.c: In function 'audioPlayer_init':
+../src/audioPlayer.c:59:2: warning: implicit declaration of function 'Adau1761_Init' [-Wimplicit-function-declaration]
+  Adau1761_Init(&pThis->codec);
+  ^
+In file included from ../src/zedboard_freertos.h:2:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../src/audioPlayer.c: In function 'audioPlayer_start':
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:88:5: note: in expansion of macro 'xTaskCreate'
+     xTaskCreate( gpio_task, ( signed char * ) "GPIO", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1 , NULL );
+     ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:91:5: note: in expansion of macro 'xTaskCreate'
+     xTaskCreate( display_task, ( signed char * ) "DISPLAY", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1 , NULL );
+     ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:94:2: note: in expansion of macro 'xTaskCreate'
+  xTaskCreate( audioPlayer_task, ( signed char * ) "PLAYER", 5000, pThis, tskIDLE_PRIORITY + 1 , NULL );
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../src/audioPlayer.c: In function 'display_task':
+../src/audioPlayer.c:179:14: warning: passing argument 1 of 'ipprof_init' from incompatible pointer type
+  ipprof_init(&ipprof);
+              ^
+In file included from ../src/audioPlayer.c:23:0:
+../src/ipprof.h:27:6: note: expected 'struct ipprof_t *' but argument is of type 'struct fprof_t *'
+ void ipprof_init(ipprof_t* this);
+      ^
+'Finished building: ../src/audioPlayer.c'
+' '
+'Building file: ../src/audioRxTx.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioRxTx.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioRxTx.d" -MT"src/audioRxTx.o" -o "src/audioRxTx.o" "../src/audioRxTx.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/audioRxTx.c:18:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/audioRxTx.c:21:0:
+../src/frequencyScaling.h:7:0: warning: "NUM_CHANNELS" redefined
+ #define NUM_CHANNELS 2
+ ^
+In file included from ../src/frequencyScaling.h:5:0,
+                 from ../src/audioRxTx.c:21:
+../src/fprof.h:8:0: note: this is the location of the previous definition
+ #define NUM_CHANNELS  (2)
+ ^
+../src/audioRxTx.c: In function 'audioRxTx_start':
+../src/audioRxTx.c:62:2: warning: implicit declaration of function 'prvGetInterruptControllerInstance' [-Wimplicit-function-declaration]
+  pGic = prvGetInterruptControllerInstance(); // retrieve pointer to initialized instance
+  ^
+../src/audioRxTx.c:62:7: warning: assignment makes pointer from integer without a cast
+  pGic = prvGetInterruptControllerInstance(); // retrieve pointer to initialized instance
+       ^
+'Finished building: ../src/audioRxTx.c'
+' '
+'Building file: ../src/audioSample.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioSample.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioSample.d" -MT"src/audioSample.o" -o "src/audioSample.o" "../src/audioSample.c"
+../src/audioSample.c: In function 'audioSample_init':
+../src/audioSample.c:31:17: warning: assignment from incompatible pointer type
+   pThis->pmem   = snd_samples;
+                 ^
+'Finished building: ../src/audioSample.c'
+' '
+'Building file: ../src/bufferPool_d.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bufferPool_d.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/bufferPool_d.d" -MT"src/bufferPool_d.o" -o "src/bufferPool_d.o" "../src/bufferPool_d.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/bufferPool_d.c:17:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/zedboard_freertos.h:3:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/bufferPool_d.c:17:
+../src/bufferPool_d.c: In function 'bufferPool_d_init':
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/queue.h:421:109: warning: passing argument 3 of 'xQueueGenericSend' makes integer from pointer without a cast
+ #define xQueueSend( xQueue, pvItemToQueue, xTicksToWait ) xQueueGenericSend( ( xQueue ), ( pvItemToQueue ), ( xTicksToWait ), queueSEND_TO_BACK )
+                                                                                                             ^
+../src/bufferPool_d.c:64:6: note: in expansion of macro 'xQueueSend'
+   if(xQueueSend( pThis->freeList, &pChunk, NULL ) != pdPASS) {
+      ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/queue.h:592:12: note: expected 'TickType_t' but argument is of type 'void *'
+ BaseType_t xQueueGenericSend( QueueHandle_t xQueue, const void * const pvItemToQueue, TickType_t xTicksToWait, const BaseType_t xCopyPosition ) PRIVILEGED_FUNCTION;
+            ^
+../src/bufferPool_d.c: In function 'bufferPool_d_release_from_ISR':
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/queue.h:1261:136: warning: passing argument 3 of 'xQueueGenericSendFromISR' makes pointer from integer without a cast
+ #define xQueueSendFromISR( xQueue, pvItemToQueue, pxHigherPriorityTaskWoken ) xQueueGenericSendFromISR( ( xQueue ), ( pvItemToQueue ), ( pxHigherPriorityTaskWoken ), queueSEND_TO_BACK )
+                                                                                                                                        ^
+../src/bufferPool_d.c:161:5: note: in expansion of macro 'xQueueSendFromISR'
+  if(xQueueSendFromISR( pThis->freeList, &pChunk, ( TickType_t ) 10 ) != pdPASS) {
+     ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/queue.h:1340:12: note: expected 'BaseType_t * const' but argument is of type 'long unsigned int'
+ BaseType_t xQueueGenericSendFromISR( QueueHandle_t xQueue, const void * const pvItemToQueue, BaseType_t * const pxHigherPriorityTaskWoken, const BaseType_t xCopyPosition ) PRIVILEGED_FUNCTION;
+            ^
+'Finished building: ../src/bufferPool_d.c'
+' '
+'Building file: ../src/chunk_d.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chunk_d.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/chunk_d.d" -MT"src/chunk_d.o" -o "src/chunk_d.o" "../src/chunk_d.c"
+'Finished building: ../src/chunk_d.c'
+' '
+'Building file: ../src/fprof.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/fprof.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fprof.d" -MT"src/fprof.o" -o "src/fprof.o" "../src/fprof.c"
+'Finished building: ../src/fprof.c'
+' '
+'Building file: ../src/frequencyScaling.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/frequencyScaling.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/frequencyScaling.d" -MT"src/frequencyScaling.o" -o "src/frequencyScaling.o" "../src/frequencyScaling.c"
+In file included from ../src/frequencyScaling.c:1:0:
+../src/frequencyScaling.h:7:0: warning: "NUM_CHANNELS" redefined
+ #define NUM_CHANNELS 2
+ ^
+In file included from ../src/frequencyScaling.h:5:0,
+                 from ../src/frequencyScaling.c:1:
+../src/fprof.h:8:0: note: this is the location of the previous definition
+ #define NUM_CHANNELS  (2)
+ ^
+'Finished building: ../src/frequencyScaling.c'
+' '
+'Building file: ../src/ipprof.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ipprof.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ipprof.d" -MT"src/ipprof.o" -o "src/ipprof.o" "../src/ipprof.c"
+../src/ipprof.c: In function 'ipprof_getBands':
+../src/ipprof.c:38:8: warning: variable 'fout' set but not used [-Wunused-but-set-variable]
+  float fout[SCALING_SIZE-1];
+        ^
+'Finished building: ../src/ipprof.c'
+' '
+'Building file: ../src/kiss_fft.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kiss_fft.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/kiss_fft.d" -MT"src/kiss_fft.o" -o "src/kiss_fft.o" "../src/kiss_fft.c"
+'Finished building: ../src/kiss_fft.c'
+' '
+'Building file: ../src/kiss_fftr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kiss_fftr.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/kiss_fftr.d" -MT"src/kiss_fftr.o" -o "src/kiss_fftr.o" "../src/kiss_fftr.c"
+'Finished building: ../src/kiss_fftr.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/main.c:23:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/snd_sample.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snd_sample.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/snd_sample.d" -MT"src/snd_sample.o" -o "src/snd_sample.o" "../src/snd_sample.c"
+'Finished building: ../src/snd_sample.c'
+' '
+'Building file: ../src/video_frame_buffer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video_frame_buffer.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video_frame_buffer.d" -MT"src/video_frame_buffer.o" -o "src/video_frame_buffer.o" "../src/video_frame_buffer.c"
+In file included from ../src/video_frame_buffer.c:54:0:
+../src/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video_resolution.h:51:0,
+                 from ../src/video_frame_buffer.c:54:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/video_frame_buffer.c: In function 'vfb_rx_init':
+../src/video_frame_buffer.c:92:4: warning: implicit declaration of function 'vfb_rx_setup' [-Wimplicit-function-declaration]
+    Status = vfb_rx_setup(pAxiVdma,pWriteCfg,uVideoResolution,uStorageResolution,uMemAddr,uNumFrames);
+    ^
+../src/video_frame_buffer.c:102:4: warning: implicit declaration of function 'vfb_rx_start' [-Wimplicit-function-declaration]
+    Status = vfb_rx_start(pAxiVdma);
+    ^
+../src/video_frame_buffer.c:89:8: warning: unused variable 'uDMACR' [-Wunused-variable]
+    u32 uDMACR;
+        ^
+../src/video_frame_buffer.c:88:8: warning: unused variable 'uBaseAddr' [-Wunused-variable]
+    u32 uBaseAddr;
+        ^
+../src/video_frame_buffer.c:87:26: warning: unused variable 'FrameCfg' [-Wunused-variable]
+    XAxiVdma_FrameCounter FrameCfg;
+                          ^
+../src/video_frame_buffer.c: In function 'vfb_tx_init':
+../src/video_frame_buffer.c:119:4: warning: implicit declaration of function 'vfb_tx_setup' [-Wimplicit-function-declaration]
+    Status = vfb_tx_setup(pAxiVdma,pReadCfg,uVideoResolution,uStorageResolution,uMemAddr,uNumFrames);
+    ^
+../src/video_frame_buffer.c:129:4: warning: implicit declaration of function 'vfb_tx_start' [-Wimplicit-function-declaration]
+    Status = vfb_tx_start(pAxiVdma);
+    ^
+../src/video_frame_buffer.c:116:8: warning: unused variable 'uDMACR' [-Wunused-variable]
+    u32 uDMACR;
+        ^
+../src/video_frame_buffer.c:115:8: warning: unused variable 'uBaseAddr' [-Wunused-variable]
+    u32 uBaseAddr;
+        ^
+../src/video_frame_buffer.c:114:26: warning: unused variable 'FrameCfg' [-Wunused-variable]
+    XAxiVdma_FrameCounter FrameCfg;
+                          ^
+../src/video_frame_buffer.c: In function 'vfb_rx_init':
+../src/video_frame_buffer.c:109:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/video_frame_buffer.c: In function 'vfb_tx_init':
+../src/video_frame_buffer.c:147:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/video_frame_buffer.c'
+' '
+'Building file: ../src/video_generator.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video_generator.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video_generator.d" -MT"src/video_generator.o" -o "src/video_generator.o" "../src/video_generator.c"
+../src/video_generator.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video_generator.c:47:0:
+../src/video_generator.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video_generator.c:48:0:
+../src/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video_resolution.h:51:0,
+                 from ../src/video_generator.c:48:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/video_generator.c'
+' '
+'Building file: ../src/video_resolution.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video_resolution.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/video_resolution.d" -MT"src/video_resolution.o" -o "src/video_resolution.o" "../src/video_resolution.c"
+../src/video_resolution.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video_resolution.c:49:0:
+../src/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/video_resolution.h:51:0,
+                 from ../src/video_resolution.c:49:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/video_resolution.c'
+' '
+'Building file: ../src/zed_hdmi_display.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zed_hdmi_display.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zed_hdmi_display.d" -MT"src/zed_hdmi_display.o" -o "src/zed_hdmi_display.o" "../src/zed_hdmi_display.c"
+../src/zed_hdmi_display.c:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_hdmi_display.c:53:0:
+../src/zed_hdmi_display.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_iic.h:49:0,
+                 from ../src/zed_hdmi_display.h:57,
+                 from ../src/zed_hdmi_display.c:53:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/zed_hdmi_display.h:62:0,
+                 from ../src/zed_hdmi_display.c:53:
+../src/video_resolution.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/zed_hdmi_display.h:63:0,
+                 from ../src/zed_hdmi_display.c:53:
+../src/video_generator.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_init':
+../src/zed_hdmi_display.c:179:7: warning: 'return' with a value, in function returning void
+       return -1;
+       ^
+../src/zed_hdmi_display.c:183:14: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+       Xuint8 num_bytes;
+              ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_cbars':
+../src/zed_hdmi_display.c:313:4: warning: implicit declaration of function 'Xil_DCacheFlush' [-Wimplicit-function-declaration]
+    Xil_DCacheFlush();
+    ^
+../src/zed_hdmi_display.c:298:12: warning: unused variable 'cbar' [-Wunused-variable]
+    Xuint32 cbar, pixel;
+            ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_audio_freq':
+../src/zed_hdmi_display.c:369:14: warning: variable 'num_bytes' set but not used [-Wunused-but-set-variable]
+       Xuint8 num_bytes;
+              ^
+../src/zed_hdmi_display.c: In function 'zed_hdmi_display_clear':
+../src/zed_hdmi_display.c:293:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/zed_hdmi_display.c'
+' '
+'Building file: ../src/zed_iic_axi.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zed_iic_axi.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/zed_iic_axi.d" -MT"src/zed_iic_axi.o" -o "src/zed_iic_axi.o" "../src/zed_iic_axi.c"
+In file included from ../src/zed_iic.h:49:0,
+                 from ../src/zed_iic_axi.c:53:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/zed_iic_axi.c'
+' '
+'Building target: audio_hdmi.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/lib -o "audio_hdmi.elf"  ./src/adau1761.o ./src/audioPlayer.o ./src/audioRxTx.o ./src/audioSample.o ./src/bufferPool_d.o ./src/chunk_d.o ./src/fprof.o ./src/frequencyScaling.o ./src/ipprof.o ./src/kiss_fft.o ./src/kiss_fftr.o ./src/main.o ./src/platform.o ./src/snd_sample.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/zed_hdmi_display.o ./src/zed_iic_axi.o   -lm -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: audio_hdmi.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size audio_hdmi.elf  |tee "audio_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 161180	1149556	 180656	1491392	 16c1c0	audio_hdmi.elf
+'Finished building: audio_hdmi.elf.size'
+' '
+17:21:10 **** Incremental Build of configuration Debug for project audio_hdmi ****
+make all 
+make: Nothing to be done for `all'.
+17:21:10 **** Incremental Build of configuration Debug for project hdmi_reference ****
+make all 
+make: Nothing to be done for `all'.
+17:21:32 **** Incremental Build of configuration Debug for project audio_hdmi ****
+make all 
+make: Nothing to be done for `all'.
+17:21:32 **** Incremental Build of configuration Debug for project hdmi_reference ****
+make all 
+make: Nothing to be done for `all'.
+17:21:47 **** Incremental Build of configuration Debug for project audio_hdmi ****
+make all 
+make: Nothing to be done for `all'.
+17:21:47 **** Incremental Build of configuration Debug for project hdmi_reference ****
+make all 
+make: Nothing to be done for `all'.
+17:22:42 **** Incremental Build of configuration Debug for project audio_hdmi ****
+make all 
+make: Nothing to be done for `all'.
+17:22:42 **** Incremental Build of configuration Debug for project hdmi_reference ****
+make all 
+make: Nothing to be done for `all'.
+17:22:56 **** Incremental Build of configuration Debug for project audio_hdmi ****
+make all 
+make: Nothing to be done for `all'.
+17:22:56 **** Incremental Build of configuration Debug for project hdmi_reference ****
+make all 
+make: Nothing to be done for `all'.
+17:24:09 **** Auto Build of configuration Debug for project audio_hdmi ****
+make all 
+'Building target: audio_hdmi.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/lib -o "audio_hdmi.elf"  ./src/adau1761.o ./src/audioPlayer.o ./src/audioRxTx.o ./src/audioSample.o ./src/bufferPool_d.o ./src/chunk_d.o ./src/fprof.o ./src/frequencyScaling.o ./src/ipprof.o ./src/kiss_fft.o ./src/kiss_fftr.o ./src/main.o ./src/platform.o ./src/snd_sample.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/zed_hdmi_display.o ./src/zed_iic_axi.o   -lm -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: audio_hdmi.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size audio_hdmi.elf  |tee "audio_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 161180	1149556	 229808	1540544	 1781c0	audio_hdmi.elf
+'Finished building: audio_hdmi.elf.size'
+' '
+17:24:17 **** Incremental Build of configuration Debug for project audio_hdmi ****
+make all 
+make: Nothing to be done for `all'.
+17:24:17 **** Incremental Build of configuration Debug for project hdmi_reference ****
+make all 
+make: Nothing to be done for `all'.
+17:24:25 **** Incremental Build of configuration Debug for project audio_hdmi ****
+make all 
+make: Nothing to be done for `all'.
+17:24:25 **** Incremental Build of configuration Debug for project hdmi_reference ****
+make all 
+make: Nothing to be done for `all'.
+17:28:18 **** Auto Build of configuration Debug for project audio_hdmi ****
+make all 
+'Building file: ../src/adau1761.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adau1761.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adau1761.d" -MT"src/adau1761.o" -o "src/adau1761.o" "../src/adau1761.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/adau1761.c:1:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/audioRxTx.h:21:0,
+                 from ../src/adau1761.c:1:
+../src/adau1761.h:9:2: error: unknown type name 'XLlFifo'
+  XLlFifo ToI2S; // structure for FIFO to I2S
+  ^
+make: *** [src/adau1761.o] Error 1
+17:28:28 **** Auto Build of configuration Debug for project audio_hdmi ****
+make all 
+'Building file: ../src/adau1761.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adau1761.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/adau1761.d" -MT"src/adau1761.o" -o "src/adau1761.o" "../src/adau1761.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/adau1761.c:1:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/adau1761.c'
+' '
+'Building file: ../src/audioPlayer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioPlayer.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioPlayer.d" -MT"src/audioPlayer.o" -o "src/audioPlayer.o" "../src/audioPlayer.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/audioPlayer.c:22:0:
+../src/gpio_interrupt.h: In function 'gpio_init':
+../src/gpio_interrupt.h:161:5: warning: implicit declaration of function 'prvGetInterruptControllerInstance' [-Wimplicit-function-declaration]
+     pGIC = prvGetInterruptControllerInstance();
+     ^
+../src/gpio_interrupt.h:161:10: warning: assignment makes pointer from integer without a cast
+     pGIC = prvGetInterruptControllerInstance();
+          ^
+../src/audioPlayer.c: In function 'audioPlayer_init':
+../src/audioPlayer.c:59:2: warning: implicit declaration of function 'Adau1761_Init' [-Wimplicit-function-declaration]
+  Adau1761_Init(&pThis->codec);
+  ^
+In file included from ../src/zedboard_freertos.h:2:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../src/audioPlayer.c: In function 'audioPlayer_start':
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:88:5: note: in expansion of macro 'xTaskCreate'
+     xTaskCreate( gpio_task, ( signed char * ) "GPIO", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1 , NULL );
+     ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:91:5: note: in expansion of macro 'xTaskCreate'
+     xTaskCreate( display_task, ( signed char * ) "DISPLAY", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1 , NULL );
+     ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:94:2: note: in expansion of macro 'xTaskCreate'
+  xTaskCreate( audioPlayer_task, ( signed char * ) "PLAYER", 5000, pThis, tskIDLE_PRIORITY + 1 , NULL );
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../src/audioPlayer.c: In function 'display_task':
+../src/audioPlayer.c:190:10: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+          printf("%d ", ipbands[i]);
+          ^
+../src/audioPlayer.c:190:10: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+'Finished building: ../src/audioPlayer.c'
+' '
+'Building file: ../src/audioRxTx.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioRxTx.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioRxTx.d" -MT"src/audioRxTx.o" -o "src/audioRxTx.o" "../src/audioRxTx.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/audioRxTx.c:18:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/audioRxTx.c:21:0:
+../src/frequencyScaling.h:7:0: warning: "NUM_CHANNELS" redefined
+ #define NUM_CHANNELS 2
+ ^
+In file included from ../src/frequencyScaling.h:5:0,
+                 from ../src/audioRxTx.c:21:
+../src/fprof.h:8:0: note: this is the location of the previous definition
+ #define NUM_CHANNELS  (2)
+ ^
+../src/audioRxTx.c: In function 'audioRxTx_start':
+../src/audioRxTx.c:62:2: warning: implicit declaration of function 'prvGetInterruptControllerInstance' [-Wimplicit-function-declaration]
+  pGic = prvGetInterruptControllerInstance(); // retrieve pointer to initialized instance
+  ^
+../src/audioRxTx.c:62:7: warning: assignment makes pointer from integer without a cast
+  pGic = prvGetInterruptControllerInstance(); // retrieve pointer to initialized instance
+       ^
+'Finished building: ../src/audioRxTx.c'
+' '
+'Building file: ../src/audioSample.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioSample.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioSample.d" -MT"src/audioSample.o" -o "src/audioSample.o" "../src/audioSample.c"
+../src/audioSample.c: In function 'audioSample_init':
+../src/audioSample.c:31:17: warning: assignment from incompatible pointer type
+   pThis->pmem   = snd_samples;
+                 ^
+'Finished building: ../src/audioSample.c'
+' '
+'Building file: ../src/bufferPool_d.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bufferPool_d.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/bufferPool_d.d" -MT"src/bufferPool_d.o" -o "src/bufferPool_d.o" "../src/bufferPool_d.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/bufferPool_d.c:17:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/zedboard_freertos.h:3:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/bufferPool_d.c:17:
+../src/bufferPool_d.c: In function 'bufferPool_d_init':
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/queue.h:421:109: warning: passing argument 3 of 'xQueueGenericSend' makes integer from pointer without a cast
+ #define xQueueSend( xQueue, pvItemToQueue, xTicksToWait ) xQueueGenericSend( ( xQueue ), ( pvItemToQueue ), ( xTicksToWait ), queueSEND_TO_BACK )
+                                                                                                             ^
+../src/bufferPool_d.c:64:6: note: in expansion of macro 'xQueueSend'
+   if(xQueueSend( pThis->freeList, &pChunk, NULL ) != pdPASS) {
+      ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/queue.h:592:12: note: expected 'TickType_t' but argument is of type 'void *'
+ BaseType_t xQueueGenericSend( QueueHandle_t xQueue, const void * const pvItemToQueue, TickType_t xTicksToWait, const BaseType_t xCopyPosition ) PRIVILEGED_FUNCTION;
+            ^
+../src/bufferPool_d.c: In function 'bufferPool_d_release_from_ISR':
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/queue.h:1261:136: warning: passing argument 3 of 'xQueueGenericSendFromISR' makes pointer from integer without a cast
+ #define xQueueSendFromISR( xQueue, pvItemToQueue, pxHigherPriorityTaskWoken ) xQueueGenericSendFromISR( ( xQueue ), ( pvItemToQueue ), ( pxHigherPriorityTaskWoken ), queueSEND_TO_BACK )
+                                                                                                                                        ^
+../src/bufferPool_d.c:161:5: note: in expansion of macro 'xQueueSendFromISR'
+  if(xQueueSendFromISR( pThis->freeList, &pChunk, ( TickType_t ) 10 ) != pdPASS) {
+     ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/queue.h:1340:12: note: expected 'BaseType_t * const' but argument is of type 'long unsigned int'
+ BaseType_t xQueueGenericSendFromISR( QueueHandle_t xQueue, const void * const pvItemToQueue, BaseType_t * const pxHigherPriorityTaskWoken, const BaseType_t xCopyPosition ) PRIVILEGED_FUNCTION;
+            ^
+'Finished building: ../src/bufferPool_d.c'
+' '
+'Building file: ../src/chunk_d.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/chunk_d.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/chunk_d.d" -MT"src/chunk_d.o" -o "src/chunk_d.o" "../src/chunk_d.c"
+'Finished building: ../src/chunk_d.c'
+' '
+'Building file: ../src/fprof.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/fprof.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fprof.d" -MT"src/fprof.o" -o "src/fprof.o" "../src/fprof.c"
+../src/fprof.c: In function 'fprof_set_freqs':
+../src/fprof.c:34:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Frequencies assigned\n");
+     ^
+../src/fprof.c:34:5: warning: incompatible implicit declaration of built-in function 'printf'
+../src/fprof.c: In function 'fprof_incSel':
+../src/fprof.c:61:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("Selected band: %d\n", this->selected);
+         ^
+../src/fprof.c: In function 'fprof_decSel':
+../src/fprof.c:70:6: warning: incompatible implicit declaration of built-in function 'printf'
+      printf("Selected band: %d\n", this->selected);
+      ^
+../src/fprof.c: In function 'fprof_incBand':
+../src/fprof.c:82:10: warning: incompatible implicit declaration of built-in function 'printf'
+          printf("%d ", this->bands[i]);
+          ^
+../src/fprof.c: In function 'fprof_decBand':
+../src/fprof.c:95:10: warning: incompatible implicit declaration of built-in function 'printf'
+          printf("%d ", this->bands[i]);
+          ^
+'Finished building: ../src/fprof.c'
+' '
+'Building file: ../src/frequencyScaling.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/frequencyScaling.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/frequencyScaling.d" -MT"src/frequencyScaling.o" -o "src/frequencyScaling.o" "../src/frequencyScaling.c"
+In file included from ../src/frequencyScaling.c:1:0:
+../src/frequencyScaling.h:7:0: warning: "NUM_CHANNELS" redefined
+ #define NUM_CHANNELS 2
+ ^
+In file included from ../src/frequencyScaling.h:5:0,
+                 from ../src/frequencyScaling.c:1:
+../src/fprof.h:8:0: note: this is the location of the previous definition
+ #define NUM_CHANNELS  (2)
+ ^
+'Finished building: ../src/frequencyScaling.c'
+' '
+'Building file: ../src/ipprof.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ipprof.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ipprof.d" -MT"src/ipprof.o" -o "src/ipprof.o" "../src/ipprof.c"
+'Finished building: ../src/ipprof.c'
+' '
+'Building file: ../src/kiss_fft.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kiss_fft.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/kiss_fft.d" -MT"src/kiss_fft.o" -o "src/kiss_fft.o" "../src/kiss_fft.c"
+'Finished building: ../src/kiss_fft.c'
+' '
+'Building file: ../src/kiss_fftr.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kiss_fftr.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/kiss_fftr.d" -MT"src/kiss_fftr.o" -o "src/kiss_fftr.o" "../src/kiss_fftr.c"
+'Finished building: ../src/kiss_fftr.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/main.c:23:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/snd_sample.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/snd_sample.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/snd_sample.d" -MT"src/snd_sample.o" -o "src/snd_sample.o" "../src/snd_sample.c"
+'Finished building: ../src/snd_sample.c'
+' '
+'Building target: audio_hdmi.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/lib -o "audio_hdmi.elf"  ./src/adau1761.o ./src/audioPlayer.o ./src/audioRxTx.o ./src/audioSample.o ./src/bufferPool_d.o ./src/chunk_d.o ./src/fprof.o ./src/frequencyScaling.o ./src/ipprof.o ./src/kiss_fft.o ./src/kiss_fftr.o ./src/main.o ./src/platform.o ./src/snd_sample.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/zed_hdmi_display.o ./src/zed_iic_axi.o   -lm -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+./src/audioRxTx.o:(.rodata+0x2c): multiple definition of `num_freqs'
+./src/audioPlayer.o:(.rodata+0x2c): first defined here
+./src/fprof.o:(.rodata+0x2c): multiple definition of `num_freqs'
+./src/audioPlayer.o:(.rodata+0x2c): first defined here
+./src/frequencyScaling.o:(.rodata+0x2c): multiple definition of `num_freqs'
+./src/audioPlayer.o:(.rodata+0x2c): first defined here
+./src/ipprof.o:(.rodata+0x2c): multiple definition of `num_freqs'
+./src/audioPlayer.o:(.rodata+0x2c): first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [audio_hdmi.elf] Error 1
+17:30:41 **** Auto Build of configuration Debug for project audio_hdmi ****
+make all 
+'Building file: ../src/audioPlayer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioPlayer.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioPlayer.d" -MT"src/audioPlayer.o" -o "src/audioPlayer.o" "../src/audioPlayer.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/audioPlayer.c:22:0:
+../src/gpio_interrupt.h: In function 'gpio_init':
+../src/gpio_interrupt.h:161:5: warning: implicit declaration of function 'prvGetInterruptControllerInstance' [-Wimplicit-function-declaration]
+     pGIC = prvGetInterruptControllerInstance();
+     ^
+../src/gpio_interrupt.h:161:10: warning: assignment makes pointer from integer without a cast
+     pGIC = prvGetInterruptControllerInstance();
+          ^
+../src/audioPlayer.c: In function 'audioPlayer_init':
+../src/audioPlayer.c:59:2: warning: implicit declaration of function 'Adau1761_Init' [-Wimplicit-function-declaration]
+  Adau1761_Init(&pThis->codec);
+  ^
+In file included from ../src/zedboard_freertos.h:2:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../src/audioPlayer.c: In function 'audioPlayer_start':
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:88:5: note: in expansion of macro 'xTaskCreate'
+     xTaskCreate( gpio_task, ( signed char * ) "GPIO", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1 , NULL );
+     ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:91:5: note: in expansion of macro 'xTaskCreate'
+     xTaskCreate( display_task, ( signed char * ) "DISPLAY", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1 , NULL );
+     ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:94:2: note: in expansion of macro 'xTaskCreate'
+  xTaskCreate( audioPlayer_task, ( signed char * ) "PLAYER", 5000, pThis, tskIDLE_PRIORITY + 1 , NULL );
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../src/audioPlayer.c: In function 'display_task':
+../src/audioPlayer.c:190:10: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+          printf("%d ", ipbands[i]);
+          ^
+../src/audioPlayer.c:190:10: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+'Finished building: ../src/audioPlayer.c'
+' '
+'Building file: ../src/audioRxTx.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioRxTx.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioRxTx.d" -MT"src/audioRxTx.o" -o "src/audioRxTx.o" "../src/audioRxTx.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioRxTx.h:20,
+                 from ../src/audioRxTx.c:18:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/audioRxTx.c:21:0:
+../src/frequencyScaling.h:7:0: warning: "NUM_CHANNELS" redefined
+ #define NUM_CHANNELS 2
+ ^
+In file included from ../src/frequencyScaling.h:5:0,
+                 from ../src/audioRxTx.c:21:
+../src/fprof.h:8:0: note: this is the location of the previous definition
+ #define NUM_CHANNELS  (2)
+ ^
+../src/audioRxTx.c: In function 'audioRxTx_start':
+../src/audioRxTx.c:62:2: warning: implicit declaration of function 'prvGetInterruptControllerInstance' [-Wimplicit-function-declaration]
+  pGic = prvGetInterruptControllerInstance(); // retrieve pointer to initialized instance
+  ^
+../src/audioRxTx.c:62:7: warning: assignment makes pointer from integer without a cast
+  pGic = prvGetInterruptControllerInstance(); // retrieve pointer to initialized instance
+       ^
+'Finished building: ../src/audioRxTx.c'
+' '
+'Building file: ../src/fprof.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/fprof.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fprof.d" -MT"src/fprof.o" -o "src/fprof.o" "../src/fprof.c"
+../src/fprof.c: In function 'fprof_set_freqs':
+../src/fprof.c:34:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("Frequencies assigned\n");
+     ^
+../src/fprof.c:34:5: warning: incompatible implicit declaration of built-in function 'printf'
+../src/fprof.c: In function 'fprof_incSel':
+../src/fprof.c:61:9: warning: incompatible implicit declaration of built-in function 'printf'
+         printf("Selected band: %d\n", this->selected);
+         ^
+../src/fprof.c: In function 'fprof_decSel':
+../src/fprof.c:70:6: warning: incompatible implicit declaration of built-in function 'printf'
+      printf("Selected band: %d\n", this->selected);
+      ^
+../src/fprof.c: In function 'fprof_incBand':
+../src/fprof.c:82:10: warning: incompatible implicit declaration of built-in function 'printf'
+          printf("%d ", this->bands[i]);
+          ^
+../src/fprof.c: In function 'fprof_decBand':
+../src/fprof.c:95:10: warning: incompatible implicit declaration of built-in function 'printf'
+          printf("%d ", this->bands[i]);
+          ^
+'Finished building: ../src/fprof.c'
+' '
+'Building file: ../src/frequencyScaling.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/frequencyScaling.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/frequencyScaling.d" -MT"src/frequencyScaling.o" -o "src/frequencyScaling.o" "../src/frequencyScaling.c"
+In file included from ../src/frequencyScaling.c:1:0:
+../src/frequencyScaling.h:7:0: warning: "NUM_CHANNELS" redefined
+ #define NUM_CHANNELS 2
+ ^
+In file included from ../src/frequencyScaling.h:5:0,
+                 from ../src/frequencyScaling.c:1:
+../src/fprof.h:8:0: note: this is the location of the previous definition
+ #define NUM_CHANNELS  (2)
+ ^
+'Finished building: ../src/frequencyScaling.c'
+' '
+'Building file: ../src/ipprof.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ipprof.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ipprof.d" -MT"src/ipprof.o" -o "src/ipprof.o" "../src/ipprof.c"
+'Finished building: ../src/ipprof.c'
+' '
+'Building target: audio_hdmi.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/lib -o "audio_hdmi.elf"  ./src/adau1761.o ./src/audioPlayer.o ./src/audioRxTx.o ./src/audioSample.o ./src/bufferPool_d.o ./src/chunk_d.o ./src/fprof.o ./src/frequencyScaling.o ./src/ipprof.o ./src/kiss_fft.o ./src/kiss_fftr.o ./src/main.o ./src/platform.o ./src/snd_sample.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/zed_hdmi_display.o ./src/zed_iic_axi.o   -lm -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: audio_hdmi.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size audio_hdmi.elf  |tee "audio_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 162372	1149556	 225744	1537672	 177688	audio_hdmi.elf
+'Finished building: audio_hdmi.elf.size'
+' '
+17:30:53 **** Incremental Build of configuration Debug for project audio_hdmi ****
+make all 
+make: Nothing to be done for `all'.
+17:30:53 **** Incremental Build of configuration Debug for project hdmi_reference ****
+make all 
+make: Nothing to be done for `all'.
+17:32:32 **** Auto Build of configuration Debug for project audio_hdmi ****
+make all 
+'Building file: ../src/audioPlayer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audioPlayer.o" -I../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/audioPlayer.d" -MT"src/audioPlayer.o" -o "src/audioPlayer.o" "../src/audioPlayer.c"
+In file included from ../src/zedboard_freertos.h:16:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from ../src/audioPlayer.c:22:0:
+../src/gpio_interrupt.h: In function 'gpio_init':
+../src/gpio_interrupt.h:161:5: warning: implicit declaration of function 'prvGetInterruptControllerInstance' [-Wimplicit-function-declaration]
+     pGIC = prvGetInterruptControllerInstance();
+     ^
+../src/gpio_interrupt.h:161:10: warning: assignment makes pointer from integer without a cast
+     pGIC = prvGetInterruptControllerInstance();
+          ^
+../src/audioPlayer.c: In function 'audioPlayer_init':
+../src/audioPlayer.c:59:2: warning: implicit declaration of function 'Adau1761_Init' [-Wimplicit-function-declaration]
+  Adau1761_Init(&pThis->codec);
+  ^
+In file included from ../src/zedboard_freertos.h:2:0,
+                 from ../src/bufferPool_d.h:23,
+                 from ../src/audioPlayer.h:21,
+                 from ../src/audioPlayer.c:19:
+../src/audioPlayer.c: In function 'audioPlayer_start':
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:88:5: note: in expansion of macro 'xTaskCreate'
+     xTaskCreate( gpio_task, ( signed char * ) "GPIO", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1 , NULL );
+     ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:91:5: note: in expansion of macro 'xTaskCreate'
+     xTaskCreate( display_task, ( signed char * ) "DISPLAY", configMINIMAL_STACK_SIZE, NULL, tskIDLE_PRIORITY + 1 , NULL );
+     ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:345:134: warning: pointer targets in passing argument 2 of 'xTaskGenericCreate' differ in signedness [-Wpointer-sign]
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                                      ^
+../src/audioPlayer.c:94:2: note: in expansion of macro 'xTaskCreate'
+  xTaskCreate( audioPlayer_task, ( signed char * ) "PLAYER", 5000, pThis, tskIDLE_PRIORITY + 1 , NULL );
+  ^
+../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/task.h:1986:12: note: expected 'const char * const' but argument is of type 'signed char *'
+ BaseType_t xTaskGenericCreate( TaskFunction_t pxTaskCode, const char * const pcName, const uint16_t usStackDepth, void * const pvParameters, UBaseType_t uxPriority, TaskHandle_t * const pxCreatedTask, StackType_t * const puxStackBuffer, const MemoryRegion_t * const xRegions ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+            ^
+../src/audioPlayer.c: In function 'display_task':
+../src/audioPlayer.c:179:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+'Finished building: ../src/audioPlayer.c'
+' '
+'Building target: audio_hdmi.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/lib -o "audio_hdmi.elf"  ./src/adau1761.o ./src/audioPlayer.o ./src/audioRxTx.o ./src/audioSample.o ./src/bufferPool_d.o ./src/chunk_d.o ./src/fprof.o ./src/frequencyScaling.o ./src/ipprof.o ./src/kiss_fft.o ./src/kiss_fftr.o ./src/main.o ./src/platform.o ./src/snd_sample.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/zed_hdmi_display.o ./src/zed_iic_axi.o   -lm -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: audio_hdmi.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size audio_hdmi.elf  |tee "audio_hdmi.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 162300	1149556	 225744	1537600	 177640	audio_hdmi.elf
+'Finished building: audio_hdmi.elf.size'
+' '
+17:32:38 **** Incremental Build of configuration Debug for project audio_hdmi ****
+make all 
+make: Nothing to be done for `all'.
+17:32:38 **** Incremental Build of configuration Debug for project hdmi_reference ****
+make all 
+make: Nothing to be done for `all'.
