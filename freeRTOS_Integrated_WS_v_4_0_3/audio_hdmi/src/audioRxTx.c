@@ -258,14 +258,14 @@ int audioRxTx_put(audioRxTx_t *pThis, chunk_d_t *pChunk)
     {
     	fft_idx = 0;
 
-    	processInput(fft_input[0], proc_output[0], 0);
-    	processInput(fft_input[1], proc_output[1], 1);
+    	//processInput(fft_input[0], proc_output[0], 0);
+    	//processInput(fft_input[1], proc_output[1], 1);
 
 
     	for (i = 0; i < FFT_CHUNKS; i++)
     		for (j = 0; j < CHUNK_SAMPLES / NUM_CHANNELS; j++)
     			for (k = 0; k < NUM_CHANNELS; k++)
-    				fft_chunks[i]->u16_buff[2 * j + k] = proc_output[k][i*(CHUNK_SAMPLES/NUM_CHANNELS) + j];
+    				fft_chunks[i]->u16_buff[2 * j + k] = fft_input[k][i*(CHUNK_SAMPLES/NUM_CHANNELS) + j];
 
 
 

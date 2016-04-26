@@ -1,4 +1,4 @@
-12:26:45 **** Build of project freeRTOS_Integrated_WS_v_1_0_2_bsp ****
+20:53:33 **** Build of project freeRTOS_Integrated_WS_v_1_0_2_bsp ****
 make -k all 
 "Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_0/src"
 make -C ps7_cortexa9_0/libsrc/axivdma_v6_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
@@ -125,5 +125,5 @@ make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm
 "Compiling xadcps"
 'Finished building libraries'
 
-12:27:12 Build Finished (took 26s.954ms)
+20:53:53 Build Finished (took 19s.564ms)
 

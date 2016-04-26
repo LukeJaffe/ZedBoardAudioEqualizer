@@ -2,16 +2,24 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="uNumFrames_HdmiDisplay" key="selection"/>
+		<item value="" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
-		<item value="false" key="wholeword"/>
+		<item value="true" key="wholeword"/>
 		<list key="findhistory">
-			<item value="uNumFrames_HdmiDisplay"/>
-			<item value="zed_hdmi_display_cbars"/>
+			<item value="60"/>
+			<item value="NUM_CHUNKS"/>
+			<item value="CHUNK"/>
+			<item value="NUM_CHUNK"/>
+			<item value="generate"/>
+			<item value="CARRIER_HDMI_OUT_CONFIG_LEN"/>
+			<item value="pdemo"/>
+			<item value="band"/>
 		</list>
 		<list key="replacehistory">
+			<item value="pDemo"/>
+			<item value="current_band"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

@@ -1,4 +1,4 @@
-src/audioRxTx.o src/audioRxTx.d: ../src/audioRxTx.c ../src/audioRxTx.h \
+src/audioRxTx.o src/audioRxTx.o: ../src/audioRxTx.c ../src/audioRxTx.h \
  ../src/bufferPool_d.h ../src/chunk_d.h ../src/zedboard_freertos.h \
  ../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/FreeRTOS.h \
  ../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/FreeRTOSConfig.h \

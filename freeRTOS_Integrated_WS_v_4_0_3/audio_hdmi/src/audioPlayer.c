@@ -25,7 +25,7 @@
 
 
 /* number of chunks to allocate */
-#define CHUNK_NUM 60
+#define CHUNK_NUM 5
 #define VOLUME_CHANGE_STEP (4)
 #define VOLUME_MAX (0x7F)
 #define VOLUME_MIN (0x2F)

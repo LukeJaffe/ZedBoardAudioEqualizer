@@ -1,4 +1,4 @@
-src/audioPlayer.o src/audioPlayer.d: ../src/audioPlayer.c \
+src/audioPlayer.o src/audioPlayer.o: ../src/audioPlayer.c \
  ../src/audioPlayer.h ../src/bufferPool_d.h ../src/chunk_d.h \
  ../src/zedboard_freertos.h \
  ../../freeRTOS_Integrated_WS_v_1_0_2_bsp/ps7_cortexa9_0/include/FreeRTOS.h \
