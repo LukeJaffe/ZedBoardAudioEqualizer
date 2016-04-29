@@ -1,0 +1,6 @@
+23:47:17 **** Incremental Build of configuration Debug for project audio_loopback_reference ****
+make all 
+make: Nothing to be done for `all'.
+
+23:47:17 Build Finished (took 117ms)
+

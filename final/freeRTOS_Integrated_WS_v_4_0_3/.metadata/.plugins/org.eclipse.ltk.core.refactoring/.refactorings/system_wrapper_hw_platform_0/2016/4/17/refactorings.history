@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;system_wrapper_hw_platform_0/tutorial_wrapper.bit&apos; to &apos;system_wrapper.bit&apos;" description="Rename resource &apos;tutorial_wrapper.bit&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="tutorial_wrapper.bit" name="system_wrapper.bit" stamp="1461086508719" updateReferences="true"/>
+</session>
