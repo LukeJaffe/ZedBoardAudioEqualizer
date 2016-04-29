@@ -97,8 +97,7 @@ void clear_OLED(void){
 
 	int i=0;
 	for (i=0;i<=63 ;i++) {
-//		int_seq[i] = 0x00000000;
-		int_seq[i] = 0xFFFFFFFF;
+		int_seq[i] = 0x00000000;
 	}
 
 	for (i=0;i<=60; i=i+4) {

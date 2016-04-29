@@ -2,27 +2,3 @@
 12:00:56 INFO  : XSDB server has started successfully.
 12:01:50 INFO  : Launching XSDB server: xsdb.bat D:/Program/Xilinx_SDK/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
 12:01:51 INFO  : XSDB server has started successfully.
-13:15:43 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\temp_xsdb_launch_script.tcl
-13:15:44 INFO  : XSDB server has started successfully.
-13:16:27 INFO  : Processor reset is completed for ps7_cortexa9_0
-13:16:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
-13:16:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248469540" && level==0} -index 1' command is executed.
-13:16:59 INFO  : FPGA configured successfully with bitstream "C:/Users/Lucas/Documents/GitHub/ZedBoardAudioEqualizer/freeRTOS_Audio_OLED_XADC_WS_v1_0_3/system_wrapper_hw_platform_0/system_wrapper.bit"
-13:17:16 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
-13:17:28 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Lucas\Documents\GitHub\ZedBoardAudioEqualizer\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\temp_xsdb_launch_script.tcl
-13:17:29 INFO  : XSDB server has started successfully.
-13:18:20 INFO  : ps7_init is completed.
-13:18:20 INFO  : ps7_post_config is completed.
-13:18:20 INFO  : Processor reset is completed for ps7_cortexa9_0
-13:22:46 INFO  : Processor reset is completed for ps7_cortexa9_0
-13:23:15 INFO  : Processor reset is completed for ps7_cortexa9_0
-13:23:25 INFO  : Processor reset is completed for ps7_cortexa9_0
-13:23:56 INFO  : Processor reset is completed for ps7_cortexa9_0
-13:24:57 INFO  : Processor reset is completed for ps7_cortexa9_0
-13:39:38 INFO  : Processor reset is completed for ps7_cortexa9_0
-13:42:14 INFO  : Processor reset is completed for ps7_cortexa9_0
-13:42:58 INFO  : Processor reset is completed for ps7_cortexa9_0
-13:47:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
-13:47:20 INFO  : Processor reset is completed for ps7_cortexa9_0
-13:51:10 INFO  : Processor reset is completed for ps7_cortexa9_0
-14:21:38 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

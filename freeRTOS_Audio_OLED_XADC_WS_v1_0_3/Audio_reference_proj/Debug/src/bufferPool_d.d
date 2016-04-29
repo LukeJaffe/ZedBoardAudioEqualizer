@@ -1,4 +1,4 @@
-src/bufferPool_d.o src/bufferPool_d.o: ../src/bufferPool_d.c \
+src/bufferPool_d.o src/bufferPool_d.d: ../src/bufferPool_d.c \
  ../src/bufferPool_d.h ../src/chunk_d.h ../src/zedboard_freertos.h \
  ../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/FreeRTOS.h \
  ../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/FreeRTOSConfig.h \

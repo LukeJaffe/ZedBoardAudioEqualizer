@@ -1,4 +1,4 @@
-src/adau1761.o src/adau1761.o: ../src/adau1761.c ../src/audioRxTx.h \
+src/adau1761.o src/adau1761.d: ../src/adau1761.c ../src/audioRxTx.h \
  ../src/bufferPool_d.h ../src/chunk_d.h ../src/zedboard_freertos.h \
  ../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/FreeRTOS.h \
  ../../freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/FreeRTOSConfig.h \

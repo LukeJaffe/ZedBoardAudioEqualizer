@@ -1,0 +1,42 @@
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:../src/audioPlayer.c:99:2: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:  print_message("Hello world",2);
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:../src/main.c:51:5: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:     print_message("Surya",0);
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\Audio_reference_proj\Debug/../src/audioPlayer.c:99: undefined reference to `print_message'
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\Audio_reference_proj\Debug/../src/audioPlayer.c:100: undefined reference to `print_message'
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\Audio_reference_proj\Debug/../src/main.c:51: undefined reference to `print_message'
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\Audio_reference_proj\Debug/../src/audioPlayer.c:99: undefined reference to `print_message'
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\Audio_reference_proj\Debug/../src/audioPlayer.c:100: undefined reference to `print_message'
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\Audio_reference_proj\Debug/../src/main.c:51: undefined reference to `print_message'
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:../src/oled.c:8:1: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log: print_message("Hello",0);
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\OLED_reference_proj\Debug/../src/oled.c:8: undefined reference to `print_message'
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\OLED_reference_proj\Debug/../src/oled.c:9: undefined reference to `print_message'
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:D:\Download\freeRTOS_Audio_OLED_XADC_WS_v1_0_3\OLED_reference_proj\Debug/../src/oled.c:10: undefined reference to `print_message'
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:../src/audioPlayer.c:99:2: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:  print_message("Hello world",2);
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:../src/main.c:51:5: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:     print_message("Surya",0);
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:../src/audioPlayer.c:99:2: warning: implicit declaration of function 'print_message' [-Wimplicit-function-declaration]
+./.metadata/.plugins/org.eclipse.cdt.ui/global-build.log:  print_message("Hello world",2);
+Binary file ./.metadata/.plugins/org.eclipse.cdt.core/OLED_reference_proj.1460403736409.pdom matches
+Binary file ./.metadata/.plugins/org.eclipse.cdt.core/freeRTOS_Audio_Oled_XADC_bsp.1460403511543.pdom matches
+Binary file ./.metadata/.plugins/org.eclipse.cdt.core/Audio_reference_proj.1460403711814.pdom matches
+./.metadata/.plugins/org.eclipse.core.resources/.history/6c/c033c4fa1e0000161e7ac68135525671:	print_message("Hello world",2);
+./.metadata/.plugins/org.eclipse.core.resources/.history/6c/c033c4fa1e0000161e7ac68135525671:	    print_message("How cool is this",3);
+./.metadata/.plugins/org.eclipse.core.resources/.history/38/80003e031f0000161e7ac68135525671:    print_message("Surya",0);
+./freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/libsrc/ZedboardOLED_v1_0/src/ZedboardOLED.h:int print_message(char *start , unsigned int page);
+./freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/libsrc/ZedboardOLED_v1_0/src/ZedboardOLED.c:int print_message(char *start , unsigned int page);
+./freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/libsrc/ZedboardOLED_v1_0/src/ZedboardOLED.c:int print_message(char *start , unsigned int page) {
+Binary file ./freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/lib/libxil.a matches
+./freeRTOS_Audio_Oled_XADC_bsp/ps7_cortexa9_0/include/ZedboardOLED.h:int print_message(char *start , unsigned int page);
+Binary file ./OLED_reference_proj/src/.oled.c.swp matches
+./OLED_reference_proj/src/oled.c:print_message("Hello",0);
+./OLED_reference_proj/src/oled.c:print_message("World",2);
+./OLED_reference_proj/src/oled.c:print_message("How cool is this",3);
+Binary file ./OLED_reference_proj/Debug/src/oled.o matches
+Binary file ./OLED_reference_proj/Debug/OLED_reference_proj.elf matches
+./Audio_reference_proj/src/audioPlayer.c:	print_message("Hello world",2);
+Binary file ./Audio_reference_proj/src/.audioPlayer.c.swp matches
+Binary file ./Audio_reference_proj/Debug/src/audioPlayer.o matches
+Binary file ./Audio_reference_proj/Debug/Audio_reference_proj.elf matches
